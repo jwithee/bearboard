@@ -1,0 +1,116 @@
+/**
+  @page ADC_ExtLinesTrigger ADC_ExtLinesTrigger
+  
+  @verbatim
+  ******************** (C) COPYRIGHT 2009 STMicroelectronics *******************
+  * @file    ADC/ExtLinesTrigger/readme.txt 
+  * @author  MCD Application Team
+  * @version V3.1.2
+  * @date    09/28/2009
+  * @brief   Description of the ADC external lines trigger example.
+  ******************************************************************************
+  * THE PRESENT FIRMWARE WHICH IS FOR GUIDANCE ONLY AIMS AT PROVIDING CUSTOMERS
+  * WITH CODING INFORMATION REGARDING THEIR PRODUCTS IN ORDER FOR THEM TO SAVE
+  * TIME. AS A RESULT, STMICROELECTRONICS SHALL NOT BE HELD LIABLE FOR ANY
+  * DIRECT, INDIRECT OR CONSEQUENTIAL DAMAGES WITH RESPECT TO ANY CLAIMS ARISING
+  * FROM THE CONTENT OF SUCH FIRMWARE AND/OR THE USE MADE BY CUSTOMERS OF THE
+  * CODING INFORMATION CONTAINED HEREIN IN CONNECTION WITH THEIR PRODUCTS.
+  ******************************************************************************
+   @endverbatim
+
+@par Example Description 
+
+This example describes how to trigger ADC regular and injected groups channels 
+conversion using two external line events. Discontinuous mode is enabled for regular
+group channel conversion and configured to convert one regular channel on each 
+external trigger.
+
+ADC1 is configured to start regular group channel conversion on EXTI11 event.
+On detection of the first rising edge on PE.11 pin, the conversion of the first regular
+channel (ADC channel4) is done and its converted value is transfered by DMA to 
+ADC_RegularConvertedValueTab table. On the following edge detection, the second 
+regular channel (ADC channel14) is automatically converted and its converted value
+is stored by DMA in the same table. The number of transmitted data by DMA, in this 
+example is limited to 64 data.
+
+The procedure is repeated for both regular channels on each EXTI11 event.
+ADC1 is configured to start injected group channel conversion on EXTI15 event.
+On detection of the first rising edge on PE.15 pin all selected injected channels, which
+are two in this example (ADC channel11 and channel12), are converted and an interrupt 
+is generated on JEOC flag rising at the end of all injected channels conversion. 
+Both injected channels converted results are stored in ADC_InjectedConvertedValueTab 
+table inside the interrupt routine.
+The procedure is repeated for injected channels on each EXTI15 event.
+The ADC1 clock is set to 14 MHz.
+
+@par Directory contents 
+
+  - ADC/ExtLinesTrigger/stm32f10x_conf.h  Library Configuration file
+  - ADC/ExtLinesTrigger/stm32f10x_it.c    Interrupt handlers
+  - ADC/ExtLinesTrigger/stm32f10x_it.h    Interrupt handlers header file
+  - ADC/ExtLinesTrigger/main.c            Main program
+
+@par Hardware and Software environment 
+
+  - This example runs on STM32F10x Connectivity line, High-Density, Medium-Density 
+    and Low-Density Devices.
+  
+  - This example has been tested with STMicroelectronics STM3210C-EVAL (STM32F10x 
+    Connectivity line), STM3210E-EVAL (STM32F10x High-Density) and STM3210B-EVAL
+    (STM32F10x Medium-Density) evaluation boards and can be easily tailored to
+    any other supported device and development board.
+
+  - STM3210C-EVAL Set-up 
+    - Connect a known voltage, between 0-3.3V, to ADC Channel14 mapped on pin 
+      PC.04 (potentiometer RV1), ADC Channel4 mapped on pin PA.04, ADC Channel11 
+      mapped on pin PC.01 and ADC Channel12 mapped on pin PC.02.
+    - Connect a push-button to pin PE.11 (EXTI Line11) and another push-button 
+      to pin PE.15 (EXTI Line15).
+      
+  - STM3210E-EVAL Set-up 
+    - Connect a known voltage, between 0-3.3V, to ADC Channel14 mapped on pin 
+      PC.04 (potentiometer RV1), ADC Channel4 mapped on pin PA.04, ADC Channel11 
+      mapped on pin PC.01 and ADC Channel12 mapped on pin PC.02.
+    - Connect a push-button to pin PE.11 (EXTI Line11) and another push-button 
+      to pin PE.15 (EXTI Line15).
+
+  - STM3210B-EVAL Set-up 
+    - Connect a known voltage, between 0-3.3V, to ADC Channel14 mapped on pin 
+      PC.04 (potentiometer RV1), ADC Channel4 mapped on pin PA.04, ADC Channel11 
+      mapped on pin PC.01 and ADC Channel12 mapped on pin PC.02.
+    - Connect a push-button to pin PE.11 (EXTI Line11) and another push-button 
+      to pin PE.15 (EXTI Line15).              
+   
+@par How to use it ? 
+
+In order to make the program work, you must do the following :
+- Create a project and setup all project configuration
+- Add the required Library files :
+  - stm32f10x_adc.c 
+  - stm32f10x_dma.c 
+  - stm32f10x_exti.c
+  - stm32f10x_flash.c  
+  - stm32f10x_gpio.c 
+  - stm32f10x_rcc.c 
+  - misc.c  
+    
+- Edit stm32f10x.h file to select the device you are working on.
+  
+@b Tip: You can tailor the provided project template to run this example, for 
+        more details please refer to "stm32f10x_stdperiph_lib_um.chm" user 
+        manual; select "Peripheral Examples" then follow the instructions 
+        provided in "How to proceed" section.   
+- Link all compiled files and load your image into target memory
+- Run the example
+
+@note
+ - Low-density devices are STM32F101xx and STM32F103xx microcontrollers where
+   the Flash memory density ranges between 16 and 32 Kbytes.
+ - Medium-density devices are STM32F101xx and STM32F103xx microcontrollers where
+   the Flash memory density ranges between 32 and 128 Kbytes.
+ - High-density devices are STM32F101xx and STM32F103xx microcontrollers where
+   the Flash memory density ranges between 256 and 512 Kbytes.
+ - Connectivity line devices are STM32F105xx and STM32F107xx microcontrollers.
+    
+ * <h3><center>&copy; COPYRIGHT 2009 STMicroelectronics</center></h3>
+ */

@@ -1,0 +1,628 @@
+
+<ApplicationBuild Header="Project" Extern=".\Project.rapp" Path=".\Project.rapp" OutputFile=".\STM3210C-EVAL\Project.elf" sate="98" Config="STM3210C-EVAL" >
+	<Group Header="Doc" Marker="-1" OutputFile="" sate="0" >
+		<NodeText Path=".\readme.txt" Header="readme.txt" Marker="-1" OutputFile="" sate="0" />
+																																																																																																																																																																																																																																																																																																																								
+	</Group>
+	<Configs>
+		<Config Header="STM3210B-EVAL" />
+		<Config Header="STM3210E-EVAL" />
+		<Config Header="STM3210C-EVAL" />
+																																																																																																																																																																																																																																																																																																												
+	</Configs>
+	<Group Header="CMSIS" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\..\..\Libraries\CMSIS\Core\CM3\system_stm32f10x.c" Header="system_stm32f10x.c" Marker="-1" OutputFile=".\STM3210C-EVAL\system_stm32f10x.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\CMSIS\Core\CM3\core_cm3.c" Header="core_cm3.c" Marker="-1" OutputFile=".\STM3210C-EVAL\core_cm3.o" sate="0" />
+																																																																																																		
+	</Group>
+	<Group Header="StdPeriph_Driver" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c" Header="stm32f10x_rcc.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32f10x_rcc.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c" Header="stm32f10x_gpio.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32f10x_gpio.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" Header="stm32f10x_usart.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32f10x_usart.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" Header="stm32f10x_exti.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32f10x_exti.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c" Header="misc.c" Marker="-1" OutputFile=".\STM3210C-EVAL\misc.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c" Header="stm32f10x_spi.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32f10x_spi.o" sate="0" />
+		<NodeC Path="..\..\..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c" Header="stm32f10x_fsmc.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32f10x_fsmc.o" sate="0" />
+																																																																																									
+	</Group>
+	<Group Header="User" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\stm32f10x_it.c" Header="stm32f10x_it.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32f10x_it.o" sate="0" >																						</NodeC>
+		<NodeC Path="..\main.c" Header="main.c" Marker="-1" OutputFile=".\STM3210C-EVAL\main.o" sate="0" />
+																																																																																													
+	</Group>
+	<Group Header="RIDE" Marker="-1" OutputFile="" sate="0" >
+		<NodeASM Path="..\..\..\Libraries\CMSIS\Core\CM3\startup\gcc\startup_stm32f10x_cl.s" Header="startup_stm32f10x_cl.s" Marker="-1" OutputFile=".\STM3210C-EVAL\startup_stm32f10x_cl.o" sate="0" >
+			<Options>
+				<Config Header="STM3210E-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																																																																																																																																																																									
+						</Section>
+																																																																																																																																																																																							
+					</Set>
+																																																																																																																																																
+				</Config>
+				<Config Header="STM3210B-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																																																																																																																																		
+						</Section>
+																																																																																																																																																						
+					</Set>
+																																																																																																																					
+				</Config>
+																																																																																											
+			</Options>
+																																																																																
+		</NodeASM>
+		<NodeASM Path="..\..\..\Libraries\CMSIS\Core\CM3\startup\gcc\startup_stm32f10x_md.s" Header="startup_stm32f10x_md.s" Marker="0" OutputFile=".\STM3210C-EVAL\startup_stm32f10x_md.o" sate="0" >
+			<Options>
+				<Config Header="STM3210E-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																																																																																																																																																																									
+						</Section>
+																																																																																																																																																																																							
+					</Set>
+																																																																																																																																																
+				</Config>
+				<Config Header="STM3210C-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																																																																																																								
+						</Section>
+																																																																																																																																
+					</Set>
+																																																																																																			
+				</Config>
+																																																																													
+			</Options>
+																																																																																
+		</NodeASM>
+		<NodeASM Path="..\..\..\Libraries\CMSIS\Core\CM3\startup\gcc\startup_stm32f10x_ld.s" Header="startup_stm32f10x_ld.s" Marker="0" OutputFile=".\STM3210C-EVAL\startup_stm32f10x_ld.o" sate="0" >
+			<Options>
+				<Config Header="STM3210E-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																																																																																																																																																																									
+						</Section>
+																																																																																																																																																																																							
+					</Set>
+																																																																																																																																																
+				</Config>
+				<Config Header="STM3210B-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																																																																																																																																		
+						</Section>
+																																																																																																																																																						
+					</Set>
+																																																																																																																					
+				</Config>
+				<Config Header="STM3210C-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																																																																																																								
+						</Section>
+																																																																																																																																
+					</Set>
+																																																																																																			
+				</Config>
+																																																																													
+			</Options>
+																																																																																
+		</NodeASM>
+		<NodeASM Path="..\..\..\Libraries\CMSIS\Core\CM3\startup\gcc\startup_stm32f10x_hd.s" Header="startup_stm32f10x_hd.s" Marker="0" OutputFile=".\STM3210C-EVAL\startup_stm32f10x_hd.o" sate="0" >
+			<Options>
+				<Config Header="STM3210C-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																										
+						</Section>
+																																																														
+					</Set>
+																																													
+				</Config>
+				<Config Header="STM3210B-EVAL" >
+					<Set Header="NodeASM" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																																										
+						</Section>
+																																																														
+					</Set>
+																																													
+				</Config>
+																																			
+			</Options>
+																									
+		</NodeASM>
+																																																																																													
+	</Group>
+	<Group Header="STM32_EVAL" Marker="-1" OutputFile="" sate="0" >
+		<NodeC Path="..\..\..\Utilities\STM32_EVAL\stm32_eval.c" Header="stm32_eval.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm32_eval.o" sate="0" />
+		<NodeC Path="..\..\..\Utilities\STM32_EVAL\STM3210E_EVAL\stm3210e_eval_lcd.c" Header="stm3210e_eval_lcd.c" Marker="0" OutputFile=".\STM3210C-EVAL\stm3210e_eval_lcd.o" sate="0" >
+			<Options>
+				<Config Header="STM3210C-EVAL" >
+					<Set Header="NodeC" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																			
+						</Section>
+																													
+					</Set>
+																		
+				</Config>
+				<Config Header="STM3210B-EVAL" >
+					<Set Header="NodeC" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																						
+						</Section>
+																		
+					</Set>
+									
+				</Config>
+							
+			</Options>
+										
+		</NodeC>
+		<NodeC Path="..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL\stm3210c_eval_lcd.c" Header="stm3210c_eval_lcd.c" Marker="-1" OutputFile=".\STM3210C-EVAL\stm3210c_eval_lcd.o" sate="0" >
+			<Options>
+				<Config Header="STM3210E-EVAL" >
+					<Set Header="NodeC" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																						
+						</Section>
+																		
+					</Set>
+									
+				</Config>
+				<Config Header="STM3210B-EVAL" >
+					<Set Header="NodeC" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																						
+						</Section>
+																		
+					</Set>
+									
+				</Config>
+							
+			</Options>
+										
+		</NodeC>
+		<NodeC Path="..\..\..\Utilities\STM32_EVAL\STM3210B_EVAL\stm3210b_eval_lcd.c" Header="stm3210b_eval_lcd.c" Marker="0" OutputFile=".\STM3210C-EVAL\stm3210b_eval_lcd.o" sate="0" >
+			<Options>
+				<Config Header="STM3210C-EVAL" >
+					<Set Header="NodeC" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																																																
+						</Section>
+																																								
+					</Set>
+																											
+				</Config>
+				<Config Header="STM3210E-EVAL" >
+					<Set Header="NodeC" >
+						<Section Header="Build" >
+							<Property Header="Exclude" Value="Yes" Removable="1" />
+							<Property Header="LinkExclude" Value="Yes" Removable="1" />
+																						
+						</Section>
+																		
+					</Set>
+									
+				</Config>
+							
+			</Options>
+															
+		</NodeC>
+																																							
+	</Group>
+	<Options>
+		<Config Header="Standard" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="General" >
+					<Property Header="TargetFamily" Value="ARM" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+				</Section>
+				<Section Header="Directories" >
+					<Property Header="IncDir" Value="..;..\..\library\inc" Removable="1" />
+					<Property Header="OutDir" Value="$(ApplicationDir)\obj" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\lst" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103VBT6" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+				</Section>
+				<Section Header="ToolSetARM" >
+					<Property Header="BuildToolSetARM" Value="ARM\\GNU.config" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="VECT_TAB_FLASH" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+			</Set>
+			<Set Header="LD" >
+				<Section Header="LIB" >
+					<Property Header="STLIB" Value="0" Removable="1" />
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="File" Value=".\STM32F103_128K_20K_DEF.ld" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
+			</Set>
+																																																																																																																																																																																																																																																																																																																																					
+		</Config>
+		<Config Header="BOOT_RAM" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="BootMode" Value="1" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="VECT_TAB_RAM" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+				</Section>
+				<Section Header="CODE" >
+					<Property Header="VEXTERNS" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
+				</Section>
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																															
+			</Set>
+																																																																																																																																																																																																																																																																														
+		</Config>
+		<Config Header="BOOT_FLASH" >
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="FUNCSECTIONS" Value="-ffunction-sections" Removable="1" />
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																													
+				</Section>
+				<Section Header="CODE" >
+					<Property Header="DFLOAT" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																												
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																															
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Linker" >
+					<Property Header="GC_SECTIONS" Value="-Wl,-static -Wl,--gc-sections" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																						
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="16KLimit" Value="No" Removable="1" />
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="File" Value="crt0.ld" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																					
+				</Section>
+				<Section Header="LIB" >
+					<Property Header="SMALLP" Value="1" Removable="1" />
+					<Property Header="NOFLOATP" Value="0" Removable="1" />
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+					<Property Header="STLIB" Value="0" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														
+				</Section>
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="Yes" Removable="1" />
+					<Property Header="File" Value="$(RkitInst)lib\ARM\crt0_STM32x.o" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																		
+			</Set>
+			<Set Header="ApplicationBuild" >
+				<Section Header="Directories" >
+					<Property Header="LibDir" Value="$(RkitLib)\ARM" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																				
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																								
+			</Set>
+			<Set Header="Target" >
+				<Section Header="DebugARM" >
+					<Property Header="CodeOffset" Value="0x0" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+				</Section>
+				<Section Header="ProcessorARM" >
+					<Property Header="BootMode" Value="0" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																											
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																	
+			</Set>
+																																																																																																																																																																																																																																																																														
+		</Config>
+		<Config Header="STM32F10B_EVAL" >
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																										
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																										
+			</Set>
+																																																																																																																																																																																																																																																															
+		</Config>
+		<Config Header="STM32F10E_EVAL" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103ZET6" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																										
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Scripts" >
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																										
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																		
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																																										
+			</Set>
+																																																																																																																																																																																																																																																															
+		</Config>
+		<Config Header="STM3210B_EVAL" >
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																												
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																												
+			</Set>
+																																																																																																																																																																																																																																																					
+		</Config>
+		<Config Header="STM3210E_EVAL" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103ZET6" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																												
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+				<Section Header="Dialect" >
+					<Property Header="ANSI" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																												
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																
+				</Section>
+																																																																																																																																																																																																																																																																																																																																																												
+			</Set>
+																																																																																																																																																																																																																																																					
+		</Config>
+		<Config Header="STM3210E-EVAL" >
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F103ZET6" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																														
+				</Section>
+				<Section Header="DebugARM" >
+					<Property Header="Startup" Value="1" Removable="1" />
+																																																				
+				</Section>
+																																								
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																		
+				</Section>
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="STM32F10X_HD;USE_STDPERIPH_DRIVER;USE_STM3210E_EVAL" Removable="1" />
+																																																																																																																																																																																																																																																																																					
+				</Section>
+				<Section Header="DEBUG" >
+					<Property Header="DEBUGINFO" Value="-g" Removable="1" />
+					<Property Header="TEMP" Value="" Removable="1" />
+																																		
+				</Section>
+																										
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																																					
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																		
+				</Section>
+				<Section Header="LIB" >
+					<Property Header="UART0PUTC" Value="0" Removable="1" />
+					<Property Header="SMALLP" Value="1" Removable="1" />
+																																																																																																																																														
+				</Section>
+																										
+			</Set>
+			<Set Header="ApplicationBuild" >
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="$(ApplicationDir)\STM3210E-EVAL" Removable="1" />
+					<Property Header="IncDir" Value="..;..\..\..\Libraries\CMSIS\Core\CM3;..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\..\Utilities\STM32_EVAL\STM3210E_EVAL;..\..\..\Utilities\STM32_EVAL" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\STM3210E-EVAL" Removable="1" />
+																																																																																																																																																							
+				</Section>
+																																																																																																																					
+			</Set>
+															
+		</Config>
+		<Config Header="STM3210B-EVAL" >
+			<Set Header="GCC" >
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																
+				</Section>
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="STM32F10X_MD;USE_STDPERIPH_DRIVER;USE_STM3210B_EVAL" Removable="1" />
+																																																																																																																																																																																																																						
+				</Section>
+												
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Scripts" >
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																																																																																													
+				</Section>
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																																																																																																																																																																																																																																																																																																																																												
+				</Section>
+																																																																																																																																																															
+			</Set>
+			<Set Header="ApplicationBuild" >
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="$(ApplicationDir)\STM3210B-EVAL" Removable="1" />
+					<Property Header="IncDir" Value="..;..\..\..\Libraries\CMSIS\Core\CM3;..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\..\Utilities\STM32_EVAL;..\..\..\Utilities\STM32_EVAL\STM3210B_EVAL" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\STM3210B-EVAL" Removable="1" />
+																																																																																																																			
+				</Section>
+																																																																																									
+			</Set>
+			<Set Header="Target" >
+				<Section Header="DebugARM" >
+					<Property Header="Startup" Value="1" Removable="1" />
+					<Property Header="StartupSymb" Value="main" Removable="1" />
+																																																																																								
+				</Section>
+																																																																				
+			</Set>
+					
+		</Config>
+		<Config Header="STM3210C-EVAL" >
+			<Set Header="ApplicationBuild" >
+				<Section Header="Directories" >
+					<Property Header="OutDir" Value="$(ApplicationDir)\STM3210C-EVAL" Removable="1" />
+					<Property Header="ListDir" Value="$(ApplicationDir)\STM3210C-EVAL" Removable="1" />
+					<Property Header="IncDir" Value="..;..\..\..\Libraries\CMSIS\Core\CM3;..\..\..\Libraries\STM32F10x_StdPeriph_Driver\inc;..\..\..\Utilities\STM32_EVAL;..\..\..\Utilities\STM32_EVAL\STM3210C_EVAL" Removable="1" />
+																																																																																																										
+				</Section>
+																																																																																		
+			</Set>
+			<Set Header="Target" >
+				<Section Header="ProcessorARM" >
+					<Property Header="Processor" Value="STM32F107VCT6" />
+																																																																																																																			
+				</Section>
+																																																																																									
+			</Set>
+			<Set Header="GCC" >
+				<Section Header="Defines" >
+					<Property Header="Defines" Value="STM32F10X_CL;USE_STDPERIPH_DRIVER;USE_STM3210C_EVAL" Removable="1" />
+																																																																																																										
+				</Section>
+				<Section Header="OPTIMIZE" >
+					<Property Header="Optimize" Value="-Os" Removable="1" />
+																																											
+				</Section>
+																																	
+			</Set>
+			<Set Header="LD" >
+				<Section Header="Startup" >
+					<Property Header="DEFAULTSTARTUP" Value="No" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+																																																																																																										
+				</Section>
+				<Section Header="Scripts" >
+					<Property Header="SCRIPTFILES" Value="Yes" Removable="1" />
+					<Property Header="File" Value="" Removable="1" />
+					<Property Header="StarterKitLimit" Value="No" Removable="1" />
+																																																																																																										
+				</Section>
+																																																																																		
+			</Set>
+																				
+		</Config>
+			
+	</Options>
+</ApplicationBuild>
