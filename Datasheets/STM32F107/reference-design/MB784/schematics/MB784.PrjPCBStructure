@@ -1,0 +1,16 @@
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_Audio|SchDesignator=U_Audio|FileName=Audio.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_CAN|SchDesignator=U_CAN|FileName=CAN.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_Ethernet|SchDesignator=U_Ethernet|FileName=Ethernet.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_ExtensionConnector|SchDesignator=U_ExtensionConnector|FileName=ExtensionConnector.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_IO_Expandor|SchDesignator=U_IO_Expandor|FileName=IO_Expandor.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_IO Peripherals|SchDesignator=U_IO Peripherals|FileName=IO Peripherals.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_JTAG&Trace|SchDesignator=U_JTAG&Trace|FileName=JTAG&Trace.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_LCD|SchDesignator=U_LCD|FileName=LCD.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_MCU|SchDesignator=U_MCU|FileName=MCU.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_MicroSDCard|SchDesignator=U_MicroSDCard|FileName=MicroSDCard.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_MotorControl|SchDesignator=U_MotorControl|FileName=MotorControl.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_Power|SchDesignator=U_Power|FileName=Power.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_SmartCard|SchDesignator=U_SmartCard|FileName=SmartCard.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_USART&IrDA|SchDesignator=U_USART&IrDA|FileName=USART&IrDA.SchDoc
+Record=SheetSymbol|SourceDocument=MB784.SchDoc|Designator=U_USB_OTG_FS|SchDesignator=U_USB_OTG_FS|FileName=USB_OTG_FS.SchDoc
+Record=TopLevelDocument|FileName=MB784.SchDoc

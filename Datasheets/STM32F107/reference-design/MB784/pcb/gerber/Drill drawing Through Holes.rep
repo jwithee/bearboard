@@ -1,0 +1,49 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: MB784B.PCB   2009-5-19  ÏÂÎç 01:24:30
+---------------------------------------------------------------------------
+
+Layer Pair : TopLayer to BottomLayer
+ASCII RoundHoles File : MB784B.TXT
+EIA File   : MB784B.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        8mil (0.2032mm)          Round          534              99.89 Inch (2537.30 mm)
+T2        26mil (0.6604mm)         Round          2                5.93 Inch (150.69 mm)
+T3        30mil (0.762mm)          Round          17               7.99 Inch (202.96 mm)
+T4        33mil (0.8382mm)         Round          6                6.17 Inch (156.77 mm)
+T5        38mil (0.9652mm)         Round          27               14.45 Inch (366.96 mm)
+T6        40mil (1.016mm)          Round          325              64.79 Inch (1645.72 mm)
+T7        50mil (1.27mm)           Round          47               20.07 Inch (509.86 mm)
+T8        51mil (1.2954mm)         Round          8                8.55 Inch (217.25 mm)
+T9        53mil (1.3462mm)         Round          2                4.55 Inch (115.67 mm)
+T10       55mil (1.397mm)          Round          6                4.09 Inch (103.86 mm)
+T11       63mil (1.6002mm)         Round          2                7.57 Inch (192.28 mm)
+T12       100mil (2.54mm)          Round          2                4.67 Inch (118.64 mm)
+T13       28mil (0.7112mm)         Round          3         NPTH   7.41 Inch (188.29 mm)
+T14       35mil (0.889mm)          Round          6         NPTH   6.07 Inch (154.21 mm)
+T15       38mil (0.9652mm)         Round          2         NPTH   5.32 Inch (135.14 mm)
+T16       39mil (0.9906mm)         Round          1         NPTH   3.07 Inch (77.91 mm)
+T17       43mil (1.0922mm)         Round          1         NPTH   4.02 Inch (102.10 mm)
+T18       45mil (1.143mm)          Round          7         NPTH   3.97 Inch (100.83 mm)
+T19       59mil (1.4986mm)         Round          3         NPTH   6.42 Inch (162.95 mm)
+T20       87mil (2.2098mm)         Round          2         NPTH   3.61 Inch (91.59 mm)
+T21       126mil (3.2004mm)        Round          4         NPTH   7.91 Inch (200.81 mm)
+T22       138mil (3.5052mm)        Round          4         NPTH   18.73 Inch (475.77 mm)
+---------------------------------------------------------------------------
+Totals                                            1011             315.26 Inch (8007.56 mm)
+
+Two holes at same point : 10
+-----------------------
+4411,3761
+4411,4089
+345,3757
+345,4743
+4155,4357
+4155,5343
+345,6093
+345,5107
+550,825
+550,2243
+
+Total Processing Time (hh:mm:ss) : 00:00:00

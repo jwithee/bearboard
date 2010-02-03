@@ -1,0 +1,125 @@
+Board :MB784 ,,PCB rev B,,,,,,,,,,,,,,
+Designer name,Qing shao,,,,,,,,,,,,,,,
+
+
+Part Number (ST or sub co),Quantity,"Description (fonction, value, ..)",Reference (topologic number),Version,Package,Manufacturer 1,Part#1,Manufacturer 2 second source,Part#2 Second source,Distributor,Order code,Fitted or not fitted,Supplied by (ST or Sub Co),ROHS Compliant,Comments,Variant
+,1,RESET,B1,,PB10,Wealth Metal Factory Ltd (www.wealthmetal.com),TD0341X-G01(black),,,,,,manley,lead free,,base
+,1,WKUP,B2,,PB10,Wealth Metal Factory Ltd (www.wealthmetal.com),TD0341X-G01(blue),,,,,,manley,lead free,,base
+,1,USER,B3,,PB10,Wealth Metal Factory Ltd (www.wealthmetal.com),TD0341X-G01(blue),,,,,,manley,lead free,,base
+,1,TAMPER,B4,,PB10,Wealth Metal Factory Ltd (www.wealthmetal.com),TD0341X-G01(blue),,,,,,manley,lead free,,base
+,13,,"JP1,JP3, JP4, JP7, JP8, JP10, JP11,JP12,JP13,JP14,JP16,JP23,JP24",,SIP3,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2211S-3G,,,,,,manley,lead free,,base
+,2,,"SW1, SW2,",,SIP3,RS,204-7865,,,,,,manley,lead free,,base
+,1,CR1220 holder,BT1,,LI1220_1,BEIJING XCF TECHNOLOGY Ltd.(www.xcfbattery.com),CR1220(for battery) and XCF-12(for holder),,,,,,manley,lead free,,base
+,16,do not fit,"C59, C64, C65, C66, C67, C68, C69, C70, C71, C72 , R54, R55,  R62, R118, R119, R120",,603,www.fenghua-advanced.com,,,,,,do not fit,,lead free,,base
+,2,10nF,"C60, C73",,603,www.fenghua-advanced.com,0603B103K500NT,,,,,,manley,lead free,,base
+,52,100nF,"C1,C2,C3,C4,C5,C6,C7,C8,C48,C13, C14, C15,  C20, C21, C22, C23, C24, C28, C29, C30, C31, C32, C33, C34,  C37, C38, C39, C40, C41, C42,  C52, C53, C54, C55, C56, C57, C58, C62, C63,  C77, C80,  C89, C90, C91, C92, C81, C82, C83, C84, C85, C86, C87",,603,www.fenghua-advanced.com,0603B104K500NT,,,,,,manley,lead free,,base
+,2,0.022UF,"C43,C44",,603,www.fenghua-advanced.com,0603B223K500NT,,,,,,manley,lead free,,base
+,1,0.47UF,C78,,603,www.fenghua-advanced.com,0603B474K500NT,,,,,,manley,lead free,,base
+,2,1nF,"C61, C88",,603,www.fenghua-advanced.com,0603B102K500NT,,,,,,manley,lead free,,base
+,2,10pF,"C16, C17",,603,www.fenghua-advanced.com,0603B120K500NT,,,,,,manley,lead free,,base
+,4,20pF,"C9, C10, C18, C19",,603,www.fenghua-advanced.com,0603B200K500NT,,,,,,manley,lead free,,base
+,2,150PF(COG),"C93, C94",,603,www.fenghua-advanced.com,0603CG151J500NT,,,,,,manley,lead free,,base
+,5,10uF,"C11,C25, C26, C51, C75",,TAN-A,AVC,TAJA106K016RNJ,,,,,,manley,lead free,,base
+,3,4.7uF,"C35, C36, C12",,TAN-A,AVC,TAJA475K016RNJ,,,,,,manley,lead free,,base
+,2,1UF,"C47, C76",,TAN-A,AVC,TAJA105K016RNJ,,,,,,manley,lead free,,base
+,6,1uF,"C27, C45, C46, C49, C50, C95",,603,www.fenghua-advanced.com,0603B105K500NT,,,,,,manley,lead free,,base
+,1,10uF,C74,,C160M,SAMYOUNG,MVK16VC106KBPDTP,,,,,,manley,lead free,,base
+,2,220uF,"C79, C79_1",,C310M,SAMYOUNG,MVK16VC227KBPDTP,,,,,,manley,lead free,,base
+,1,RJ45 connector,CN1,,J0011D21B,PULSE,J0011D21B,,,,,,manley,lead free,,base
+,2,VB334,"CN10, CN11",,VB334,EMERSON,VB334,,,,,,manley,lead free,,base
+,1,DB9-male CAN connector,CN3,,DB9/M,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",5504F1C9P,,,,,,manley,lead free,,base
+,1,USB MICRO AB connector,CN2,,,MOLEX,475900001,,,,,,manley,lead free,"(ref to be used on PCB rev B )about RMB2.00/PCS,leadtime 6~8W,MOQ:10500PCS in molex  HK$7.10/piece in farnell. 0.88USD/pcs in Dig-iKey",base
+,1,FTSH-110-01-L-DV,CN12,,FTSH-110-01-L-DV,SAMTEC,FTSH-110-01-L-DV,,,,,,manley,lead free,,base
+,1,DB9-male USART2,CN4,,DB9/M,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",5504F1C9P,,,,,,manley,lead free,,base
+,1,JTAG,CN13,,IDC20S,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2316S-20G,,,,,,manley,lead free,,base
+,2,Header 25X2,"CN8, CN9",,2*25P,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2213S-50G,,,,,,manley,lead free,,base
+,1,DB9-male USART1,CN6,,DB9/M,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",5504F1C9P,,,,,,manley,lead free,,base
+,1,PJS008-2000,CN16,,MSD(PJS008),Yamaichi,PJS008-2000,,,,,,manley,lead free,,base
+,1,Audio Jack,CN7,,ST-212-02V,Wealth Metal Factory Ltd (www.wealthmetal.com),ST-212-02V,,,,,,manley,lead free,,base
+,1,Connector to Mother board,CN15,,"2.4""LCD_connector","SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2214S-30SG,,,,,,manley,lead free,,base
+,1,Connector to Mother board,CN14,,"3.2""LCD_connector","SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2214S-34SG,,,,,,manley,lead free,,base
+,1,DC-10B,CN18,,DC10B,Wealth Metal Factory Ltd (www.wealthmetal.com),DC-10B,,,,,,manley,lead free,,base
+,1,MC_connector,CN17,,IDC34S,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2316S-34G,,,,,,manley,lead free,,base
+,1,C816,CN5,,SAM(C816),"GUANG LIAN WEI TECHNOLOGY CO., LTD.",C816,,,,,,manley,lead free,,base
+,2,LL4148,"D1, D2",,D1504,www.semtech.net.cn,LL4148,,,,,,manley,lead free,,base
+,12,,"JP2,  JP5, JP6, JP9,  JP15,  JP17, JP18, JP19 , JP20, JP21, JP22, JP26",,SIP2,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2211S-2G,,,,,,manley,lead free,,base
+,5,,"SB1,SB2,SB3,SB4,SB5",,JP2_SMD,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",empty,,,,,,manley,lead free,,base
+,1,,JP25,,2*3P,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2213S-6G,,,,,,manley,lead free,,base
+,1,BEAD,L1,,603,ati-tech advanced electronics(s)pte ltd,fcm1608-0603,,,,,,manley,lead free,,base
+,3,red,"LD3, LD5, LD7",,603,EVERLIGHT(www.everlight.com),19-21SDRC/S530-A2/TR8,,,,,,manley,lead free,,base
+,2,Green,"LD1, LD6",,603,EVERLIGHT(www.everlight.com),19-21SYGC/S530-E1/TR8,,,,,,manley,lead free,,base
+,1,Orange,LD2,,603,EVERLIGHT(www.everlight.com),19-217/S2C-AM2N2VY/3T,,,,,,manley,lead free,,base
+,1,Blue,LD4,,603,EVERLIGHT(www.everlight.com),19-217/BHC-ZL1M2RY/3T,,,,,,manley,lead free,,base
+,52,0,"R30, R35,  R36,  R38,  R41, R44, R45, R48, R49, R50, R51, R59, R68, R69, R78, R79,  R82, R83, R84, R85, R98, R99, R100, R101, R102, R103, R104, R105,  R129,R130, R131, R132, R135, R136, R137, R139, R140, R141, R142, R143, R144, R147, R154, R159, R161, R162, R163, R165,R166, R167, R168, R169",,603,www.passivecomponent.com,WR06000JTL,,,,,,manley,lead free,"1/16W,5%",base
+,1,1(1ге),R156,,603,www.fenghua-advanced.com,RS-03L1R0FT,,,,,,manley,lead free,"1/10W,1%",base
+,1,5.1,R76,,603,www.passivecomponent.com,WR065R1JTL,,,,,,manley,lead free,"1/16W,5%",base
+,6,51,"R72,R73,R77,R112,R113,R155",,603,www.passivecomponent.com,WR06510JTL,,,,,,manley,lead free,"1/16W,5%",base
+,3,100ги120гй,"R80,R108,R109,R110,R111",,603,www.passivecomponent.com,WR06101JTL,,,,,,manley,lead free,"1/16W,5%",base
+,2,120,"R52, R53",,603,www.passivecomponent.com,WR06121JTL,,,,,,manley,lead free,"1/16W,5%",base
+,2,240,"R13,R14",,603,www.passivecomponent.com,WR06251JTL,,,,,,manley,lead free,"1/16W,5%",base
+,5,330,"R39, R94, R116",,603,www.passivecomponent.com,WR06331JTL,,,,,,manley,lead free,"1/16W,5%",base
+,1,220,R63,,603,www.passivecomponent.com,WR06391JTL,,,,,,manley,lead free,"1/16W,5%",base
+,1,51,RS5,,RES4B,www.fenghua-advanced.com,RCML08W510JT,,,,,,manley,lead free,"1/16W,5%",base
+,1,2K2,RS6,,RES4B,www.fenghua-advanced.com,RCML08W222JT,,,,,,manley,lead free,"1/16W,5%",base
+,4,33,"RS1,RS2,RS3,RS4",,RES4B,www.fenghua-advanced.com,RCML08W330JT,,,,,,manley,lead free,"1/16W,5%",base
+,4,680,"R95,R96,R97,R33",,603,www.passivecomponent.com,WR06681JTL,,,,,,manley,lead free,"1/16W,5%",base
+,2,820,"R87,R88",,603,www.passivecomponent.com,WR06821JTL,,,,,,manley,lead free,"1/16W,5%",base
+,2,1K(1ге),"R86, R157",,603,www.fenghua-advanced.com,RS-03K102FT,,,,,,manley,lead free,"1/10W,1%",base
+,2,1K5,"R8, R148",,603,www.passivecomponent.com,WR06152JTL,,,,,,manley,lead free,"1/16W,5%",base
+,4,2K2,"R1,R2,R6,R7",,603,www.passivecomponent.com,WR06222JTL,,,,,,manley,lead free,"1/16W,5%",base
+,1,3K3,R146,,603,www.passivecomponent.com,WR06332JTL,,,,,,manley,lead free,"1/16W,5%",base
+,7,4K7,"R71, R114, R115, R133, R134, R138, R149",,603,www.passivecomponent.com,WR06472JTL,,,,,,manley,lead free,"1/16W,5%",base
+,1,4.87K(1ге),R31,,603,www.fenghua-advanced.com,RS-03K4K87FT,,,,,,manley,lead free,"1/10W,1%",base
+,33,10K(1ге),"R3,R32, R37, R40, R46, R47, R56, R60, R61, R64, R65, R66, R67, R74, R89, R90, R91, R92, R93, R106, R107, R121, R122, R123, R124, R125, R126, R127, R128, R149, R150, R152,R153, R160, R164 ",,603,www.fenghua-advanced.com,RS-03K103FT,,,,,,manley,lead free,"1/10W,1%",base
+,1,15K,R158,,603,www.fenghua-advanced.com,RS-03K153FT,,,,,,manley,lead free,"1/16W,5%",base
+,1,20K(1ге),R151,,603,www.fenghua-advanced.com,RS-03K203FT,,,,,,manley,lead free,"1/10W,1%",base
+,1,30K,R153,,603,www.fenghua-advanced.com,RS-03K303FT,,,,,,manley,lead free,"1/16W,5%",base
+,3,47K,"R4,R34, R75",,603,www.passivecomponent.com,WR06473JTL,,,,,,manley,lead free,"1/16W,5%",base
+,5,100K,"R57, R58, R70, R81, R145",,603,www.passivecomponent.com,WR06104JTL,,,,,,manley,lead free,"1/16W,5%",base
+,1,220K,R117,,603,www.passivecomponent.com,WR06224JTL,,,,,,manley,lead free,"1/16W,5%",base
+,1,10K,RV1,,ADJRH,"XINCHANG ELECTRONICS Co,LTD (www.czxinchang.com)",WH9011-1,,,,,,manley,lead free,,base
+,1,25MHZ,TP1,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,AUX2,TP2,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,AUX1,TP3,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,PTP_PPS,TP4,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,2V5,TP5,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,,TP6,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,,TP7,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,,TP8,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,3V3,TP10,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,5V,TP11,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,Ground,TP12,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,VREF,TP13,,TP,Shenzhen City CGG Industries Limited,TEST-1(Y),,,,,,manley,lead free,,base
+,1,DP83848CVV,U1,,LQFP48,National,DP83848CVV,,,,,,manley,lead free,,base
+,1,50MHZ,U2,,5*7,Epson,50MHZ,,,,,do not fit,,lead free,,base
+,1,Analogue power switch,U3,,SOT23-5L,ST,TPS2041BDBV ,TI,,,,,Manley,lead free,Replace ST ref STMPS2141STR (9159003) until the limitation removed,base
+9179037,1,ESD USB protection,U4,,flip ship,ST,EMIF02-USB03F2,,,,,,ST,lead free,,base
+,2,SN65HVD230,"U5,U6",,SO8,TI,SN65HVD230,,,,,,manley,lead free,,base
+9177945,2,STMPE811,"U7,U8",,QFN16,ST,STMPE811,,,,,,ST,lead free,,base
+9175977,1,BARRACURA_256K,U9,Cut 1.1,TQFP100,ST,STM32F107VCT6 (marking Z),,,,"32F107VCT6$A2 or 32F107VCT6$U2 (any esle FG ""32F107VCT6$"" with ""2"" termination ",,ST,lead free,,base
+9184132,1,Socket,U9,,TQFP100,YAMAICHI,IC149-100-025-B5,,,,,,manley,lead free,,development
+9177802,1,ST8024CDR,U10,,SO28,ST,ST8024CDR,,,,,,ST,lead free,,base
+9176312,1,ST3241EBPR ,U11,,SSOP28,ST,ST3241EBPR ,,,,,,ST,lead free,,base
+,1,CS43L22,U13,,QFN40,CIRRUS,CS43L22,,,,,,manley,lead free,,base
+9177944,1,LIS302DL,U16,,LGA14(3*5),ST,LIS302DL,,,,,,ST,lead free,,base
+9175606,1,M24C64-WMN6,U17,,SO8,ST,M24C64-WMN6,,,,,,ST,lead free,,base
+9176205,1,3.3V linear regulator,U19,,D2PAK/A,ST,LD1086D2M33TR,,,,,,ST,lead free,,base
+,1,TFDU4300,U12,,IR_VISHAY3,VISHAY,TFDU4300,,,,,,manley,lead free,,base
+,1,KSS-1508,U25,,KS1508,KINGSTATE (www.kingstate.com.tw),KSS1508,,,,,,manley,lead free,,base
+,1,ZEN056V130A24LS,U18,,polyzen,TYCO,ZEN056V130A24LS,,,,,,manley,lead free,,base
+,1,BNX002-01,U20,,BNX001,MURATA,BNX002-01,,,,,,manley,lead free,,base
+,1,OPA,U21,,SOT-23-5L,MAXIM,MAX9938FEUK+,,,,,,manley,lead free,,base
+9180127,1,74H1G66STR,U22,,SOT-23-5L,ST,74H1G66STR,,,,,,ST,lead free,,base
+9169189,1,74LX1G04CTR,U23,,SOT-23-5L,ST,74LX1G04CTR,,,,,,ST,lead free,,base
+9161499,1,M74HC4060TTR,U24,,TSSOP16,ST,M74HC4060TTR,,,,,,ST,lead free,,base
+,1,MT008-A(With button),U15,,JOY,Wealth Metal Factory Ltd (www.wealthmetal.com),MT008-A,,,,,,manley,lead free,,base
+9176141,1,LD1117S25TR,U27,,SOT-223,ST,LD1117S25TR,,,,,,ST,lead free,,base
+,1,25MHz (with socket),"X1, X3",,XTAL_socket,www.hosonic.com.cn,49S/25MHZ,,,,,,manley,lead free,,base
+,1,32KHz oscillator,X2,,SM8,www.jfvny.com,MC306-G-06Q-32.768,,,,,,manley,lead free,,base
+9151107,1,TRANSIL,Z1,,1R1C,ST,SMAJ5.0A-TR,,,,,,ST,lead free,,base
+,1,MicroSD card,,,,KINGMAX,KINGMAX 2G or 4G card,,,,,,manley,lead free,,base
+,4,Socket 25MHz oscillator,X1,,ICSO-01,KWANGHWA(www.cpu.com.tw/kh/conn/ics/icso.html),ICSO-01,,,,,,manley,lead free,,base
+8000030,1,Smart card,,,,ST,Smart card,,,,,,ST,lead free,,base
+8000037,1,USB flash disk,,,,ST,STM32-USBKEY1G/,,,,,,ST,lead free,,base
+9153009,2,FET,"T1, T2",,,ST,STT5PF20V,,,,,,ST,lead free,,base
+,1,NPN transistor,T3,,,,9013,,,,,,manley,lead free,,base

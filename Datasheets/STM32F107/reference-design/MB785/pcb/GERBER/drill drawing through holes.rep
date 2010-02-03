@@ -1,0 +1,17 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: MB785A.PCB   2008-11-14  ÏÂÎç 01:51:02
+---------------------------------------------------------------------------
+
+Layer Pair : TopLayer to BottomLayer
+ASCII RoundHoles File : MB785A.TXT
+EIA File   : MB785A.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        16mil (0.4064mm)         Round          90               21.95 Inch (557.46 mm)
+T2        40mil (1.016mm)          Round          34               8.64 Inch (219.35 mm)
+T3        126mil (3.2004mm)        Round          2         NPTH   5.03 Inch (127.89 mm)
+---------------------------------------------------------------------------
+Totals                                            126              35.62 Inch (904.70 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:01

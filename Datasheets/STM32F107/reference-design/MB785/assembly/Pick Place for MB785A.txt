@@ -1,0 +1,25 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+CN1        2*17P            -4275.653mil   1598.221mil  -5075.653mil   1548.221mil  -5075.653mil   1548.221mil  T         90.00 3.2LCD_connector
+CN2        FF0245SS1        -4692.543mil    367.512mil  -4692.543mil    367.512mil  -4629.944mil    627.355mil  B         90.00 FF0245SS1      
+Z1         DO216AA          -3856.874mil    648.221mil  -3875.653mil    648.221mil  -3903.153mil    648.221mil  B        180.00 STPS1L40M      
+U1         QFNT8            -3725.653mil    898.221mil  -3725.653mil    898.221mil  -3668.566mil    936.607mil  B        270.00 STLD40DPMR     
+RP6        RES4B            -4450.653mil     73.221mil  -4450.653mil     73.221mil  -4484.153mil     25.977mil  B         90.00 10K            
+RP5        RES4B            -4450.653mil    273.221mil  -4450.653mil    273.221mil  -4484.153mil    225.977mil  B         90.00 10K            
+RP4        RES4B            -4450.653mil    473.221mil  -4450.653mil    473.221mil  -4484.153mil    520.465mil  B        270.00 10K            
+RP3        RES4B            -4250.653mil     73.221mil  -4250.653mil     73.221mil  -4284.153mil    120.465mil  B        270.00 10K            
+RP2        RES4B            -4250.653mil    273.221mil  -4250.653mil    273.221mil  -4217.153mil    320.465mil  B        270.00 10K            
+RP1        RES4B            -4250.653mil    473.221mil  -4250.653mil    473.221mil  -4217.153mil    520.465mil  B        270.00 10K            
+R8         0603R            -3925.653mil    948.221mil  -3925.653mil    948.221mil  -3898.153mil    948.221mil  B        360.00 do not fit     
+R7         0603R            -3525.653mil    848.221mil  -3525.653mil    848.221mil  -3498.153mil    848.221mil  B        360.00 10             
+R6         0603R            -3525.653mil    948.221mil  -3525.653mil    948.221mil  -3553.153mil    948.221mil  B        180.00 100K           
+R5         0603R            -3925.653mil    848.221mil  -3925.653mil    848.221mil  -3898.153mil    848.221mil  B        360.00 0              
+R4         0603R            -4450.653mil    698.221mil  -4450.653mil    698.221mil  -4478.153mil    698.221mil  B        180.00 0              
+R3         0603R            -4250.653mil    698.221mil  -4250.653mil    698.221mil  -4223.153mil    698.221mil  B        360.00 4K7            
+R2         0603R            -4250.653mil    623.221mil  -4250.653mil    623.221mil  -4223.153mil    623.221mil  B        360.00 4K7            
+R1         0603R            -4450.653mil    623.221mil  -4450.653mil    623.221mil  -4478.153mil    623.221mil  B        180.00 10K            
+L1         3225             -3750.653mil   1073.221mil  -3750.653mil   1073.221mil  -3690.653mil   1073.221mil  B        360.00 4.7uH(1A)      
+C3         TAN-B            -4350.653mil   -101.779mil  -4350.653mil   -101.779mil  -4410.653mil   -101.779mil  B        180.00 1uF/50V        
+C2         TAN-A            -3525.653mil   1073.221mil  -3525.653mil   1073.221mil  -3580.653mil   1073.221mil  B        180.00 2.2uF          
+C1         TAN-B            -3575.653mil    648.221mil  -3575.653mil    648.221mil  -3515.653mil    648.221mil  B        360.00 4.7uF/50V      
+
