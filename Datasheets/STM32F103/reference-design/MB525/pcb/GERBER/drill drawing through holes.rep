@@ -1,0 +1,44 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: MB525B.PCB   2007-4-16  下午 05:34:56
+---------------------------------------------------------------------------
+
+Layer Pair : TopLayer to BottomLayer
+ASCII File : C:\Documents and Settings\jinyl\桌面\新建文件夹 (2)\MB525B_1\MB525B\Project Outputs for MB525B\MB525B.TXT
+EIA File   : MB525B.DRL
+
+Tool         Hole Size          Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        8mil (0.2032mm)          577              183.23 Inch (4653.96 mm)
+T2        28mil (0.7112mm)         5                70.04 Inch (1779.02 mm)
+T3        30mil (0.762mm)          29               71.43 Inch (1814.41 mm)
+T4        38mil (0.9652mm)         27               76.92 Inch (1953.88 mm)
+T5        40mil (1.016mm)          254              117.04 Inch (2972.82 mm)
+T6        47mil (1.1938mm)         2                67.59 Inch (1716.82 mm)
+T7        50mil (1.27mm)           46               86.60 Inch (2199.52 mm)
+T8        51mil (1.2954mm)         4                69.25 Inch (1758.98 mm)
+T9        53mil (1.3462mm)         2                68.72 Inch (1745.45 mm)
+T10       55mil (1.397mm)          7                71.82 Inch (1824.18 mm)
+T11       95mil (2.413mm)          2                65.22 Inch (1656.59 mm)
+T12       100mil (2.54mm)          2                66.93 Inch (1699.91 mm)
+T13       28mil (0.7112mm)         1         NPTH   65.15 Inch (1654.82 mm)
+T14       39mil (0.9906mm)         1         NPTH   65.14 Inch (1654.43 mm)
+T15       43mil (1.0922mm)         1         NPTH   69.58 Inch (1767.42 mm)
+T16       47mil (1.1938mm)         2         NPTH   67.38 Inch (1711.39 mm)
+T17       59mil (1.4986mm)         3         NPTH   69.74 Inch (1771.28 mm)
+T18       87mil (2.2098mm)         2         NPTH   66.57 Inch (1690.96 mm)
+T19       126mil (3.2004mm)        5         NPTH   70.75 Inch (1797.11 mm)
+T20       138mil (3.5052mm)        4         NPTH   79.00 Inch (2006.55 mm)
+---------------------------------------------------------------------------
+Totals                             976              1568.09 Inch (39829.49 mm)
+
+Two holes at same point : 7
+-----------------------
+38495,53957
+42305,55307
+38495,55307
+38495,54943
+38495,56293
+42305,56293
+38775,51150
+
+Total Processing Time (hh:mm:ss) : 00:00:00

@@ -1,0 +1,99 @@
+Board :MB525 all variants,,,Rev :B-02,,,,,,,,,,,,,
+Designer name,Qing shao,,,,,,,,,,,,,,,
+
+"applied ""automatic filter"" row 7, in column ""variant"" select (custom), chose equal=""base"" OR equal=""development"" as needed",,,,,,,,,,,,,,,,
+"With only ""base"" you will have the MB525 BOM, with ""base"" OR ""development"" you will obtain the MB525/WS BOM",,,,,,,,,,,,,,,,
+
+Part Number (ST or sub co),Quantity,"Description (fonction, value, ..)",Reference (topologic number),Version,Package,Manufacturer 1,Part#1,Manufacturer 2 second source,Part#2 Second source,Distributor,Order code,Fitted or not fitted,Supplied by (ST or Sub Co),ROHS Compliant,Comments,Variant
+,24,0,"R15,R62,R63,R64,R65,R70,R71,R72,R73,R74,R75,R76,R77,R78,R79,R80,R81,R82,R112,R113,R114,R115,R116,R117",,805,,,,,,,,Sub Co,,,base
+,1,330,R85,,805,,,,,,,,Sub Co,,,base
+,14,0,"R35,R53,R54,R55,R56,R57,R58,R66,R84,R106,R118,R119,R124,R125",,603,,,,,,,,Sub Co,,,base
+,1,5,R27,,603,,,,,,,,Sub Co,,,base
+,2,22,"R9,R10",,603,,,,,,,,Sub Co,,,base
+,2,47,"R28,R83",,603,,,,,,,,Sub Co,,,base
+,4,100,"R46,R47,R48,R49",,603,,,,,,,,Sub Co,,,base
+,1,120,R19,,603,,,,,,,,Sub Co,,,base
+,1,300,R22,,603,,,,,,,,Sub Co,,,base
+,4,600,"R5,R6,R7,R8",,805,,,,,,,,Sub Co,,,base
+,2,820,"R59,R60",,603,,,,,,,,Sub Co,,,base
+,2,9013,"T1,T2",,SOT-23,ON,,,,,,,Sub Co,,,base
+,3,100K,"R20,R31,R100",,603,,,,,,,,Sub Co,,,base
+,40,100nF,"C5,C6,C7,C8,C10,C11,C15,C16,C17,C18,C19,C20,C21,C22,C23,C24,C25,C28,C29,C30,C40,C41,C42,C43,C44,C46,C47,C49,C51,C57,C58,C59,C60,C61,C62,C63,C64,C65,C66,C70",,603,,,,,,,,Sub Co,,,base
+,26,10K,"R2,R4,R11,R13,R23,R29,R30,R41,R42,R43,R44,R45,R94,R95,R96,R99,R101,R102,R103,R104,R109,R110,R111,R122, R86, R87",,603,,,,,,,,Sub Co,,,base
+,1,10K,RV1,,ADJRH,,,,,,,,Sub Co,,,base
+,3,10nF,"C56,C73,C77",,603,,,,,,,,Sub Co,,,base
+,2,10P,"C1,C2",,603,,,,,,,,Sub Co,,,base
+,1,10uF,C12,,C160M,,,,,,,,Sub Co,,,base
+,2,10uF,"C13,C55",,TAN-B,,,,,,,,Sub Co,,,base
+,1,150nF,C32,,603,,,,,,,,Sub Co,,,base
+,5,1K,"R36,R37,R38,R39,R40",,603,,,,,,,,Sub Co,,,base
+,1,1K2,R32,,603,,,,,,,,Sub Co,,,base
+,1,1K5,R12,,603,,,,,,,,Sub Co,,,base
+,2,1M,"R1,R3",,603,,,,,,,,Sub Co,,,base
+,1,1nF,C48,,603,,,,,,,,Sub Co,,,base
+,2,1uF,"C38,C39",,603,,,,,,,,Sub Co,,,base
+,1,2*3P,JP4,,2*3P,,2*3P,,,,,,Sub Co,,,base
+,3,2.2uF,"C35,C36,C37",,805,,,,,,,,Sub Co,,,base
+,1,20K,RV3,,3314-J,,,,,,,,Sub Co,,,base
+,2,20P,"C3,C4",,603,,,,,,,,Sub Co,,,base
+,1,22K,R33,,603,,,,,,,,Sub Co,,,base
+,1,22uF,C34,,TAN-B,,,,,,,,Sub Co,,,base
+,1,2K2,R91,,603,,,,,,,,Sub Co,,,base
+9176205,1,3.3V linear regulator,U7,,D2PAK/A,ST,LD1086D2M33TR,,,,,,ST,,,base
+,1,32KHz oscillator,X1,,SM8,JFVNY in CHINA,MC306-G-06Q-32.768,,,,,,Sub Co,,,base
+,1,32x122 matrix LCD module(3.3V),U19,,LCD12232,SHEN ZHENG ZHIYI ELECTRONICS,HXMG122032-GB1,,,,,not fitted,Sub Co,,,base
+,1,330nF,C69,,603,,,,,,,,Sub Co,,,base
+,1,33nF,C33,,603,,,,,,,,Sub Co,,,base
+,1,36K,R14,,603,,,,,,,,Sub Co,,,base
+,1,3K3,R61,,603,,,,,,,,Sub Co,,,base
+,1,4.7nF,C9,,603,,,,,,,,Sub Co,,,base
+,2,4.7uF,"C26,C27",,TAN-B,,,,,,,,Sub Co,,,base
+,1,470P,C31,,603,,,,,,,,Sub Co,,,base
+,1,470uF,C14,,C310M,,,,,,,,Sub Co,,,base
+,1,47K,R18,,603,,,,,,,,Sub Co,,,base
+,2,47uF,"C67,C68",,TAN-B,,,,,,,,Sub Co,,,base
+,9,4K7,"R16,R17,R51,R52,R88,R89,R90,R97,R98",,603,,,,,,,,Sub Co,,,base
+,1,220K,R50,,603,,,,,,,,Sub Co,,,base
+,1,50K,RV2,,3314-J,,,,,,,,Sub Co,,,base
+,1,8MHZ(with socket),X2,,XTAL1,,HC-49S-8MHz,"HOSONIC ELECTRONIC CO., LTD.",,,,,Sub Co,,,base
+9177411,1,Audio amplifier,U13,,TSSOP8,ST,TS4871IST,,,,,,ST,,,base
+,1,BEAD,L1,,603,"SHENZHEN MEILONG ELECTRONIC CO.,LTD (www.szmeilong.com)",160808V121T,,,,,,Sub Co,,,base
+,2,BSS123,"TR1,TR2",,SOT-23,,,,,,,,Sub Co,,,base
+,1,C816,CN16,,SAM(C816),,C816,,,,,,Sub Co,,,base
+,1,CAN driver,U5,,SO8,TI,SN65HVD230,,,,,,Sub Co,,,base
+,1,CR1220 holder,BT1,,BATT,,,,,,,,Sub Co,,,base
+,3,DB9-male CAN connector,"CN2,CN5,CN6",,DB9/M,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",5504F1C9P,,,,,,Sub Co,,,base
+,1,DC-10B,CN4,,DC10B,Wealth Metal Factory Ltd (www.wealthmetal.com),DS-210,,,,,,Sub Co,,,base
+9177005,1,Digital temperature sensor and  thermal watchdog,U4,,SO8,ST,STLM75M2E,,,,,,ST,,,base
+,1,Filter,U8,,BNX001,MURATA,BNX002-01,,,,,,Sub Co,,,base
+,2,Header,"CN12,CN13",,2*25P,OUPIIN (http://www.jve.com.tw/),2011-2X25G00SPB,,,,,,Sub Co,,,base
+,1,Infra red interface,U11,,IR_VISHAY3,VISHAY,TFDU4300,,,,,,Sub Co,,,base
+,1,Joystick,U16,,JOY,Wealth Metal Factory Ltd (www.wealthmetal.com),MT-008A,,,,,,Sub Co,,,base
+,2,JTAG,"CN7, CN10",,IDC20S,,IDC20S,,,,,,Sub Co,,,base
+,4,KEY,"B1,B2,B3,B4",,PB10,,TD-0341X,WEALTH METAL FACTORY LTD,,,,,Sub Co,,,base
+,1,MB525/PCB,,B,,,,,,,,,Sub Co,,,base
+,2,MB542 connector,U17,,2*4P,OUPIIN (http://www.jve.com.tw/),2044-2X4G00SPA,,,,,,Sub Co,,,base
+,1,MC_connector,CN14,,IDC34S,,IDC34S,,,,,,Sub Co,,,base
+,1,Micro,U15,,KEC2740,KINGSTATE,KECG2740TBL,,,,,,Sub Co,,,base
+,1,Micro amplifier,U14,,TSSOP8,MAXIM,MAX4061EUA+,,,,,,Sub Co,,,base
+8000026,1,Micro SD card,CN15,,MSD,ST,SMS064FFF5E,,,,,,ST,,,base
+9175720,1,PIRANHA,U1,CUT2,TQFP100,ST,STM32F103VBT6,,,,,,ST,,,base
+,1,PJS008-2000,CN15,,MSD(PJS008),,PJS008-2000,,,,,,Sub Co,,,base
+9127091,1,PolyZen Power protection,U6,,polyzen,Tyco electronics,ZEN056V130A24LS,,,,,,ST,,,base
+,5,red,"LD1, LD2,LD3.LD4,LD5",,603,EVERLIGHT(www.everlight.com),19-215SDRC/S530-A2/TR8,,,,,,Sub Co,,,base
+9172028,2,RS232 driver,"U9,U10",,TSSOP16,ST,ST3232ECTR,,,,,,ST,,,base
+,8,SIP2,"JP3,JP5,JP6,JP7,JP8,JP9,JP10,JP12",,SIP2,,SIP2,,,,,,Sub Co,,,base
+,3,SIP3,"JP1,JP2,JP11",,SIP3,,SIP3,,,,,,Sub Co,,,base
+9184132,1,Socket,U1,,,YAMAICHI,IC149-100-025-B5,,,,,,ST,,,development
+,1,Speaker,U12,,KS1508,KINGSTATE,KDMG15008-03,,,,,,Sub Co,,,base
+9171908,1,SPI flash 8Mbytes,U3,,VDFPN8(8*6),ST,M25P64-VME6G,,,,,,ST,,,base
+,1,ST-613,CN8,,PJST-613,Wealth Metal Factory Ltd (www.wealthmetal.com),ST-613,,,,,,Sub Co,,,base
+,1,SWD,CN9,,IDC10S,,IDC10S,,,,,,Sub Co,,,base
+,2,SWITCH,"SW1,SW2",,SIP3,RS,204-7865,,,,,,Sub Co,,,base
+,15,TP,"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15",,TP,,TP,,,,,,Sub Co,,,base
+9151107,1,TRANSIL,Z1,,1R1C,,SMAJ5.0A-TR,,,,,,ST,,,base
+9151057,1,USB protection diodes,U2,,SOT-666,ST,USBLC6-2P6,,,,,,ST,,,base
+,1,USB-typeB connector,CN1,,USB-B,,,,,,,,Sub Co,,,base
+9027092,1,VB334,CN3,,VB334,EMERSON,VB334,,,RS,204-2573,,ST,,,base
+9177802,1,,U18,,SO28,ST,ST8024CDR,,,,,,ST,,,base
+9083525,12,Jumper pitch 2.54 ,,,,,,,,,,,Sub Co,,,base

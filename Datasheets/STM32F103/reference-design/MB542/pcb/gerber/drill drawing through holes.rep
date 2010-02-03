@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: MB542B.PCB   2007-4-16  下午 05:08:53
+---------------------------------------------------------------------------
+
+Layer Pair : TopLayer to BottomLayer
+ASCII File : C:\Documents and Settings\jinyl\桌面\新建文件夹 (2)\MB525B_1\MB542\Project Outputs for MB542\MB542B.TXT
+EIA File   : MB542B.DRL
+
+Tool         Hole Size          Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        8mil (0.2032mm)          156              23.69 Inch (601.76 mm)
+T2        15mil (0.381mm)          2                2.35 Inch (59.57 mm)
+T3        25mil (0.635mm)          2                1.92 Inch (48.74 mm)
+T4        40mil (1.016mm)          38               5.70 Inch (144.78 mm)
+T5        126mil (3.2004mm)        3         NPTH   9.77 Inch (248.12 mm)
+---------------------------------------------------------------------------
+Totals                             201              43.42 Inch (1102.97 mm)
+
+Two holes at same point : 1
+-----------------------
+-2849,-1463
+
+Total Processing Time (hh:mm:ss) : 00:00:00

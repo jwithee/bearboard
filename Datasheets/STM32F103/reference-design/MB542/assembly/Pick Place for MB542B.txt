@@ -1,0 +1,27 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+CN1        AM240320A        -1274.468mil   -731.358mil         75mil          0mil        200mil          0mil  T          0.00 Color LCD module
+CN2        2*11P                   50mil       -500mil          0mil          0mil          0mil          0mil  T        360.00 do not fit     
+C3         TAN-B                -1200mil       -625mil      -1200mil       -625mil      -1200mil       -685mil  B         90.00 1uF/50V        
+R9         0603                 -1650mil       -800mil      -1650mil       -800mil    -1622.5mil       -800mil  B        180.00 4K7            
+R10        0603                 -1650mil       -875mil      -1650mil       -875mil    -1622.5mil       -875mil  B        180.00 4K7            
+RP6        RES-4B               -1650mil      -1350mil      -1650mil      -1350mil    -1677.5mil      -1300mil  B         90.00 10K            
+C1         0603                 -1275mil      -1100mil      -1275mil      -1100mil    -1247.5mil      -1100mil  B        180.00 1uF/50V        
+C2         TAN-A                 -975mil      -1250mil       -975mil      -1250mil       -975mil      -1195mil  B        270.00 2.2uF          
+L1         3225                 -1350mil       -975mil      -1350mil       -975mil      -1290mil       -975mil  B        360.00 22uH           
+R1         0603                 -1375mil       -475mil      -1375mil       -475mil      -1375mil     -502.5mil  B         90.00 4K7            
+R2         0603                 -1450mil       -475mil      -1450mil       -475mil      -1450mil     -502.5mil  B         90.00 4K7            
+R3         0603                 -1375mil       -600mil      -1375mil       -600mil      -1375mil     -627.5mil  B         90.00 do not fit     
+R4         0603                 -1450mil       -600mil      -1450mil       -600mil      -1450mil     -627.5mil  B         90.00 do not fit     
+R5         0603                 -1100mil      -1250mil      -1100mil      -1250mil      -1100mil    -1222.5mil  B        270.00 0              
+R6         0603                 -1100mil      -1400mil      -1100mil      -1400mil      -1100mil    -1427.5mil  B         90.00 100K           
+R7         0603                 -1275mil      -1400mil      -1275mil      -1400mil    -1247.5mil      -1400mil  B        180.00 15             
+R8         0603             -1123.614mil  -1102.283mil  -1123.614mil  -1102.283mil  -1096.114mil  -1102.283mil  B        180.00 do not fit     
+CN3        AM240320B        -1921.457mil   -388.114mil      -2643mil         -2mil      -1700mil    -98.906mil  B        180.00 AM240320LTNQW00H
+U2         SOT23-8L         -1276.386mil  -1247.717mil  -1276.386mil  -1247.717mil  -1221.268mil  -1209.331mil  B         90.00 STLD20D-C8     
+Z1         DO216AA              -1475mil   -1183.78mil      -1475mil      -1165mil      -1475mil    -1137.5mil  B         90.00 STPS1L40M      
+RP1        RES-4B               -1000mil       -575mil      -1000mil       -575mil       -950mil     -547.5mil  B        360.00 10K            
+RP2        RES-4B                -825mil       -575mil       -825mil       -575mil       -775mil     -547.5mil  B        360.00 10K            
+RP4        RES-4B               -1650mil      -1000mil      -1650mil      -1000mil    -1677.5mil       -950mil  B         90.00 10K            
+RP5        RES-4B               -1650mil      -1175mil      -1650mil      -1175mil    -1677.5mil      -1125mil  B         90.00 10K            
+

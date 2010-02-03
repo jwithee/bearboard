@@ -1,0 +1,19 @@
+Board :MB542,,Rev : B-01,,,,,,,,,,,,,,
+Designer name,Qing shao,,,,,,,,,,,,,,,
+
+Part Number (ST or sub co),Quantity,"Description (fonction, value, ..)",Reference (topologic number),Version,Package,Manufacturer 1,Part#1,Manufacturer 2 second source,Part#2 Second source,Distributor,Order code,Fitted or not fitted,Supplied by (ST or Sub Co),ROHS Compliant,Comments,Variant
+9183503,1,FH26-51S-0.3SHW,CN3,,FH19S-40,HRS,FH26-51S-0.3SHW(05),,,BFI,,,ST,,,
+????(old 8001010),1,color LCD,CN3,,,"AMPIRE CO.,LTD",AM240320L8TNQW-00H,,,,,,ST,,,
+9176015,1,STLD20D-C8,U2,,SOT23-8L,ST,STLD20D-C8,,,,,,ST,,,
+9151085,1,STPS1L40M,Z1,,1R1C,ST,STPS1L40M,,,,,,ST,,,
+,1,1uF/50v,C1,,603,,,,,,,,Sub Co,,,
+,1,2.2uF/16V,C2,,TAN-A,,,,,,,,Sub Co,,,
+,1,1uF/50v,C3,,TAN-B,,,,,,,,Sub Co,,,
+,2,2*4P,CN1,,2*4P,OUPIIN (http://www.jve.com.tw/),2011-2X4G00SPB,,,,,,Sub Co,,,
+,1,22uH,L1,,3225,,,,,,,,Sub Co,,,
+,4,4K7,"R1,R2,R9,R10",,603,,,,,,,,Sub Co,,,
+,1,0,R5,,603,,,,,,,,Sub Co,,,
+,1,100K,R6,,603,,,,,,,,Sub Co,,,
+,1,15,R7,,603,,,,,,,,Sub Co
+,5,10K,"RP1,RP2,RP4,RP5,RP6",,RES-4B,,,,,,,,Sub Co
+,1,MB542/PCB,,B,,,,,,,,,Sub Co
