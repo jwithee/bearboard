@@ -1,4 +1,4 @@
-update=Sat 06 Feb 2010 12:13:40 AM EST
+update=Sat 06 Feb 2010 02:58:31 PM EST
 last_client=kicad
 [eeschema]
 version=1
@@ -69,5 +69,6 @@ LibName30=valves
 LibName31=luminarymicro
 LibName32=stm32
 LibName33=wiznet
+LibName34=dips-s
 [general]
 version=1
