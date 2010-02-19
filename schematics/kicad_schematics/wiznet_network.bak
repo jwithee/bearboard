@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 18 Feb 2010 09:31:42 PM EST
+EESchema Schematic File Version 2  date Fri 19 Feb 2010 01:21:58 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,6 +33,7 @@ LIBS:luminarymicro
 LIBS:stm32
 LIBS:wiznet
 LIBS:dips-s
+LIBS:misc
 LIBS:bearboard-cache
 EELAYER 24  0
 EELAYER END

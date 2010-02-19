@@ -1,5 +1,7 @@
-update=Sat 06 Feb 2010 02:58:31 PM EST
-last_client=kicad
+update=Fri 19 Feb 2010 12:27:16 AM EST
+last_client=eeschema
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../kicad_libraries
@@ -70,5 +72,4 @@ LibName31=luminarymicro
 LibName32=stm32
 LibName33=wiznet
 LibName34=dips-s
-[general]
-version=1
+LibName35=misc
