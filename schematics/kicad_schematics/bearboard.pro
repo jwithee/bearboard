@@ -1,4 +1,4 @@
-update=Fri 19 Feb 2010 12:27:16 AM EST
+update=Fri 19 Feb 2010 08:25:37 AM EST
 last_client=eeschema
 [general]
 version=1
@@ -73,3 +73,4 @@ LibName32=stm32
 LibName33=wiznet
 LibName34=dips-s
 LibName35=misc
+LibName36=usb-b

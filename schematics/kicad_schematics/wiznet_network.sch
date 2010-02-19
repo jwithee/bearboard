@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Feb 2010 01:22:01 AM EST
+EESchema Schematic File Version 2  date Fri 19 Feb 2010 09:12:18 AM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,11 +34,12 @@ LIBS:stm32
 LIBS:wiznet
 LIBS:dips-s
 LIBS:misc
+LIBS:usb-b
 LIBS:bearboard-cache
 EELAYER 24  0
 EELAYER END
 $Descr B 17000 11000
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date "19 feb 2010"
 Rev ""
@@ -67,7 +68,7 @@ Text HLabel 2100 5500 0    60   Input ~ 0
 Text HLabel 2100 5300 0    60   Input ~ 0
 /WR
 Text HLabel 1400 4100 0    60   Input ~ 0
-ADDR
+A[0..9]
 Wire Bus Line
 	1400 4100 2000 4100
 Wire Bus Line
@@ -533,7 +534,7 @@ Entry Wire Line
 Entry Wire Line
 	2000 4100 2100 4200
 Text HLabel 1200 2400 0    60   BiDi ~ 0
-DATA
+D[0..15]
 Entry Wire Line
 	2000 3900 2100 4000
 Entry Wire Line
@@ -1284,57 +1285,57 @@ Text Label 2200 2150 0    60   ~ 0
 Text Label 2200 2350 0    60   ~ 0
 BIT16EN
 Text Label 2300 3300 0    60   ~ 0
-DATA7
+D7
 Text Label 2300 3400 0    60   ~ 0
-DATA6
+D6
 Text Label 2300 3600 0    60   ~ 0
-DATA4
+D4
 Text Label 2300 3500 0    60   ~ 0
-DATA5
+D5
 Text Label 2300 3900 0    60   ~ 0
-DATA1
+D1
 Text Label 2300 4000 0    60   ~ 0
-DATA0
+D0
 Text Label 2300 3800 0    60   ~ 0
-DATA2
+D2
 Text Label 2300 3700 0    60   ~ 0
-DATA3
+D3
 Text Label 2300 2900 0    60   ~ 0
-DATA11
+D11
 Text Label 2300 3000 0    60   ~ 0
-DATA10
+D10
 Text Label 2300 3200 0    60   ~ 0
-DATA8
+D8
 Text Label 2300 3100 0    60   ~ 0
-DATA9
+D9
 Text Label 2300 2700 0    60   ~ 0
-DATA13
+D13
 Text Label 2300 2800 0    60   ~ 0
-DATA12
+D12
 Text Label 2300 2600 0    60   ~ 0
-DATA14
+D14
 Text Label 2300 2500 0    60   ~ 0
-DATA15
+D15
 Text Label 2300 5100 0    60   ~ 0
-ADDR0
+A0
 Text Label 2300 4800 0    60   ~ 0
-ADDR3
+A3
 Text Label 2300 4900 0    60   ~ 0
-ADDR2
+A2
 Text Label 2300 5000 0    60   ~ 0
-ADDR1
+A1
 Text Label 2300 4700 0    60   ~ 0
-ADDR4
+A4
 Text Label 2300 4600 0    60   ~ 0
-ADDR5
+A5
 Text Label 2300 4500 0    60   ~ 0
-ADDR6
+A6
 Text Label 2300 4200 0    60   ~ 0
-ADDR9
+A9
 Text Label 2300 4300 0    60   ~ 0
-ADDR8
+A8
 Text Label 2300 4400 0    60   ~ 0
-ADDR7
+A7
 Text Label 2150 5700 0    60   ~ 0
 /INT
 Text Label 2150 5500 0    60   ~ 0
