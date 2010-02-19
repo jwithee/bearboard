@@ -1,0 +1,22 @@
+Board :MB694 ,,,,,,,,,,,,,,,,
+Designer name,Qing shao,,,,,,,,,,,,,,,
+
+
+Part Number (ST or sub co),Quantity,"Description (fonction, value, ..)",Reference (topologic number),Version,Package,Manufacturer 1,Part#1,Manufacturer 2 second source,Part#2 Second source,Distributor,Order code,Fitted or not fitted,Supplied by (ST or Sub Co),ROHS Compliant,Comments,Variant
+,1,1uF/50V,C1,,TAN-A,AVX,TAJA105K050RNJ,,,,,,Sub Co,lead free,,
+,1,2.2uF,C2,,TAN-A,AVX,TAJA225K016RNJ,,,,,,Sub Co,lead free,,
+,1,1uF/50V,C3,,1206,www.fenghua-advanced.com,1206B105K500NT,,,,,,Sub Co,lead free,,
+9183503,1,FH26-51S-0.3SHW,CN1,,FH19S-40,HRS,FH26-51S-0.3SHW(05),,,BFI,,,ST,lead free,,
+,1,Connector to Mother board,CN2,,AM240*320B,"SHANGHAI HUGE ELECTERICAL UNITED DEVELOPMENT CO.,LTD (www.chinahuge.com)",2213S-8G,,,,,,Sub Co,lead free,,
+,1,22uH,L1,,3225,TDK,NLV32T-220J-PF,,,,,,Sub Co,lead free,,
+,2,do not fit,"R1, R2",,603,www.passivecomponent.com,WR06472JTL ,,,,,do not fit,,,"1/16W,±5%",
+,1,do not fit,R8,,603,www.passivecomponent.com,WR06000JTL,,,,,do not fit,,,"1/16W,±5%",
+,4,4K7,"R3, R4, R9, R10",,603,www.passivecomponent.com,WR06472JTL ,,,,,,Sub Co,lead free,"1/16W,±5%",
+,1,100K,R5,,603,www.passivecomponent.com,WR06104JTL,,,,,,Sub Co,lead free,"1/16W,±5%",
+,1,15,R6,,603,www.passivecomponent.com,WR06150JTL,,,,,,Sub Co,lead free,"1/16W,±5%",
+,1,0,R7,,603,www.passivecomponent.com,WR06000JTL,,,,,,Sub Co,lead free,"1/16W,±5%"
+,1,10K,RP1,,RES-4B,www.fenghua-advanced.com,RCML08W103JT,,,,,,Sub Co,lead free,
+,4,do not fit,"RP2, RP3, RP4, RP5",,RES-4B,www.fenghua-advanced.com,RCML08W103JT,,,,,do not fit,,lead free,
+9176015,1,STLD20D-C8,U1,,SOT23-8L,ST,STLD20D-C8,,,,,,ST,lead free,
+9151085,1,STPS1L40M,Z1,,1R1C,ST,STPS1L40M,,,,,,ST,lead free,
+8001016,1,color LCD,,,,"AMPIRE CO.,LTD",AM-240320L8TNQW-01H,,,,,,ST,, ref corresponds to 16bit // config described in spec ref  AM-240320L8TNQW-01H.pdf

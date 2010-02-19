@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Sat 06 Feb 2010 02:58:11 PM EST
-LIBS:bearboard-cache
+EESchema Schematic File Version 2  date Thu 18 Feb 2010 09:31:45 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,12 +33,13 @@ LIBS:luminarymicro
 LIBS:stm32
 LIBS:wiznet
 LIBS:dips-s
+LIBS:bearboard-cache
 EELAYER 24  0
 EELAYER END
 $Descr C 22000 17000
 Sheet 1 2
 Title "BearBoard STM32F103"
-Date "6 feb 2010"
+Date "19 feb 2010"
 Rev "0"
 Comp "University of Maine"
 Comment1 "Author: Jason Withee"
@@ -67,10 +67,10 @@ $EndSheet
 $Comp
 L STM32F103 U?
 U 1 1 4B6CFA5E
-P 5000 450
-F 0 "U?" H 2450 650 60  0000 C CNN
-F 1 "STM32F103" H 2750 -7250 60  0000 C CNN
-	1    5000 450 
+P 5150 3600
+F 0 "U?" H 2600 3800 60  0000 C CNN
+F 1 "STM32F103" H 2900 -4100 60  0000 C CNN
+	1    5150 3600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

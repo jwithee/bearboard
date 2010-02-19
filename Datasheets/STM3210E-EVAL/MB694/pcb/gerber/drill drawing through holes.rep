@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: MB694.PCB   2007-12-3  ÏÂÎç 01:39:14
+---------------------------------------------------------------------------
+
+
+
+Layer Pair : TopLayer to BottomLayer
+ASCII File : NCDrillOutput.TXT
+EIA File   : NCDrillOutput.DRL
+
+Tool         Hole Size          Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        8mil (0.2032mm)          106              17.68 Inch (448.99 mm)
+T2        40mil (1.016mm)          30               6.75 Inch (171.44 mm)
+T3        126mil (3.2004mm)        2         NPTH   1.42 Inch (36.01 mm)
+---------------------------------------------------------------------------
+Totals                             138              25.84 Inch (656.44 mm)
+
+Two holes at same point : 1
+-----------------------
+0,0
+
+Total Processing Time (hh:mm:ss) : 00:00:00
