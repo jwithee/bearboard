@@ -1,34 +1,4 @@
-EESchema Schematic File Version 2  date Fri 19 Feb 2010 09:38:21 AM EST
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 2  date Tue 23 Feb 2010 10:26:08 AM EST
 LIBS:luminarymicro
 LIBS:stm32
 LIBS:wiznet
@@ -41,7 +11,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 3
 Title ""
-Date "19 feb 2010"
+Date "23 feb 2010"
 Rev ""
 Comp ""
 Comment1 ""
