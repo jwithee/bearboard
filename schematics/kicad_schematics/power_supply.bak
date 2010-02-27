@@ -1,0 +1,282 @@
+EESchema Schematic File Version 2  date Sat 27 Feb 2010 10:30:04 AM EST
+LIBS:power_supply
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:luminarymicro
+LIBS:stm32
+LIBS:wiznet
+LIBS:dips-s
+LIBS:misc
+LIBS:usb-b
+LIBS:bearboard-cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 2 4
+Title ""
+Date "27 feb 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 7900 4150 0    60   ~ 0
+3.3V
+Text Label 2850 2550 0    60   ~ 0
+3.3V
+Wire Wire Line
+	2750 2550 2850 2550
+Wire Wire Line
+	2750 2250 2850 2250
+Wire Wire Line
+	3400 4900 3400 4650
+Wire Wire Line
+	3400 4650 3500 4650
+Connection ~ 4000 4900
+Wire Wire Line
+	4000 4650 4000 4900
+Connection ~ 4600 5100
+Wire Wire Line
+	4600 5100 4600 4900
+Wire Wire Line
+	4600 4900 4550 4900
+Wire Wire Line
+	3500 4450 4150 4450
+Connection ~ 2600 5100
+Wire Wire Line
+	2600 4900 2600 5100
+Connection ~ 7300 5100
+Wire Wire Line
+	2450 5100 7750 5100
+Wire Wire Line
+	7750 5100 7750 4850
+Wire Wire Line
+	7900 4150 7050 4150
+Wire Wire Line
+	5800 4650 5650 4650
+Wire Wire Line
+	7300 4150 7300 4450
+Connection ~ 4900 5100
+Wire Wire Line
+	2450 2900 6150 2900
+Wire Wire Line
+	5650 4250 5750 4250
+Wire Wire Line
+	5750 4250 5750 3850
+Wire Wire Line
+	5750 3850 5850 3850
+Wire Wire Line
+	4650 3550 4650 2900
+Wire Wire Line
+	6150 2900 6150 2950
+Wire Wire Line
+	6150 3650 6150 3450
+Wire Wire Line
+	6150 3500 5150 3500
+Wire Wire Line
+	5150 3500 5150 3550
+Connection ~ 6150 3500
+Wire Wire Line
+	6150 4400 6150 4050
+Connection ~ 4650 2900
+Wire Wire Line
+	6150 5100 6150 4800
+Wire Wire Line
+	4900 5100 4900 5050
+Wire Wire Line
+	6450 4150 6150 4150
+Connection ~ 6150 4150
+Wire Wire Line
+	7300 4850 7300 5100
+Connection ~ 6150 5100
+Connection ~ 7300 4150
+Wire Wire Line
+	7750 4450 7750 4150
+Connection ~ 7750 4150
+Wire Wire Line
+	4100 4250 2600 4250
+Wire Wire Line
+	2600 4250 2600 4500
+Wire Wire Line
+	2900 4500 2900 4450
+Wire Wire Line
+	2900 4450 3000 4450
+Wire Wire Line
+	2900 4900 2900 5100
+Connection ~ 2900 5100
+Wire Wire Line
+	4050 4900 3950 4900
+Wire Wire Line
+	4150 4650 3900 4650
+Connection ~ 4000 4650
+Wire Wire Line
+	3300 4900 3450 4900
+Connection ~ 3400 4900
+Wire Wire Line
+	2750 2400 2850 2400
+Text Label 2450 5100 2    60   ~ 0
+GROUND
+Text Label 2450 2900 2    60   ~ 0
+VIN
+Text Label 2850 2400 0    60   ~ 0
+GROUND
+Text Label 2850 2250 0    60   ~ 0
+VIN
+Text Label 3300 4900 2    60   ~ 0
+3.3V
+$Comp
+L C C?
+U 1 1 4B893539
+P 3700 4650
+F 0 "C?" H 3750 4750 50  0000 L CNN
+F 1 "5pF" H 3750 4550 50  0000 L CNN
+	1    3700 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4B893528
+P 4300 4900
+F 0 "R?" V 4300 4900 50  0000 C CNN
+F 1 "1M 1%" V 4400 4900 50  0000 C CNN
+	1    4300 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4B893518
+P 3700 4900
+F 0 "R?" V 3700 4900 50  0000 C CNN
+F 1 "1.64M 1%" V 3800 4900 50  0000 C CNN
+	1    3700 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 4B8934DD
+P 2900 4700
+F 0 "C?" H 2950 4800 50  0000 L CNN
+F 1 "220pF" H 2950 4600 50  0000 L CNN
+	1    2900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B8934CE
+P 3250 4450
+F 0 "R?" V 3250 4450 50  0000 C CNN
+F 1 "10k" V 3350 4450 50  0000 C CNN
+	1    3250 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 4B8934B4
+P 2600 4700
+F 0 "C?" H 2650 4800 50  0000 L CNN
+F 1 "0.01uF" H 2650 4600 50  0000 L CNN
+	1    2600 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B893480
+P 7750 4650
+F 0 "C?" H 7800 4750 50  0000 L CNN
+F 1 "10uF" H 7800 4550 50  0000 L CNN
+	1    7750 4650
+	1    0    0    -1  
+$EndComp
+Text HLabel 2750 2550 0    60   UnSpc ~ 0
+3.3V
+Text Label 5800 4650 0    60   ~ 0
+VIN
+$Comp
+L CP1 C?
+U 1 1 4B89335E
+P 7300 4650
+F 0 "C?" H 7350 4750 50  0000 L CNN
+F 1 "150uF" H 7350 4550 50  0000 L CNN
+	1    7300 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR L?
+U 1 1 4B8932D4
+P 6750 4150
+F 0 "L?" V 6700 4150 40  0000 C CNN
+F 1 "15uH" V 6850 4150 40  0000 C CNN
+	1    6750 4150
+	0    -1   -1   0   
+$EndComp
+Text HLabel 2750 2400 0    60   UnSpc ~ 0
+GROUND
+Text HLabel 2750 2250 0    60   UnSpc ~ 0
+VIN
+$Comp
+L DIODESCH D?
+U 1 1 4B8931FF
+P 6150 4600
+F 0 "D?" H 6150 4700 40  0000 C CNN
+F 1 "DIODESCH" H 6150 4500 40  0000 C CNN
+	1    6150 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4B893191
+P 6150 3200
+F 0 "R?" V 6150 3200 50  0000 C CNN
+F 1 "0.05" V 6250 3200 50  0000 C CNN
+	1    6150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOSFET_N Q?
+U 1 1 4B893175
+P 6050 3850
+F 0 "Q?" H 6300 3750 60  0000 R CNN
+F 1 "NMOS" H 6450 3850 60  0000 R CNN
+	1    6050 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L LTC1771 U?
+U 1 1 4B893166
+P 4900 4300
+F 0 "U?" H 5250 3800 60  0000 C CNN
+F 1 "LTC1771" H 4900 4800 60  0000 C CNN
+	1    4900 4300
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

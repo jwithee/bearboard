@@ -1,4 +1,35 @@
-EESchema Schematic File Version 2  date Tue 23 Feb 2010 10:26:08 AM EST
+EESchema Schematic File Version 2  date Sat 27 Feb 2010 10:38:11 AM EST
+LIBS:power_supply
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
 LIBS:luminarymicro
 LIBS:stm32
 LIBS:wiznet
@@ -9,9 +40,9 @@ LIBS:bearboard-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 2 3
+Sheet 2 4
 Title ""
-Date "23 feb 2010"
+Date "27 feb 2010"
 Rev ""
 Comp ""
 Comment1 ""
