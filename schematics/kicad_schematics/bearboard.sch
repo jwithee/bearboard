@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 27 Feb 2010 10:38:11 AM EST
+EESchema Schematic File Version 2  date Sun 28 Feb 2010 09:04:01 AM EST
 LIBS:power_supply
 LIBS:power
 LIBS:device
@@ -42,7 +42,7 @@ EELAYER END
 $Descr C 22000 17000
 Sheet 1 4
 Title "BearBoard STM32F103"
-Date "27 feb 2010"
+Date "28 feb 2010"
 Rev "0"
 Comp "University of Maine"
 Comment1 "Author: Jason Withee"
@@ -51,9 +51,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	7350 14900 7350 14800
+	7050 15400 7050 15300
 Wire Wire Line
-	7350 14800 7450 14800
+	7050 15300 7150 15300
 Wire Bus Line
 	11750 6850 10650 6850
 Wire Bus Line
@@ -267,20 +267,21 @@ Wire Bus Line
 $Comp
 L GND #PWR?
 U 1 1 4B893AA9
-P 7350 14900
-F 0 "#PWR?" H 7350 14900 30  0001 C CNN
-F 1 "GND" H 7350 14830 30  0001 C CNN
-	1    7350 14900
+P 7050 15400
+F 0 "#PWR?" H 7050 15400 30  0001 C CNN
+F 1 "GND" H 7050 15330 30  0001 C CNN
+	1    7050 15400
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 7450 14000 1200 1300
+S 7150 15050 1250 350 
 U 4B892EB7
 F0 "Power Supply" 60
 F1 "power_supply.sch" 60
-F2 "3.3V" U R 8650 14200 60 
-F3 "GROUND" U L 7450 14800 60 
-F4 "VIN" U L 7450 14500 60 
+F2 "3.3V" U R 8400 15150 60 
+F3 "GROUND" U L 7150 15300 60 
+F4 "VIN" U L 7150 15150 60 
+F5 "5.0V" U R 8400 15300 60 
 $EndSheet
 Text Label 13450 4350 2    60   ~ 0
 ADDR[0..9]
