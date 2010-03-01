@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Feb 2010 09:04:01 AM EST
+EESchema Schematic File Version 2  date Mon 01 Mar 2010 07:00:48 AM EST
 LIBS:power_supply
 LIBS:power
 LIBS:device
@@ -42,7 +42,7 @@ EELAYER END
 $Descr B 17000 11000
 Sheet 2 4
 Title ""
-Date "28 feb 2010"
+Date "1 mar 2010"
 Rev ""
 Comp ""
 Comment1 ""

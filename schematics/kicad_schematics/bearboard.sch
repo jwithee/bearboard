@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 28 Feb 2010 09:04:01 AM EST
+EESchema Schematic File Version 2  date Mon 01 Mar 2010 07:00:48 AM EST
 LIBS:power_supply
 LIBS:power
 LIBS:device
@@ -42,7 +42,7 @@ EELAYER END
 $Descr C 22000 17000
 Sheet 1 4
 Title "BearBoard STM32F103"
-Date "28 feb 2010"
+Date "1 mar 2010"
 Rev "0"
 Comp "University of Maine"
 Comment1 "Author: Jason Withee"
@@ -50,6 +50,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	8400 15300 8700 15300
+Wire Wire Line
+	8700 15300 8700 14950
+Wire Wire Line
+	6350 15350 6200 15350
+Connection ~ 6800 15150
+Wire Wire Line
+	6800 15350 6800 14950
+Wire Wire Line
+	6800 15350 6750 15350
 Wire Wire Line
 	7050 15400 7050 15300
 Wire Wire Line
@@ -264,6 +275,56 @@ Wire Bus Line
 	13600 4450 13600 4350
 Wire Bus Line
 	13600 4350 13450 4350
+Wire Wire Line
+	6800 14950 6750 14950
+Wire Wire Line
+	6800 15150 7150 15150
+Wire Wire Line
+	6350 14950 6200 14950
+Wire Wire Line
+	8550 14950 8550 15150
+Wire Wire Line
+	8550 15150 8400 15150
+$Comp
+L +3.3V #PWR?
+U 1 1 4B8BAC33
+P 8550 14950
+F 0 "#PWR?" H 8550 14910 30  0001 C CNN
+F 1 "+3.3V" H 8550 15060 30  0000 C CNN
+	1    8550 14950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 4B8BAC2A
+P 8700 14950
+F 0 "#PWR?" H 8700 15040 20  0001 C CNN
+F 1 "+5V" H 8700 15040 30  0000 C CNN
+	1    8700 14950
+	1    0    0    -1  
+$EndComp
+Text Label 6200 15350 2    60   ~ 0
+EXTPWR
+Text Label 6200 14950 2    60   ~ 0
+USBPWR
+$Comp
+L DIODESCH D?
+U 1 1 4B8BABBF
+P 6550 15350
+F 0 "D?" H 6550 15450 40  0000 C CNN
+F 1 "DIODESCH" H 6550 15250 40  0000 C CNN
+	1    6550 15350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODESCH D?
+U 1 1 4B8BABB4
+P 6550 14950
+F 0 "D?" H 6550 15050 40  0000 C CNN
+F 1 "DIODESCH" H 6550 14850 40  0000 C CNN
+	1    6550 14950
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR?
 U 1 1 4B893AA9
