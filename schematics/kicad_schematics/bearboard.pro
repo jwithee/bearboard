@@ -1,10 +1,10 @@
-update=Fri 19 Feb 2010 08:25:37 AM EST
+update=Thu 04 Mar 2010 11:39:40 AM EST
 last_client=eeschema
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=../kicad_libraries
+LibDir=../kicad_libraries;../kicad_libraries/arduino
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
@@ -74,3 +74,5 @@ LibName33=wiznet
 LibName34=dips-s
 LibName35=misc
 LibName36=usb-b
+LibName37=arduinoshield
+LibName38=power_supply
