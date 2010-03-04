@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 04 Mar 2010 01:55:24 PM EST
+EESchema Schematic File Version 2  date Thu 04 Mar 2010 05:39:18 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,7 +41,7 @@ LIBS:bearboard-cache
 EELAYER 24  0
 EELAYER END
 $Descr B 17000 11000
-Sheet 2 4
+Sheet 3 4
 Title ""
 Date "4 mar 2010"
 Rev ""
@@ -51,30 +51,23 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2100 2150 0    60   Input ~ 0
-/RESET
-Text HLabel 2100 6200 0    60   Output ~ 0
-BRDY3
-Text HLabel 2100 6100 0    60   Output ~ 0
-BRDY2
-Text HLabel 2100 6000 0    60   Output ~ 0
-BRDY1
-Text HLabel 2100 5900 0    60   Output ~ 0
-BRDY0
-Text HLabel 2100 5700 0    60   Output ~ 0
-/INT
-Text HLabel 2100 5400 0    60   Input ~ 0
-/RD
-Text HLabel 2100 5500 0    60   Input ~ 0
-/CS
-Text HLabel 2100 5300 0    60   Input ~ 0
-/WR
-Text HLabel 1400 4100 0    60   Input ~ 0
-A[0..9]
+Text Notes 600  5100 0    60   ~ 0
+A0 - GND IN 16-BIT MODE
+$Comp
+L GND #PWR?
+U 1 1 4B903065
+P 1400 5250
+F 0 "#PWR?" H 1400 5250 30  0001 C CNN
+F 1 "GND" H 1400 5180 30  0001 C CNN
+	1    1400 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5100 1400 5250
+Wire Wire Line
+	2750 5100 1400 5100
 Wire Bus Line
 	1400 4100 2000 4100
-Wire Bus Line
-	2000 4100 2000 5000
 Wire Bus Line
 	1200 2400 2000 2400
 Connection ~ 8350 9600
@@ -243,8 +236,6 @@ Wire Wire Line
 	2750 2600 2100 2600
 Wire Wire Line
 	2750 2500 2100 2500
-Wire Wire Line
-	2750 5100 2100 5100
 Wire Wire Line
 	2750 4800 2100 4800
 Wire Wire Line
@@ -515,8 +506,28 @@ Wire Wire Line
 Connection ~ 9550 8800
 Wire Bus Line
 	2000 2400 2000 3900
-Entry Wire Line
-	2000 5000 2100 5100
+Wire Bus Line
+	2000 4100 2000 4900
+Text HLabel 2100 2150 0    60   Input ~ 0
+/RESET
+Text HLabel 2100 6200 0    60   Output ~ 0
+BRDY3
+Text HLabel 2100 6100 0    60   Output ~ 0
+BRDY2
+Text HLabel 2100 6000 0    60   Output ~ 0
+BRDY1
+Text HLabel 2100 5900 0    60   Output ~ 0
+BRDY0
+Text HLabel 2100 5700 0    60   Output ~ 0
+/INT
+Text HLabel 2100 5400 0    60   Input ~ 0
+/RD
+Text HLabel 2100 5500 0    60   Input ~ 0
+/CS
+Text HLabel 2100 5300 0    60   Input ~ 0
+/WR
+Text HLabel 1400 4100 0    60   Input ~ 0
+A[0..8]
 Entry Wire Line
 	2000 4900 2100 5000
 Entry Wire Line
@@ -1319,25 +1330,25 @@ D14
 Text Label 2300 2500 0    60   ~ 0
 D15
 Text Label 2300 5100 0    60   ~ 0
-A0
+A0_GND
 Text Label 2300 4800 0    60   ~ 0
-A3
-Text Label 2300 4900 0    60   ~ 0
 A2
-Text Label 2300 5000 0    60   ~ 0
+Text Label 2300 4900 0    60   ~ 0
 A1
+Text Label 2300 5000 0    60   ~ 0
+A0
 Text Label 2300 4700 0    60   ~ 0
-A4
+A3
 Text Label 2300 4600 0    60   ~ 0
-A5
+A4
 Text Label 2300 4500 0    60   ~ 0
-A6
+A5
 Text Label 2300 4200 0    60   ~ 0
-A9
-Text Label 2300 4300 0    60   ~ 0
 A8
-Text Label 2300 4400 0    60   ~ 0
+Text Label 2300 4300 0    60   ~ 0
 A7
+Text Label 2300 4400 0    60   ~ 0
+A6
 Text Label 2150 5700 0    60   ~ 0
 /INT
 Text Label 2150 5500 0    60   ~ 0

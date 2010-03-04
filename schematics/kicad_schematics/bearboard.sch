@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 04 Mar 2010 01:55:24 PM EST
+EESchema Schematic File Version 2  date Thu 04 Mar 2010 05:39:18 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -52,6 +52,173 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	13950 5200 13950 5700
+Wire Wire Line
+	14700 5200 13950 5200
+Wire Wire Line
+	13250 5300 13250 5850
+Wire Wire Line
+	14300 4700 14700 4700
+Wire Wire Line
+	14300 5000 14700 5000
+Wire Wire Line
+	14300 4900 14700 4900
+Wire Wire Line
+	14300 4500 14700 4500
+Wire Wire Line
+	14300 4600 14700 4600
+Wire Wire Line
+	14300 4400 14700 4400
+Wire Wire Line
+	14300 4300 14700 4300
+Wire Wire Line
+	13250 4600 13250 4800
+Wire Wire Line
+	13250 4000 13250 4100
+Wire Wire Line
+	13250 4800 14700 4800
+Wire Wire Line
+	13350 5500 13250 5500
+Connection ~ 13250 5500
+Wire Wire Line
+	13850 5500 13850 5100
+Wire Wire Line
+	13850 5100 14700 5100
+$Comp
+L R R?
+U 1 1 4B903503
+P 13600 5500
+F 0 "R?" V 13680 5500 50  0000 C CNN
+F 1 "10K" V 13600 5500 50  0000 C CNN
+	1    13600 5500
+	0    1    1    0   
+$EndComp
+Text Notes 12600 4200 0    60   ~ 0
+DO NOT FIT
+$Comp
+L R R?
+U 1 1 4B9034B6
+P 13250 5050
+F 0 "R?" V 13330 5050 50  0000 C CNN
+F 1 "10K" V 13250 5050 50  0000 C CNN
+	1    13250 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B9034AE
+P 13250 4350
+F 0 "R?" V 13330 4350 50  0000 C CNN
+F 1 "?" V 13250 4350 50  0000 C CNN
+	1    13250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4B9034AD
+P 13250 4000
+F 0 "#PWR?" H 13250 4100 40  0001 C CNN
+F 1 "3V3" H 13250 4149 40  0000 C CNN
+	1    13250 4000
+	1    0    0    -1  
+$EndComp
+Text Label 14300 5200 2    60   ~ 0
+DBGACK
+Text Label 14300 5000 2    60   ~ 0
+RESET#
+Text Label 14300 4900 2    60   ~ 0
+TDO/SWO
+Text Label 14300 4800 2    60   ~ 0
+RTCK
+Text Label 14300 4700 2    60   ~ 0
+TCK/SWCLK
+Text Label 14300 4600 2    60   ~ 0
+TMS/SWDIO
+Text Label 14300 4500 2    60   ~ 0
+TDI
+Text Label 14300 4400 2    60   ~ 0
+TRST
+Text Label 14300 4300 2    60   ~ 0
+3V3
+Text Label 14300 5100 2    60   ~ 0
+DBGRQ
+$Comp
+L CONN_10X2 P?
+U 1 1 4B903645
+P 15100 2250
+F 0 "P?" H 15100 2800 60  0000 C CNN
+F 1 "CONN_10X2" V 15100 2150 50  0000 C CNN
+	1    15100 2250
+	1    0    0    -1  
+$EndComp
+Text Notes 14450 1600 0    60   ~ 0
+TRACE CONNECTOR
+Text Label 3800 3900 0    60   ~ 0
+TDO/SWO
+Text Label 3800 4000 0    60   ~ 0
+TRST
+Text Label 3800 3500 0    60   ~ 0
+TDI
+Text Label 3800 3400 0    60   ~ 0
+TCK/SWCLK
+Text Label 3800 3300 0    60   ~ 0
+TMS/SWDIO
+$Comp
+L GND #PWR?
+U 1 1 4B903530
+P 13250 5850
+F 0 "#PWR?" H 13250 5850 30  0001 C CNN
+F 1 "GND" H 13250 5780 30  0001 C CNN
+	1    13250 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13850 5700 13950 5700
+Connection ~ 13250 5700
+Wire Wire Line
+	13350 5700 13250 5700
+Wire Wire Line
+	15500 5100 15900 5100
+Wire Wire Line
+	15500 4300 15900 4300
+Wire Wire Line
+	15500 4400 15900 4400
+Wire Wire Line
+	15500 4600 15900 4600
+Wire Wire Line
+	15500 4500 15900 4500
+Wire Wire Line
+	15500 4900 15900 4900
+Wire Wire Line
+	15500 5000 15900 5000
+Wire Wire Line
+	15500 4800 15900 4800
+Wire Wire Line
+	15500 4700 15900 4700
+Wire Wire Line
+	15500 5200 15900 5200
+Wire Wire Line
+	1150 6950 1150 6900
+Connection ~ 1850 7450
+Wire Wire Line
+	2250 7450 1750 7450
+Wire Wire Line
+	1150 7450 1150 7800
+Wire Wire Line
+	1150 7800 1300 7800
+Wire Wire Line
+	4350 7000 3400 7000
+Wire Wire Line
+	18750 800  18750 900 
+Wire Wire Line
+	18750 1400 18750 1600
+Wire Wire Line
+	19900 2600 19150 2600
+Wire Bus Line
+	19900 1800 19600 1800
+Wire Wire Line
+	19900 1000 19100 1000
+Wire Wire Line
 	8200 12950 8200 12800
 Wire Wire Line
 	8200 12800 8350 12800
@@ -69,16 +236,16 @@ Wire Wire Line
 	7750 12450 7650 12450
 Connection ~ 3400 8300
 Wire Wire Line
-	4350 8300 3400 8300
+	3400 8300 4350 8300
 Connection ~ 3400 8100
 Wire Wire Line
-	4350 8100 3400 8100
+	3400 8100 4350 8100
 Connection ~ 3400 7900
 Wire Wire Line
-	4350 7900 3400 7900
+	3400 7900 4350 7900
 Connection ~ 3400 7700
 Wire Wire Line
-	4350 7700 3400 7700
+	3400 7700 4350 7700
 Wire Wire Line
 	3400 7500 3400 8500
 Wire Wire Line
@@ -437,16 +604,8 @@ Wire Wire Line
 	10200 9750 10200 8500
 Wire Wire Line
 	10200 8500 10050 8500
-Wire Wire Line
-	13350 4850 13350 4800
 Wire Bus Line
-	13450 4350 13600 4350
-Wire Bus Line
-	13600 4350 13600 4450
-Wire Bus Line
-	13600 4450 13750 4450
-Wire Bus Line
-	13450 4550 13750 4550
+	19600 2000 19900 2000
 Wire Wire Line
 	4350 6800 3000 6800
 Wire Wire Line
@@ -472,11 +631,9 @@ Wire Wire Line
 Wire Wire Line
 	4350 3100 3400 3100
 Wire Wire Line
-	17450 4350 16550 4350
+	20000 3950 19100 3950
 Wire Wire Line
-	17450 4000 16550 4000
-Wire Wire Line
-	13350 4800 12850 4800
+	20000 3600 19100 3600
 Wire Wire Line
 	4350 6100 3400 6100
 Wire Wire Line
@@ -538,7 +695,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6000 3400 6000
 Wire Wire Line
-	17450 4150 16550 4150
+	20000 3750 19100 3750
 Wire Wire Line
 	1450 13350 1450 13450
 Wire Wire Line
@@ -745,22 +902,22 @@ Wire Wire Line
 Wire Wire Line
 	3400 8500 4350 8500
 Wire Wire Line
-	4350 7600 3400 7600
+	3400 7600 4350 7600
 Connection ~ 3400 7600
 Wire Wire Line
-	4350 7800 3400 7800
+	3400 7800 4350 7800
 Connection ~ 3400 7800
 Wire Wire Line
-	4350 8000 3400 8000
+	3400 8000 4350 8000
 Connection ~ 3400 8000
 Wire Wire Line
-	4350 8200 3400 8200
+	3400 8200 4350 8200
 Connection ~ 3400 8200
 Wire Wire Line
 	4350 8400 3400 8400
 Connection ~ 3400 8400
 Wire Wire Line
-	7750 12600 8350 12600
+	8350 12600 7750 12600
 Connection ~ 7750 12600
 Wire Wire Line
 	7250 12750 7050 12750
@@ -768,6 +925,150 @@ Wire Wire Line
 	10000 12500 10000 12800
 Wire Wire Line
 	10000 12800 9600 12800
+Wire Wire Line
+	19900 1400 19100 1400
+Wire Wire Line
+	19100 1500 19900 1500
+Wire Wire Line
+	19900 1100 19100 1100
+Wire Wire Line
+	19900 2400 19150 2400
+Wire Wire Line
+	19900 2500 19150 2500
+Wire Wire Line
+	19900 2700 19150 2700
+Wire Wire Line
+	18750 1600 19900 1600
+Wire Wire Line
+	1850 7450 1850 7800
+Wire Wire Line
+	1850 7800 1700 7800
+Wire Wire Line
+	1350 6700 1150 6700
+Wire Wire Line
+	1150 6900 1350 6900
+$Comp
+L R R?
+U 1 1 4B90350B
+P 13600 5700
+F 0 "R?" V 13680 5700 50  0000 C CNN
+F 1 "10K" V 13600 5700 50  0000 C CNN
+	1    13600 5700
+	0    1    1    0   
+$EndComp
+Text Notes 15000 4100 0    60   ~ 0
+JTAG
+Text Label 15900 5200 2    60   ~ 0
+GND
+Text Label 15900 5000 2    60   ~ 0
+GND
+Text Label 15900 4800 2    60   ~ 0
+GND
+Text Label 15900 4900 2    60   ~ 0
+GND
+Text Label 15900 4700 2    60   ~ 0
+GND
+Text Label 15900 4600 2    60   ~ 0
+GND
+Text Label 15900 4500 2    60   ~ 0
+GND
+Text Label 15900 4400 2    60   ~ 0
+GND
+Text Label 15900 4300 2    60   ~ 0
+3V3
+$Comp
+L CONN_10X2 P?
+U 1 1 4B903345
+P 15100 4750
+F 0 "P?" H 15100 5300 60  0000 C CNN
+F 1 "CONN_10X2" V 15100 4650 50  0000 C CNN
+	1    15100 4750
+	1    0    0    -1  
+$EndComp
+Text Label 15900 5100 2    60   ~ 0
+GND
+$Comp
+L GND #PWR?
+U 1 1 4B9032D4
+P 1150 6950
+F 0 "#PWR?" H 1150 6950 30  0001 C CNN
+F 1 "GND" H 1150 6880 30  0001 C CNN
+	1    1150 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4B9032B7
+P 1150 6700
+F 0 "#PWR?" H 1150 6800 40  0001 C CNN
+F 1 "3V3" H 1150 6849 40  0000 C CNN
+	1    1150 6700
+	1    0    0    -1  
+$EndComp
+Text Label 1900 7450 0    60   ~ 0
+RESET#
+$Comp
+L C C?
+U 1 1 4B90325B
+P 1500 7800
+F 0 "C?" V 1400 7900 50  0000 L CNN
+F 1 "100nF" V 1400 7650 50  0000 L CNN
+	1    1500 7800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 4B90324D
+P 1450 7450
+F 0 "SW?" H 1600 7560 50  0000 C CNN
+F 1 "SW_PUSH" H 1450 7370 50  0000 C CNN
+	1    1450 7450
+	1    0    0    -1  
+$EndComp
+Text Label 3900 7000 0    60   ~ 0
+RESET#
+$Comp
+L 3V3 #PWR?
+U 1 1 4B903136
+P 18750 800
+F 0 "#PWR?" H 18750 900 40  0001 C CNN
+F 1 "3V3" H 18750 949 40  0000 C CNN
+	1    18750 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B903131
+P 18750 1150
+F 0 "R?" V 18830 1150 50  0000 C CNN
+F 1 "10K" V 18750 1150 50  0000 C CNN
+	1    18750 1150
+	1    0    0    -1  
+$EndComp
+Text Label 19150 2700 0    60   ~ 0
+WIZ_BRD3
+Text Label 19150 2600 0    60   ~ 0
+WIZ_BRDY2
+Text Label 19150 2500 0    60   ~ 0
+WIZ_BRDY1
+Text Label 19150 2400 0    60   ~ 0
+WIZ_BRDY0
+Text Label 19100 1100 0    60   ~ 0
+WIZ_INT
+Text Label 19100 1000 0    60   ~ 0
+WIZ_RESET
+Text Label 19100 1600 0    60   ~ 0
+FSMC_NOE
+Text Label 19100 1500 0    60   ~ 0
+FSMC_NWE
+Text Label 19100 1400 0    60   ~ 0
+FSMC_NE1
+Text Label 10100 2800 0    60   ~ 0
+FSMC_NE1
+Text Label 10100 2600 0    60   ~ 0
+FSMC_NWE
+Text Label 10100 2500 0    60   ~ 0
+FSMC_NOE
 $Comp
 L GND #PWR?
 U 1 1 4B9001FC
@@ -1394,20 +1695,9 @@ F 1 "CONN_10X2" V 13900 14600 50  0000 C CNN
 	1    13900 14700
 	1    0    0    -1  
 $EndComp
-Text Notes 12300 5100 0    60   ~ 0
-16-bit mode ground ADDR0
-$Comp
-L GND #PWR?
-U 1 1 4B83F731
-P 13350 4850
-F 0 "#PWR?" H 13350 4850 30  0001 C CNN
-F 1 "GND" H 13350 4780 30  0001 C CNN
-	1    13350 4850
-	1    0    0    -1  
-$EndComp
-Text Label 13450 4350 2    60   ~ 0
-ADDR[0..9]
-Text Label 13450 4550 2    60   ~ 0
+Text Label 19600 1800 2    60   ~ 0
+ADDR[0..8]
+Text Label 19600 2000 2    60   ~ 0
 D[0..15]
 $Comp
 L R R?
@@ -1525,21 +1815,22 @@ F 1 "8-16MHz" H 1900 12700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 13750 3400 1050 1950
+S 19900 850  1050 1950
 U 4B6DAA26
 F0 "Wiznet Networking" 60
 F1 "wiznet_network.sch" 60
-F2 "/RESET" I L 13750 3550 60 
-F3 "BRDY3" I L 13750 5250 60 
-F4 "BRDY2" I L 13750 5150 60 
-F5 "BRDY1" I L 13750 5050 60 
-F6 "BRDY0" I L 13750 4950 60 
-F7 "/INT" I L 13750 3650 60 
-F8 "/RD" I L 13750 4050 60 
-F9 "/CS" I L 13750 4150 60 
-F10 "/WR" I L 13750 3950 60 
-F11 "A[0..9]" I L 13750 4450 60 
-F12 "D[0..15]" B L 13750 4550 60 
+F2 "/RESET" I L 19900 1000 60 
+F3 "BRDY3" I L 19900 2700 60 
+F4 "BRDY2" I L 19900 2600 60 
+F5 "BRDY1" I L 19900 2500 60 
+F6 "BRDY0" I L 19900 2400 60 
+F7 "/INT" I L 19900 1100 60 
+F8 "/RD" I L 19900 1500 60 
+F9 "/CS" I L 19900 1600 60 
+F10 "/WR" I L 19900 1400 60 
+F11 "A[0..9]" I L 19900 1900 60 
+F12 "D[0..15]" B L 19900 2000 60 
+F13 "A[0..8]" I L 19900 1800 60 
 $EndSheet
 Text Label 3700 5000 0    60   ~ 0
 USB_Disconnect
@@ -1547,20 +1838,20 @@ Text Label 3900 3200 0    60   ~ 0
 USB_DP
 Text Label 3900 3100 0    60   ~ 0
 USB_DM
-Text Label 16550 4350 0    60   ~ 0
+Text Label 19100 3950 0    60   ~ 0
 USB_Disconnect
-Text Label 16550 4150 0    60   ~ 0
+Text Label 19100 3750 0    60   ~ 0
 USB_DP
-Text Label 16550 4000 0    60   ~ 0
+Text Label 19100 3600 0    60   ~ 0
 USB_DM
 $Sheet
-S 17450 3800 650  1050
+S 20000 3400 650  1050
 U 4B7E8E4F
 F0 "USB Interface" 60
 F1 "USB_interface.sch" 60
-F2 "USB_DP" B L 17450 4150 60 
-F3 "USB_DM" B L 17450 4000 60 
-F4 "USB_Disconnect" I L 17450 4350 60 
+F2 "USB_DP" B L 20000 3750 60 
+F3 "USB_DM" B L 20000 3600 60 
+F4 "USB_Disconnect" I L 20000 3950 60 
 $EndSheet
 Text Label 10100 3100 0    60   ~ 0
 D15
@@ -1624,8 +1915,6 @@ Text Label 10150 5500 0    60   ~ 0
 ADDR2
 Text Label 10150 5400 0    60   ~ 0
 ADDR1
-Text Label 13250 4800 2    60   ~ 0
-ADDR0
 Text Label 10150 6400 0    60   ~ 0
 SD_CD
 Text Label 10100 2300 0    60   ~ 0
