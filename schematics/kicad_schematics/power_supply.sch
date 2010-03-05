@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 04 Mar 2010 10:12:53 PM EST
+EESchema Schematic File Version 2  date Fri 05 Mar 2010 05:46:52 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,6 +37,7 @@ LIBS:misc
 LIBS:usb-b
 LIBS:arduinoshield
 LIBS:power_supply
+LIBS:ftdi4
 LIBS:bearboard-cache
 EELAYER 24  0
 EELAYER END
