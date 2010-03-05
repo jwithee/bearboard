@@ -1,0 +1,34 @@
+ Sheild Pin |    Mega8 Pinout   |    Description
+ 
+-POWER-CONNECTOR-------------------------------------------------------------------------------------------
+RESET		|		Reset		|	Tied to reset of mega8			
+3V3			|		N/A			|	Tied to 3.3 Volts out from FT232RL FTDI USB UART Chip
+5V			|		N/A			|	Tied to 5v power
+GND1		|		N/A			|	Tied to ground
+GND2		|		N/A			|	Tied to ground (tied together with GND1)
+VIN			|		N/A			|	Tied to power in (7v to 12v in from power plug on arduino)
+-ANALOG-INPUT-CONNECTOR-------------------------------------------------------------------------------------
+	
+0			|		ADC0 PC0	|	Analog in, Digital IO
+1			|		ADC1 PC1	|	Analog in, Digital IO
+2			|		ADC2 PC2	|	Analog in, Digital IO
+3			|		ADC3 PC3	|	Analog in, Digital IO
+4			|		ADC4 PC4	|	Analog in, Digital IO, SDA of I2C
+5			|		ADC5 PC5	|	Analog in, Digital IO, SCL of I2C
+-DIGITAL-IO-CONNECTORS---------------------------------------------------------------------------------------
+AREF		|		AREF		|	Reference voltage for A/D
+GND			|		N/A			|	GROUND
+13			|		SCK PB5		|	Digital IO, SPI SCk
+12			|		MISO PB4	|	Digital IO, SMI MISO
+11			|		MOSI PB3	|	Digital IO, SPI MOSI, OC2 PWM/Output Compare For Timer 2 (8 bit timer)
+10			|		SS PB2		|	Digital IO, SPI SS BAR, OC1B PWM / Output Computer for Timer1 (16 bit timer)
+9			|		OC1 PB1		|	Digital IO, OC1A PWM / Output Computer for Timer1 (16 bit timer)
+8			|		ICP PB0		|	Digital IO, ICP1 (timer/counter1 input capture)
+7			|		AIN1 PD7	|	Digital IO, Analog Comparator Negative Input
+6			|		AIN0 PD6	|	Digital IO, Analog Comparator Positive Input
+5			|		T1 PD5		|	Digital IO, Timer 1 External Counter Input
+4			|		T0 PD4		|	Digital IO, USART external clock input/output, timer0 external counter input
+3			|		INT1 PD3	|	Digital IO, External Interupt 1 input
+2			|		INT0 PD2	|	Digital IO, External Interupt 0 input
+1			|		TXD	PD1		|	Digital IO, USART output pin
+0			|		RXD PD0		|	Digital IO, USART input pin
