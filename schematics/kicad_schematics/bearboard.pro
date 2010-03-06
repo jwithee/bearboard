@@ -1,4 +1,4 @@
-update=Fri 05 Mar 2010 05:46:41 PM EST
+update=Fri 05 Mar 2010 09:55:46 PM EST
 last_client=eeschema
 [general]
 version=1
@@ -76,4 +76,7 @@ LibName35=misc
 LibName36=usb-b
 LibName37=arduinoshield
 LibName38=power_supply
-LibName39=converted/ftdi4
+LibName39=converted/ftdichip
+LibName40=converted/con-usb
+LibName41=converted/con-usb-2
+LibName42=converted/con-usb-3
