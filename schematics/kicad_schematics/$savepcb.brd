@@ -1,0 +1,177 @@
+PCBNEW-BOARD Version 1 date Wed 10 Mar 2010 04:03:11 PM EST
+
+# Created by Pcbnew(20100218 SVN-R2367)-RC3a
+
+$GENERAL
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 0
+NoConn 0
+Di 140425 -5450 146575 -1454
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 1
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "10 mar 2010"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+ZoneGridSize 250
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 80
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+$EndNCLASS
+$MODULE DIP-10__300_ELL
+Po 143500 -3500 0 15 00200000 4B98062C ~~
+Li DIP-10__300_ELL
+Cd 10 pins DIL package, elliptical pads
+Kw DIL
+Sc 4B98062C
+AR 
+Op 0 0 0
+T0 0 -500 600 450 0 113 N V 21 N"U***"
+T1 0 500 600 450 0 113 N V 21 N"DIP-10_300_ELL"
+DS -3000 1000 3000 1000 150 21
+DS 3000 1000 3000 -1000 150 21
+DS 3000 -1000 -3000 -1000 150 21
+DS -3000 -500 -2500 -500 150 21
+DS -2500 -500 -2500 500 150 21
+DS -2500 500 -3000 500 150 21
+DS -3000 -1000 -3000 1000 150 21
+$PAD
+Sh "1" R 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2000 1500
+$EndPAD
+$PAD
+Sh "2" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 1500
+$EndPAD
+$PAD
+Sh "3" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 1500
+$EndPAD
+$PAD
+Sh "4" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 1500
+$EndPAD
+$PAD
+Sh "5" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2000 1500
+$EndPAD
+$PAD
+Sh "6" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2000 -1500
+$EndPAD
+$PAD
+Sh "7" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1000 -1500
+$EndPAD
+$PAD
+Sh "8" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -1500
+$EndPAD
+$PAD
+Sh "9" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1000 -1500
+$EndPAD
+$PAD
+Sh "10" O 620 900 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2000 -1500
+$EndPAD
+$SHAPE3D
+Na "dil/dil_10.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  DIP-10__300_ELL
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
