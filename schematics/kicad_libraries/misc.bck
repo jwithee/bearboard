@@ -1,3 +1,8 @@
-EESchema-DOCLIB  Version 2.0  Date: Fri 05 Mar 2010 11:14:27 PM EST
+EESchema-DOCLIB  Version 2.0  Date: Wed 10 Mar 2010 03:47:36 PM EST
+#
+$CMP SWITCH
+D Switch
+K switch
+$ENDCMP
 #
 #End Doc Library
