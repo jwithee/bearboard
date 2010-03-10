@@ -1,4 +1,4 @@
-update=Fri 05 Mar 2010 09:55:46 PM EST
+update=Wed 10 Mar 2010 10:22:46 AM EST
 last_client=eeschema
 [general]
 version=1
@@ -80,3 +80,6 @@ LibName39=converted/ftdichip
 LibName40=converted/con-usb
 LibName41=converted/con-usb-2
 LibName42=converted/con-usb-3
+LibName43=converted/powerconnectorskt
+LibName44=converted/Power-in
+LibName45=converted/pswitch40

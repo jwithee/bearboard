@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 05 Mar 2010 11:18:41 PM EST
+EESchema Schematic File Version 2  date Wed 10 Mar 2010 02:43:05 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,13 +41,16 @@ LIBS:ftdichip
 LIBS:con-usb
 LIBS:con-usb-2
 LIBS:con-usb-3
+LIBS:powerconnectorskt
+LIBS:Power-in
+LIBS:pswitch40
 LIBS:bearboard-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 2 5
 Title ""
-Date "6 mar 2010"
+Date "10 mar 2010"
 Rev ""
 Comp ""
 Comment1 ""
