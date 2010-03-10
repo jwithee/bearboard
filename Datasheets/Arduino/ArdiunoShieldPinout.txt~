@@ -1,12 +1,12 @@
  Sheild Pin |    Mega8 Pinout   |    Description
  
 -POWER-CONNECTOR-------------------------------------------------------------------------------------------
-RESET		|		Reset			|	Tied to reset of mega8			
-3V3			|		N/A		|	Tied to 3.3 Volts out from FT232RL FTDI USB UART Chip
-5V			|		N/A		|	Tied to 5v power
+RESET		|		Reset		|	Tied to reset of mega8			
+3V3			|		N/A			|	Tied to 3.3 Volts out from FT232RL FTDI USB UART Chip
+5V			|		N/A			|	Tied to 5v power
 GND1		|		N/A			|	Tied to ground
 GND2		|		N/A			|	Tied to ground (tied together with GND1)
-VIN			|		N/A		|	Tied to power in (7v to 12v in from power plug on arduino)
+VIN			|		N/A			|	Tied to power in (7v to 12v in from power plug on arduino)
 -ANALOG-INPUT-CONNECTOR-------------------------------------------------------------------------------------
 	
 0			|		ADC0 PC0	|	Analog in, Digital IO
@@ -16,8 +16,8 @@ VIN			|		N/A		|	Tied to power in (7v to 12v in from power plug on arduino)
 4			|		ADC4 PC4	|	Analog in, Digital IO, SDA of I2C
 5			|		ADC5 PC5	|	Analog in, Digital IO, SCL of I2C
 -DIGITAL-IO-CONNECTORS---------------------------------------------------------------------------------------
-AREF		|		AREF			|	Reference voltage for A/D
-GND			|		N/A		|	GROUND
+AREF		|		AREF		|	Reference voltage for A/D
+GND			|		N/A			|	GROUND
 13			|		SCK PB5		|	Digital IO, SPI SCk
 12			|		MISO PB4	|	Digital IO, SMI MISO
 11			|		MOSI PB3	|	Digital IO, SPI MOSI, OC2 PWM/Output Compare For Timer 2 (8 bit timer)
@@ -30,5 +30,5 @@ GND			|		N/A		|	GROUND
 4			|		T0 PD4		|	Digital IO, USART external clock input/output, timer0 external counter input
 3			|		INT1 PD3	|	Digital IO, External Interupt 1 input
 2			|		INT0 PD2	|	Digital IO, External Interupt 0 input
-1			|		TXDPD1		|	Digital IO, USART output pin
+1			|		TXD	PD1		|	Digital IO, USART output pin
 0			|		RXD PD0		|	Digital IO, USART input pin
