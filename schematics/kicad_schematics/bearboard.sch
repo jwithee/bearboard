@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 10 Mar 2010 05:32:05 PM EST
+EESchema Schematic File Version 2  date Wed 10 Mar 2010 08:20:30 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr C 22000 17000
 Sheet 1 5
 Title "BearBoard STM32F103"
-Date "10 mar 2010"
+Date "11 mar 2010"
 Rev "0"
 Comp "University of Maine"
 Comment1 "Author: Jason Withee"
@@ -58,10 +58,14 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 9650 13600 3    60   ~ 0
+TDO/SWO
+Wire Wire Line
+	9650 13500 9650 13600
 Wire Notes Line
 	4450 8350 600  8350
 Wire Notes Line
-	4450 6950 4450 8350
+	4450 8350 4450 6950
 Wire Notes Line
 	4450 6950 600  6950
 Wire Wire Line
@@ -355,8 +359,6 @@ Wire Wire Line
 	10000 13600 10000 13500
 Wire Wire Line
 	10350 13600 10350 13500
-Wire Wire Line
-	9650 13600 9650 13500
 Wire Wire Line
 	9300 13600 9300 13500
 Connection ~ 10000 13000
@@ -1372,13 +1374,17 @@ Wire Wire Line
 	3700 7800 3650 7800
 Wire Wire Line
 	3650 8000 4350 8000
+Wire Wire Line
+	1400 7350 1450 7350
+Connection ~ 1400 7350
+NoConn ~ 12250 15150
 Text Label 4350 8000 2    60   ~ 0
 ARD_SH_AREF
 $Comp
-L CONN_3 JP?
+L CONN_3 JP3
 U 1 1 4B981D76
 P 3300 7900
-F 0 "JP?" V 3250 7900 50  0000 C CNN
+F 0 "JP3" V 3250 7900 50  0000 C CNN
 F 1 "CONN_3" V 3350 7900 40  0000 C CNN
 	1    3300 7900
 	-1   0    0    1   
@@ -2303,8 +2309,6 @@ Text Label 10000 13600 3    60   ~ 0
 TDI
 Text Label 10350 13600 3    60   ~ 0
 TRST
-Text Label 9650 13600 3    60   ~ 0
-TDO/SW0
 Text Label 9300 13600 3    60   ~ 0
 TMS/SWDIO
 $Comp
