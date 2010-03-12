@@ -1,78 +1,78 @@
-eeschema (20100311 SVN-R2445)-RC5  >> Creation date: Fri 12 Mar 2010 11:25:34 AM EST
+eeschema (20100311 SVN-R2445)-RC5  >> Creation date: Fri 12 Mar 2010 11:31:16 AM EST
 
 #Cmp ( order = Reference ) (with SubCmp)
-| C1         100nF          (Sheet /)   (loc C1);             
-| C2         10uF           (Sheet /)   (loc D1);             
-| C3         10uF           (Sheet /)   (loc D1);             
-| C4         10nF           (Sheet /)   (loc D2);             
-| C5         20pF           (Sheet /)   (loc E1);             
-| C6         20pF           (Sheet /)   (loc E1);             
-| C7         10pF           (Sheet /)   (loc E2);             
-| C8         10pF           (Sheet /)   (loc E2);             
-| C9         100nF          (Sheet /)   (loc D9);             
-| C10        100nF          (Sheet /)   (loc D9);             
-| C11        100nF          (Sheet /)   (loc D9);             
-| C12        100nF          (Sheet /)   (loc D9);             
-| C13        100nF          (Sheet /)   (loc D10);             
-| C14        18pF           (Sheet /Wiznet Networking/)   (loc E5);             
-| C15        18pF           (Sheet /Wiznet Networking/)   (loc E5);             
-| C16        0.1uF          (Sheet /Wiznet Networking/)   (loc D5);             
-| C17        0.1uF          (Sheet /Wiznet Networking/)   (loc A7);             
-| C18        0.1uF          (Sheet /Wiznet Networking/)   (loc B7);             
-| C19        10uF           (Sheet /Wiznet Networking/)   (loc B7);             
-| C20        10uf/16V       (Sheet /Wiznet Networking/)   (loc C7);             
-| C21        0.1uF          (Sheet /Wiznet Networking/)   (loc A7);             
-| C22        0.1uF          (Sheet /Wiznet Networking/)   (loc B7);             
-| C23        3.3uF_Tant     (Sheet /Wiznet Networking/)   (loc B7);             
-| C24        0.1uF          (Sheet /Wiznet Networking/)   (loc C7);             
-| C25        0.1uF          (Sheet /Wiznet Networking/)   (loc A7);             
-| C26        0.1uF          (Sheet /Wiznet Networking/)   (loc B7);             
-| C27        0.1uF          (Sheet /Wiznet Networking/)   (loc A7);             
-| C28        0.1uF          (Sheet /Wiznet Networking/)   (loc B7);             
-| C29        0.1uF          (Sheet /Wiznet Networking/)   (loc A7);             
-| C30        0.1uF          (Sheet /Wiznet Networking/)   (loc B7);             
-| C31        0.1uF          (Sheet /Wiznet Networking/)   (loc B7);             
-| C32        10uF/16V       (Sheet /Wiznet Networking/)   (loc C7);             
-| C33        0.1uF          (Sheet /Wiznet Networking/)   (loc B8);             
-| C34        10uF/16V       (Sheet /Wiznet Networking/)   (loc B8);             
-| C35        4.7nF          (Sheet /USB Interface/)   (loc B2);             
-| C36        C              (Sheet /USB Interface/)   (loc A3);             
-| C37        0.01uF         (Sheet /Power Supply/)   (loc B1);             
-| C38        1.8nF          (Sheet /Power Supply/)   (loc B1);             
-| C39        220pF          (Sheet /Power Supply/)   (loc B2);             
-| C40        47pF           (Sheet /Power Supply/)   (loc B2);             
-| C41        5pF            (Sheet /Power Supply/)   (loc C2);             
-| C42        5pF            (Sheet /Power Supply/)   (loc B2);             
-| C43        1nF            (Sheet /Power Supply/)   (loc C2);             
-| C44        10uF           (Sheet /Power Supply/)   (loc B3);             
-| C45        100uF          (Sheet /Power Supply/)   (loc C3);             
-| C46        100uF          (Sheet /Power Supply/)   (loc C3);             
-| C47        10uF           (Sheet /Power Supply/)   (loc C4);             
-| C48        150uF          (Sheet /Power Supply/)   (loc B4);             
-| C49        10uF           (Sheet /Power Supply/)   (loc B4);             
-| C50        C              (Sheet /FTDI USB UART/)   (loc B2);             
-| C51        C              (Sheet /FTDI USB UART/)   (loc B2);             
+| C1         100nF          (Sheet /)   (loc C1); SM0805      
+| C2         10uF           (Sheet /)   (loc D1); SM0805      
+| C3         10uF           (Sheet /)   (loc D1); SM0805      
+| C4         10nF           (Sheet /)   (loc D2); SM0805      
+| C5         20pF           (Sheet /)   (loc E1); SM0805      
+| C6         20pF           (Sheet /)   (loc E1); SM0805      
+| C7         10pF           (Sheet /)   (loc E2); SM0805      
+| C8         10pF           (Sheet /)   (loc E2); SM0805      
+| C9         100nF          (Sheet /)   (loc D9); SM0805      
+| C10        100nF          (Sheet /)   (loc D9); SM0805      
+| C11        100nF          (Sheet /)   (loc D9); SM0805      
+| C12        100nF          (Sheet /)   (loc D9); SM0805      
+| C13        100nF          (Sheet /)   (loc D10); SM0805      
+| C14        18pF           (Sheet /Wiznet Networking/)   (loc E5); SM0805      
+| C15        18pF           (Sheet /Wiznet Networking/)   (loc E5); SM0805      
+| C16        0.1uF          (Sheet /Wiznet Networking/)   (loc D5); SM0805      
+| C17        0.1uF          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| C18        0.1uF          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| C19        10uF           (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| C20        10uf/16V       (Sheet /Wiznet Networking/)   (loc C7); SM0805      
+| C21        0.1uF          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| C22        0.1uF          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| C23        3.3uF_Tant     (Sheet /Wiznet Networking/)   (loc B7); SM1210L     
+| C24        0.1uF          (Sheet /Wiznet Networking/)   (loc C7); SM0805      
+| C25        0.1uF          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| C26        0.1uF          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| C27        0.1uF          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| C28        0.1uF          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| C29        0.1uF          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| C30        0.1uF          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| C31        0.1uF          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| C32        10uF/16V       (Sheet /Wiznet Networking/)   (loc C7); SM1210L     
+| C33        0.1uF          (Sheet /Wiznet Networking/)   (loc B8); SM0805      
+| C34        10uF/16V       (Sheet /Wiznet Networking/)   (loc B8); SM1210L     
+| C35        4.7nF          (Sheet /USB Interface/)   (loc B2); SM0805      
+| C36        C              (Sheet /USB Interface/)   (loc A3); SM0805      
+| C37        0.01uF         (Sheet /Power Supply/)   (loc B1); SM0805      
+| C38        1.8nF          (Sheet /Power Supply/)   (loc B1); SM0805      
+| C39        220pF          (Sheet /Power Supply/)   (loc B2); SM0805      
+| C40        47pF           (Sheet /Power Supply/)   (loc B2); SM0805      
+| C41        5pF            (Sheet /Power Supply/)   (loc C2); SM0805      
+| C42        5pF            (Sheet /Power Supply/)   (loc B2); SM0805      
+| C43        1nF            (Sheet /Power Supply/)   (loc C2); SM0805      
+| C44        10uF           (Sheet /Power Supply/)   (loc B3); SM0805      
+| C45        100uF          (Sheet /Power Supply/)   (loc C3); SM1210L     
+| C46        100uF          (Sheet /Power Supply/)   (loc C3); SM1210L     
+| C47        10uF           (Sheet /Power Supply/)   (loc C4); SM0805      
+| C48        150uF          (Sheet /Power Supply/)   (loc B4); CP10        
+| C49        10uF           (Sheet /Power Supply/)   (loc B4); SM0805      
+| C50        C              (Sheet /FTDI USB UART/)   (loc B2); SM0805      
+| C51        C              (Sheet /FTDI USB UART/)   (loc B2); SM0805      
 | D1         DIODESCH       (Sheet /)   (loc A2);             
 | D2         DIODESCH       (Sheet /)   (loc A2);             
 | D3         DIODESCH       (Sheet /)   (loc A2);             
-| D4         LED            (Sheet /)   (loc C9);             
-| D5         LED            (Sheet /)   (loc C9);             
-| D6         LED            (Sheet /)   (loc C9);             
-| D7         LED            (Sheet /)   (loc C9);             
-| D8         LED            (Sheet /Wiznet Networking/)   (loc B5);             
-| D9         LED            (Sheet /Wiznet Networking/)   (loc B5);             
-| D10        LED            (Sheet /Wiznet Networking/)   (loc B5);             
-| D11        LED            (Sheet /Wiznet Networking/)   (loc B5);             
-| D12        LED            (Sheet /Wiznet Networking/)   (loc B5);             
+| D4         LED            (Sheet /)   (loc C9); LED-0805    
+| D5         LED            (Sheet /)   (loc C9); LED-0805    
+| D6         LED            (Sheet /)   (loc C9); LED-0805    
+| D7         LED            (Sheet /)   (loc C9); LED-0805    
+| D8         LED            (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| D9         LED            (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| D10        LED            (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| D11        LED            (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| D12        LED            (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
 | D13        1SS181(SC-59)   (Sheet /Wiznet Networking/)   (loc A5);             
 | D14        1SS181(SC-59)   (Sheet /Wiznet Networking/)   (loc A5);             
 | D15        DIODESCH       (Sheet /Power Supply/)   (loc B3);             
 | D16        DIODESCH       (Sheet /Power Supply/)   (loc C3);             
-| D17        LED            (Sheet /FTDI USB UART/)   (loc B4);             
-| D18        LED            (Sheet /FTDI USB UART/)   (loc B4);             
-| JP1        CONN_3         (Sheet /)   (loc C1);             
-| JP2        CONN_3         (Sheet /)   (loc C3);             
-| JP3        CONN_3         (Sheet /)   (loc D2);             
+| D17        LED            (Sheet /FTDI USB UART/)   (loc B4); LED-0805    
+| D18        LED            (Sheet /FTDI USB UART/)   (loc B4); LED-0805    
+| JP1        CONN_3         (Sheet /)   (loc C1); PIN_ARRAY_3X1
+| JP2        CONN_3         (Sheet /)   (loc C3); PIN_ARRAY_3X1
+| JP3        CONN_3         (Sheet /)   (loc D2); PIN_ARRAY_3X1
 | L1         BEAD           (Sheet /)   (loc D1);             
 | L2         1uH            (Sheet /Wiznet Networking/)   (loc B7);             
 | L3         1uH            (Sheet /Wiznet Networking/)   (loc C7);             
@@ -81,104 +81,104 @@ eeschema (20100311 SVN-R2445)-RC5  >> Creation date: Fri 12 Mar 2010 11:25:34 AM
 | L6         15uH           (Sheet /Power Supply/)   (loc B3);             
 | L7         Ferrite-Bead   (Sheet /FTDI USB UART/)   (loc B2);             
 | P1         KOBICONN       (Sheet /)   (loc A1);             
-| P2         CONN_10X2      (Sheet /)   (loc G1);             
-| P3         CONN_10X2      (Sheet /)   (loc G1);             
-| P4         CONN_10X2      (Sheet /)   (loc H1);             
-| P5         CONN_10X2      (Sheet /)   (loc G2);             
-| P6         CONN_10X2      (Sheet /)   (loc G2);             
-| P7         CONN_10X2      (Sheet /)   (loc H2);             
-| P8         CONN_10X2      (Sheet /)   (loc G3);             
-| P9         CONN_7         (Sheet /)   (loc G8);             
-| P10        CONN_4         (Sheet /)   (loc G8);             
-| P11        CONN_10X2      (Sheet /)   (loc H5);             
+| P2         CONN_10X2      (Sheet /)   (loc G1); PIN_ARRAY_10X2
+| P3         CONN_10X2      (Sheet /)   (loc G1); PIN_ARRAY_10X2
+| P4         CONN_10X2      (Sheet /)   (loc H1); PIN_ARRAY_10X2
+| P5         CONN_10X2      (Sheet /)   (loc G2); PIN_ARRAY_10X2
+| P6         CONN_10X2      (Sheet /)   (loc G2); PIN_ARRAY_10X2
+| P7         CONN_10X2      (Sheet /)   (loc H2); PIN_ARRAY_10X2
+| P8         CONN_10X2      (Sheet /)   (loc G3); PIN_ARRAY_10X2
+| P9         CONN_7         (Sheet /)   (loc G8); PIN_ARRAY_7X1
+| P10        CONN_4         (Sheet /)   (loc G8); PIN_ARRAY_4x1
+| P11        CONN_10X2      (Sheet /)   (loc H5); PIN_ARRAY_10X2
 | Q1         NPN            (Sheet /USB Interface/)   (loc B2);             
 | Q2         NPN            (Sheet /USB Interface/)   (loc B3);             
 | Q3         MOSFET_N       (Sheet /Power Supply/)   (loc C3);             
 | Q4         NMOS           (Sheet /Power Supply/)   (loc A3);             
-| R1         10k            (Sheet /)   (loc C1);             
-| R2         10K            (Sheet /)   (loc B1);             
-| R3         10K            (Sheet /)   (loc B1);             
-| R4         47             (Sheet /)   (loc D1);             
-| R5         0              (Sheet /)   (loc D2);             
-| R6         390            (Sheet /)   (loc E1);             
-| R7         10K            (Sheet /)   (loc D9);             
-| R8         10K            (Sheet /)   (loc D9);             
-| R9         10K            (Sheet /)   (loc D9);             
-| R10        10K            (Sheet /)   (loc D9);             
-| R11        10K            (Sheet /)   (loc D10);             
-| R12        690?           (Sheet /)   (loc C9);             
-| R13        690?           (Sheet /)   (loc C9);             
-| R14        690?           (Sheet /)   (loc C9);             
-| R15        690?           (Sheet /)   (loc C9);             
-| R16        4.7k           (Sheet /)   (loc G6);             
-| R17        2.6k           (Sheet /)   (loc G6);             
-| R18        0              (Sheet /)   (loc G8);             
-| R19        10K            (Sheet /)   (loc A9);             
-| R20        ?              (Sheet /)   (loc G4);             
-| R21        10K            (Sheet /)   (loc H4);             
-| R22        10K            (Sheet /)   (loc H4);             
-| R23        10K            (Sheet /)   (loc H4);             
-| R24        47K            (Sheet /)   (loc E9);             
-| R25        47K            (Sheet /)   (loc E9);             
-| R26        0              (Sheet /)   (loc A10);             
-| R27        0              (Sheet /)   (loc B8);             
-| R28        0              (Sheet /)   (loc B10);             
-| R29        0              (Sheet /)   (loc B10);             
-| R30        0              (Sheet /)   (loc B10);             
-| R31        0              (Sheet /)   (loc B10);             
-| R32        47K            (Sheet /)   (loc E9);             
-| R33        10K            (Sheet /)   (loc G5);             
-| R34        47K            (Sheet /)   (loc E9);             
-| R35        10K            (Sheet /)   (loc G5);             
-| R36        47K            (Sheet /)   (loc E10);             
-| R37        10K            (Sheet /)   (loc G5);             
-| R38        10K            (Sheet /)   (loc G5);             
-| R39        12K            (Sheet /Wiznet Networking/)   (loc A3);             
-| R40        300            (Sheet /Wiznet Networking/)   (loc A4);             
-| R41        49.9           (Sheet /Wiznet Networking/)   (loc C5);             
-| R42        49.9           (Sheet /Wiznet Networking/)   (loc D5);             
-| R43        1M             (Sheet /Wiznet Networking/)   (loc E5);             
-| R44        49.9           (Sheet /Wiznet Networking/)   (loc C5);             
-| R45        49.9           (Sheet /Wiznet Networking/)   (loc D5);             
-| R46        200            (Sheet /Wiznet Networking/)   (loc C5);             
-| R47        200            (Sheet /Wiznet Networking/)   (loc C6);             
-| R48        330            (Sheet /Wiznet Networking/)   (loc B6);             
-| R49        330            (Sheet /Wiznet Networking/)   (loc B6);             
-| R50        330            (Sheet /Wiznet Networking/)   (loc B6);             
-| R51        330            (Sheet /Wiznet Networking/)   (loc B6);             
-| R52        330            (Sheet /Wiznet Networking/)   (loc B6);             
-| R53        4.7K           (Sheet /Wiznet Networking/)   (loc A6);             
-| R54        1M             (Sheet /USB Interface/)   (loc B2);             
-| R55        10k            (Sheet /USB Interface/)   (loc B2);             
-| R56        36k            (Sheet /USB Interface/)   (loc B3);             
-| R57        1.5k           (Sheet /USB Interface/)   (loc B3);             
-| R58        47k            (Sheet /USB Interface/)   (loc B3);             
-| R59        0              (Sheet /USB Interface/)   (loc B3);             
-| R60        0              (Sheet /USB Interface/)   (loc B3);             
-| R61        10k            (Sheet /Power Supply/)   (loc B2);             
-| R62        17.4K          (Sheet /Power Supply/)   (loc B2);             
-| R63        11k 1%         (Sheet /Power Supply/)   (loc B2);             
-| R64        1.64M 1%       (Sheet /Power Supply/)   (loc B2);             
-| R65        34.8k 1%       (Sheet /Power Supply/)   (loc C2);             
-| R66        1M 1%          (Sheet /Power Supply/)   (loc B2);             
-| R67        0.025          (Sheet /Power Supply/)   (loc A3);             
-| R68        270            (Sheet /FTDI USB UART/)   (loc B4);             
-| R69        270            (Sheet /FTDI USB UART/)   (loc B4);             
+| R1         10k            (Sheet /)   (loc C1); SM0805      
+| R2         10K            (Sheet /)   (loc B1); SM0805      
+| R3         10K            (Sheet /)   (loc B1); SM0805      
+| R4         47             (Sheet /)   (loc D1); SM0805      
+| R5         0              (Sheet /)   (loc D2); SM0805      
+| R6         390            (Sheet /)   (loc E1); SM0805      
+| R7         10K            (Sheet /)   (loc D9); SM0805      
+| R8         10K            (Sheet /)   (loc D9); SM0805      
+| R9         10K            (Sheet /)   (loc D9); SM0805      
+| R10        10K            (Sheet /)   (loc D9); SM0805      
+| R11        10K            (Sheet /)   (loc D10); SM0805      
+| R12        690?           (Sheet /)   (loc C9); SM0805      
+| R13        690?           (Sheet /)   (loc C9); SM0805      
+| R14        690?           (Sheet /)   (loc C9); SM0805      
+| R15        690?           (Sheet /)   (loc C9); SM0805      
+| R16        4.7k           (Sheet /)   (loc G6); SM0805      
+| R17        2.6k           (Sheet /)   (loc G6); SM0805      
+| R18        0              (Sheet /)   (loc G8); SM0805      
+| R19        10K            (Sheet /)   (loc A9); SM0805      
+| R20        ?              (Sheet /)   (loc G4); SM0805      
+| R21        10K            (Sheet /)   (loc H4); SM0805      
+| R22        10K            (Sheet /)   (loc H4); SM0805      
+| R23        10K            (Sheet /)   (loc H4); SM0805      
+| R24        47K            (Sheet /)   (loc E9); SM0805      
+| R25        47K            (Sheet /)   (loc E9); SM0805      
+| R26        0              (Sheet /)   (loc A10); SM0805      
+| R27        0              (Sheet /)   (loc B8); SM0805      
+| R28        0              (Sheet /)   (loc B10); SM0805      
+| R29        0              (Sheet /)   (loc B10); SM0805      
+| R30        0              (Sheet /)   (loc B10); SM0805      
+| R31        0              (Sheet /)   (loc B10); SM0805      
+| R32        47K            (Sheet /)   (loc E9); SM0805      
+| R33        10K            (Sheet /)   (loc G5); SM0805      
+| R34        47K            (Sheet /)   (loc E9); SM0805      
+| R35        10K            (Sheet /)   (loc G5); SM0805      
+| R36        47K            (Sheet /)   (loc E10); SM0805      
+| R37        10K            (Sheet /)   (loc G5); SM0805      
+| R38        10K            (Sheet /)   (loc G5); SM0805      
+| R39        12K            (Sheet /Wiznet Networking/)   (loc A3); SM0805      
+| R40        300            (Sheet /Wiznet Networking/)   (loc A4); SM0805      
+| R41        49.9           (Sheet /Wiznet Networking/)   (loc C5); SM0805      
+| R42        49.9           (Sheet /Wiznet Networking/)   (loc D5); SM0805      
+| R43        1M             (Sheet /Wiznet Networking/)   (loc E5); SM0805      
+| R44        49.9           (Sheet /Wiznet Networking/)   (loc C5); SM0805      
+| R45        49.9           (Sheet /Wiznet Networking/)   (loc D5); SM0805      
+| R46        200            (Sheet /Wiznet Networking/)   (loc C5); SM0805      
+| R47        200            (Sheet /Wiznet Networking/)   (loc C6); SM0805      
+| R48        330            (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| R49        330            (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| R50        330            (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| R51        330            (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| R52        330            (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| R53        4.7K           (Sheet /Wiznet Networking/)   (loc A6); SM0805      
+| R54        1M             (Sheet /USB Interface/)   (loc B2); SM0805      
+| R55        10k            (Sheet /USB Interface/)   (loc B2); SM0805      
+| R56        36k            (Sheet /USB Interface/)   (loc B3); SM0805      
+| R57        1.5k           (Sheet /USB Interface/)   (loc B3); SM0805      
+| R58        47k            (Sheet /USB Interface/)   (loc B3); SM0805      
+| R59        0              (Sheet /USB Interface/)   (loc B3); SM0805      
+| R60        0              (Sheet /USB Interface/)   (loc B3); SM0805      
+| R61        10k            (Sheet /Power Supply/)   (loc B2); SM0805      
+| R62        17.4K          (Sheet /Power Supply/)   (loc B2); SM0805      
+| R63        11k 1%         (Sheet /Power Supply/)   (loc B2); SM0805      
+| R64        1.64M 1%       (Sheet /Power Supply/)   (loc B2); SM0805      
+| R65        34.8k 1%       (Sheet /Power Supply/)   (loc C2); SM0805      
+| R66        1M 1%          (Sheet /Power Supply/)   (loc B2); SM0805      
+| R67        0.025          (Sheet /Power Supply/)   (loc A3); SM0805      
+| R68        270            (Sheet /FTDI USB UART/)   (loc B4); SM0805      
+| R69        270            (Sheet /FTDI USB UART/)   (loc B4); SM0805      
 | SW1        SW_PUSH        (Sheet /)   (loc C1);             
 | SW4        DIPS_03        (Sheet /Wiznet Networking/)   (loc D7);             
 | SW5        SWITCH         (Sheet /)   (loc B1);             
 | SW6        SWITCH         (Sheet /)   (loc B1);             
 | U1         VBAT           (Sheet /)   (loc D1);             
-| U2         STM32F103      (Sheet /)   (loc B5);             
-| U3         TACT-SKQU      (Sheet /)   (loc D10);             
-| U4         EMA406GPS      (Sheet /)   (loc G7);             
-| U6         W5300          (Sheet /Wiznet Networking/)   (loc B2);             
-| U7         RD1-125BAG1A   (Sheet /Wiznet Networking/)   (loc C6);             
-| U8         USB-TYPEB      (Sheet /USB Interface/)   (loc B2);             
-| U9         USBLC6-2P6     (Sheet /USB Interface/)   (loc B3);             
-| U10        LTC3827        (Sheet /Power Supply/)   (loc B2);             
-| U11        LTC1771        (Sheet /Power Supply/)   (loc B2);             
-| U12        USB-TYPEB      (Sheet /FTDI USB UART/)   (loc B2);             
+| U2         STM32F103      (Sheet /)   (loc B5); LQFP144     
+| U3         TACT-SKQU      (Sheet /)   (loc D10); alps_tact_button
+| U4         EMA406GPS      (Sheet /)   (loc G7); EM406       
+| U6         W5300          (Sheet /Wiznet Networking/)   (loc B2); -LQFP100    
+| U7         RD1-125BAG1A   (Sheet /Wiznet Networking/)   (loc C6); MagJack     
+| U8         USB-TYPEB      (Sheet /USB Interface/)   (loc B2); mini-usb-b  
+| U9         USBLC6-2P6     (Sheet /USB Interface/)   (loc B3); SOT23_6L    
+| U10        LTC3827        (Sheet /Power Supply/)   (loc B2); TSOT-23     
+| U11        LTC1771        (Sheet /Power Supply/)   (loc B2); MSOP8       
+| U12        USB-TYPEB      (Sheet /FTDI USB UART/)   (loc B2); mini-usb-b  
 | U13        FT232RL        (Sheet /FTDI USB UART/)   (loc B3);             
 | U14        SD_CARD        (Sheet /)   (loc E10);             
 | X1         8-16MHz        (Sheet /)   (loc E1);             
@@ -188,190 +188,190 @@ eeschema (20100311 SVN-R2445)-RC5  >> Creation date: Fri 12 Mar 2010 11:25:34 AM
 #End Cmp
 
 #Cmp ( order = Value ) (with SubCmp)
-| 0            R5           (Sheet /)   (loc D2);             
-| 0            R18          (Sheet /)   (loc G8);             
-| 0            R26          (Sheet /)   (loc A10);             
-| 0            R27          (Sheet /)   (loc B8);             
-| 0            R28          (Sheet /)   (loc B10);             
-| 0            R29          (Sheet /)   (loc B10);             
-| 0            R30          (Sheet /)   (loc B10);             
-| 0            R31          (Sheet /)   (loc B10);             
-| 0            R59          (Sheet /USB Interface/)   (loc B3);             
-| 0            R60          (Sheet /USB Interface/)   (loc B3);             
-| 0.01uF       C37          (Sheet /Power Supply/)   (loc B1);             
-| 0.025        R67          (Sheet /Power Supply/)   (loc A3);             
-| 0.1uF        C16          (Sheet /Wiznet Networking/)   (loc D5);             
-| 0.1uF        C17          (Sheet /Wiznet Networking/)   (loc A7);             
-| 0.1uF        C18          (Sheet /Wiznet Networking/)   (loc B7);             
-| 0.1uF        C21          (Sheet /Wiznet Networking/)   (loc A7);             
-| 0.1uF        C22          (Sheet /Wiznet Networking/)   (loc B7);             
-| 0.1uF        C24          (Sheet /Wiznet Networking/)   (loc C7);             
-| 0.1uF        C25          (Sheet /Wiznet Networking/)   (loc A7);             
-| 0.1uF        C26          (Sheet /Wiznet Networking/)   (loc B7);             
-| 0.1uF        C27          (Sheet /Wiznet Networking/)   (loc A7);             
-| 0.1uF        C28          (Sheet /Wiznet Networking/)   (loc B7);             
-| 0.1uF        C29          (Sheet /Wiznet Networking/)   (loc A7);             
-| 0.1uF        C30          (Sheet /Wiznet Networking/)   (loc B7);             
-| 0.1uF        C31          (Sheet /Wiznet Networking/)   (loc B7);             
-| 0.1uF        C33          (Sheet /Wiznet Networking/)   (loc B8);             
-| 1.5k         R57          (Sheet /USB Interface/)   (loc B3);             
-| 1.64M 1%     R64          (Sheet /Power Supply/)   (loc B2);             
-| 1.8nF        C38          (Sheet /Power Supply/)   (loc B1);             
-| 100nF        C1           (Sheet /)   (loc C1);             
-| 100nF        C9           (Sheet /)   (loc D9);             
-| 100nF        C10          (Sheet /)   (loc D9);             
-| 100nF        C11          (Sheet /)   (loc D9);             
-| 100nF        C12          (Sheet /)   (loc D9);             
-| 100nF        C13          (Sheet /)   (loc D10);             
-| 100uF        C45          (Sheet /Power Supply/)   (loc C3);             
-| 100uF        C46          (Sheet /Power Supply/)   (loc C3);             
-| 10k          R1           (Sheet /)   (loc C1);             
-| 10K          R2           (Sheet /)   (loc B1);             
-| 10K          R3           (Sheet /)   (loc B1);             
-| 10K          R7           (Sheet /)   (loc D9);             
-| 10K          R8           (Sheet /)   (loc D9);             
-| 10K          R9           (Sheet /)   (loc D9);             
-| 10K          R10          (Sheet /)   (loc D9);             
-| 10K          R11          (Sheet /)   (loc D10);             
-| 10K          R19          (Sheet /)   (loc A9);             
-| 10K          R21          (Sheet /)   (loc H4);             
-| 10K          R22          (Sheet /)   (loc H4);             
-| 10K          R23          (Sheet /)   (loc H4);             
-| 10K          R33          (Sheet /)   (loc G5);             
-| 10K          R35          (Sheet /)   (loc G5);             
-| 10K          R37          (Sheet /)   (loc G5);             
-| 10K          R38          (Sheet /)   (loc G5);             
-| 10k          R55          (Sheet /USB Interface/)   (loc B2);             
-| 10k          R61          (Sheet /Power Supply/)   (loc B2);             
-| 10nF         C4           (Sheet /)   (loc D2);             
-| 10pF         C7           (Sheet /)   (loc E2);             
-| 10pF         C8           (Sheet /)   (loc E2);             
-| 10uF         C2           (Sheet /)   (loc D1);             
-| 10uF         C3           (Sheet /)   (loc D1);             
-| 10uF         C19          (Sheet /Wiznet Networking/)   (loc B7);             
-| 10uF         C44          (Sheet /Power Supply/)   (loc B3);             
-| 10uF         C47          (Sheet /Power Supply/)   (loc C4);             
-| 10uF         C49          (Sheet /Power Supply/)   (loc B4);             
-| 10uf/16V     C20          (Sheet /Wiznet Networking/)   (loc C7);             
-| 10uF/16V     C32          (Sheet /Wiznet Networking/)   (loc C7);             
-| 10uF/16V     C34          (Sheet /Wiznet Networking/)   (loc B8);             
-| 11k 1%       R63          (Sheet /Power Supply/)   (loc B2);             
-| 12K          R39          (Sheet /Wiznet Networking/)   (loc A3);             
-| 150uF        C48          (Sheet /Power Supply/)   (loc B4);             
+| 0            R5           (Sheet /)   (loc D2); SM0805      
+| 0            R18          (Sheet /)   (loc G8); SM0805      
+| 0            R26          (Sheet /)   (loc A10); SM0805      
+| 0            R27          (Sheet /)   (loc B8); SM0805      
+| 0            R28          (Sheet /)   (loc B10); SM0805      
+| 0            R29          (Sheet /)   (loc B10); SM0805      
+| 0            R30          (Sheet /)   (loc B10); SM0805      
+| 0            R31          (Sheet /)   (loc B10); SM0805      
+| 0            R59          (Sheet /USB Interface/)   (loc B3); SM0805      
+| 0            R60          (Sheet /USB Interface/)   (loc B3); SM0805      
+| 0.01uF       C37          (Sheet /Power Supply/)   (loc B1); SM0805      
+| 0.025        R67          (Sheet /Power Supply/)   (loc A3); SM0805      
+| 0.1uF        C16          (Sheet /Wiznet Networking/)   (loc D5); SM0805      
+| 0.1uF        C17          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| 0.1uF        C18          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| 0.1uF        C21          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| 0.1uF        C22          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| 0.1uF        C24          (Sheet /Wiznet Networking/)   (loc C7); SM0805      
+| 0.1uF        C25          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| 0.1uF        C26          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| 0.1uF        C27          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| 0.1uF        C28          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| 0.1uF        C29          (Sheet /Wiznet Networking/)   (loc A7); SM0805      
+| 0.1uF        C30          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| 0.1uF        C31          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| 0.1uF        C33          (Sheet /Wiznet Networking/)   (loc B8); SM0805      
+| 1.5k         R57          (Sheet /USB Interface/)   (loc B3); SM0805      
+| 1.64M 1%     R64          (Sheet /Power Supply/)   (loc B2); SM0805      
+| 1.8nF        C38          (Sheet /Power Supply/)   (loc B1); SM0805      
+| 100nF        C1           (Sheet /)   (loc C1); SM0805      
+| 100nF        C9           (Sheet /)   (loc D9); SM0805      
+| 100nF        C10          (Sheet /)   (loc D9); SM0805      
+| 100nF        C11          (Sheet /)   (loc D9); SM0805      
+| 100nF        C12          (Sheet /)   (loc D9); SM0805      
+| 100nF        C13          (Sheet /)   (loc D10); SM0805      
+| 100uF        C45          (Sheet /Power Supply/)   (loc C3); SM1210L     
+| 100uF        C46          (Sheet /Power Supply/)   (loc C3); SM1210L     
+| 10k          R1           (Sheet /)   (loc C1); SM0805      
+| 10K          R2           (Sheet /)   (loc B1); SM0805      
+| 10K          R3           (Sheet /)   (loc B1); SM0805      
+| 10K          R7           (Sheet /)   (loc D9); SM0805      
+| 10K          R8           (Sheet /)   (loc D9); SM0805      
+| 10K          R9           (Sheet /)   (loc D9); SM0805      
+| 10K          R10          (Sheet /)   (loc D9); SM0805      
+| 10K          R11          (Sheet /)   (loc D10); SM0805      
+| 10K          R19          (Sheet /)   (loc A9); SM0805      
+| 10K          R21          (Sheet /)   (loc H4); SM0805      
+| 10K          R22          (Sheet /)   (loc H4); SM0805      
+| 10K          R23          (Sheet /)   (loc H4); SM0805      
+| 10K          R33          (Sheet /)   (loc G5); SM0805      
+| 10K          R35          (Sheet /)   (loc G5); SM0805      
+| 10K          R37          (Sheet /)   (loc G5); SM0805      
+| 10K          R38          (Sheet /)   (loc G5); SM0805      
+| 10k          R55          (Sheet /USB Interface/)   (loc B2); SM0805      
+| 10k          R61          (Sheet /Power Supply/)   (loc B2); SM0805      
+| 10nF         C4           (Sheet /)   (loc D2); SM0805      
+| 10pF         C7           (Sheet /)   (loc E2); SM0805      
+| 10pF         C8           (Sheet /)   (loc E2); SM0805      
+| 10uF         C2           (Sheet /)   (loc D1); SM0805      
+| 10uF         C3           (Sheet /)   (loc D1); SM0805      
+| 10uF         C19          (Sheet /Wiznet Networking/)   (loc B7); SM0805      
+| 10uF         C44          (Sheet /Power Supply/)   (loc B3); SM0805      
+| 10uF         C47          (Sheet /Power Supply/)   (loc C4); SM0805      
+| 10uF         C49          (Sheet /Power Supply/)   (loc B4); SM0805      
+| 10uf/16V     C20          (Sheet /Wiznet Networking/)   (loc C7); SM0805      
+| 10uF/16V     C32          (Sheet /Wiznet Networking/)   (loc C7); SM1210L     
+| 10uF/16V     C34          (Sheet /Wiznet Networking/)   (loc B8); SM1210L     
+| 11k 1%       R63          (Sheet /Power Supply/)   (loc B2); SM0805      
+| 12K          R39          (Sheet /Wiznet Networking/)   (loc A3); SM0805      
+| 150uF        C48          (Sheet /Power Supply/)   (loc B4); CP10        
 | 15uH         L6           (Sheet /Power Supply/)   (loc B3);             
-| 17.4K        R62          (Sheet /Power Supply/)   (loc B2);             
-| 18pF         C14          (Sheet /Wiznet Networking/)   (loc E5);             
-| 18pF         C15          (Sheet /Wiznet Networking/)   (loc E5);             
-| 1M           R43          (Sheet /Wiznet Networking/)   (loc E5);             
-| 1M           R54          (Sheet /USB Interface/)   (loc B2);             
-| 1M 1%        R66          (Sheet /Power Supply/)   (loc B2);             
-| 1nF          C43          (Sheet /Power Supply/)   (loc C2);             
+| 17.4K        R62          (Sheet /Power Supply/)   (loc B2); SM0805      
+| 18pF         C14          (Sheet /Wiznet Networking/)   (loc E5); SM0805      
+| 18pF         C15          (Sheet /Wiznet Networking/)   (loc E5); SM0805      
+| 1M           R43          (Sheet /Wiznet Networking/)   (loc E5); SM0805      
+| 1M           R54          (Sheet /USB Interface/)   (loc B2); SM0805      
+| 1M 1%        R66          (Sheet /Power Supply/)   (loc B2); SM0805      
+| 1nF          C43          (Sheet /Power Supply/)   (loc C2); SM0805      
 | 1SS181(SC-59) D13          (Sheet /Wiznet Networking/)   (loc A5);             
 | 1SS181(SC-59) D14          (Sheet /Wiznet Networking/)   (loc A5);             
 | 1uH          L2           (Sheet /Wiznet Networking/)   (loc B7);             
 | 1uH          L3           (Sheet /Wiznet Networking/)   (loc C7);             
 | 1uH          L4           (Sheet /Wiznet Networking/)   (loc A8);             
 | 1uH          L5           (Sheet /Power Supply/)   (loc B3);             
-| 2.6k         R17          (Sheet /)   (loc G6);             
-| 200          R46          (Sheet /Wiznet Networking/)   (loc C5);             
-| 200          R47          (Sheet /Wiznet Networking/)   (loc C6);             
-| 20pF         C5           (Sheet /)   (loc E1);             
-| 20pF         C6           (Sheet /)   (loc E1);             
-| 220pF        C39          (Sheet /Power Supply/)   (loc B2);             
+| 2.6k         R17          (Sheet /)   (loc G6); SM0805      
+| 200          R46          (Sheet /Wiznet Networking/)   (loc C5); SM0805      
+| 200          R47          (Sheet /Wiznet Networking/)   (loc C6); SM0805      
+| 20pF         C5           (Sheet /)   (loc E1); SM0805      
+| 20pF         C6           (Sheet /)   (loc E1); SM0805      
+| 220pF        C39          (Sheet /Power Supply/)   (loc B2); SM0805      
 | 25MHz        X4           (Sheet /Wiznet Networking/)   (loc E5);             
-| 270          R68          (Sheet /FTDI USB UART/)   (loc B4);             
-| 270          R69          (Sheet /FTDI USB UART/)   (loc B4);             
-| 3.3uF_Tant   C23          (Sheet /Wiznet Networking/)   (loc B7);             
-| 300          R40          (Sheet /Wiznet Networking/)   (loc A4);             
+| 270          R68          (Sheet /FTDI USB UART/)   (loc B4); SM0805      
+| 270          R69          (Sheet /FTDI USB UART/)   (loc B4); SM0805      
+| 3.3uF_Tant   C23          (Sheet /Wiznet Networking/)   (loc B7); SM1210L     
+| 300          R40          (Sheet /Wiznet Networking/)   (loc A4); SM0805      
 | 32.768KHz    X2           (Sheet /)   (loc E2);             
-| 330          R48          (Sheet /Wiznet Networking/)   (loc B6);             
-| 330          R49          (Sheet /Wiznet Networking/)   (loc B6);             
-| 330          R50          (Sheet /Wiznet Networking/)   (loc B6);             
-| 330          R51          (Sheet /Wiznet Networking/)   (loc B6);             
-| 330          R52          (Sheet /Wiznet Networking/)   (loc B6);             
-| 34.8k 1%     R65          (Sheet /Power Supply/)   (loc C2);             
-| 36k          R56          (Sheet /USB Interface/)   (loc B3);             
-| 390          R6           (Sheet /)   (loc E1);             
-| 4.7k         R16          (Sheet /)   (loc G6);             
-| 4.7K         R53          (Sheet /Wiznet Networking/)   (loc A6);             
-| 4.7nF        C35          (Sheet /USB Interface/)   (loc B2);             
-| 47           R4           (Sheet /)   (loc D1);             
-| 47K          R24          (Sheet /)   (loc E9);             
-| 47K          R25          (Sheet /)   (loc E9);             
-| 47K          R32          (Sheet /)   (loc E9);             
-| 47K          R34          (Sheet /)   (loc E9);             
-| 47K          R36          (Sheet /)   (loc E10);             
-| 47k          R58          (Sheet /USB Interface/)   (loc B3);             
-| 47pF         C40          (Sheet /Power Supply/)   (loc B2);             
-| 49.9         R41          (Sheet /Wiznet Networking/)   (loc C5);             
-| 49.9         R42          (Sheet /Wiznet Networking/)   (loc D5);             
-| 49.9         R44          (Sheet /Wiznet Networking/)   (loc C5);             
-| 49.9         R45          (Sheet /Wiznet Networking/)   (loc D5);             
-| 5pF          C41          (Sheet /Power Supply/)   (loc C2);             
-| 5pF          C42          (Sheet /Power Supply/)   (loc B2);             
-| 690?         R12          (Sheet /)   (loc C9);             
-| 690?         R13          (Sheet /)   (loc C9);             
-| 690?         R14          (Sheet /)   (loc C9);             
-| 690?         R15          (Sheet /)   (loc C9);             
+| 330          R48          (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| 330          R49          (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| 330          R50          (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| 330          R51          (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| 330          R52          (Sheet /Wiznet Networking/)   (loc B6); SM0805      
+| 34.8k 1%     R65          (Sheet /Power Supply/)   (loc C2); SM0805      
+| 36k          R56          (Sheet /USB Interface/)   (loc B3); SM0805      
+| 390          R6           (Sheet /)   (loc E1); SM0805      
+| 4.7k         R16          (Sheet /)   (loc G6); SM0805      
+| 4.7K         R53          (Sheet /Wiznet Networking/)   (loc A6); SM0805      
+| 4.7nF        C35          (Sheet /USB Interface/)   (loc B2); SM0805      
+| 47           R4           (Sheet /)   (loc D1); SM0805      
+| 47K          R24          (Sheet /)   (loc E9); SM0805      
+| 47K          R25          (Sheet /)   (loc E9); SM0805      
+| 47K          R32          (Sheet /)   (loc E9); SM0805      
+| 47K          R34          (Sheet /)   (loc E9); SM0805      
+| 47K          R36          (Sheet /)   (loc E10); SM0805      
+| 47k          R58          (Sheet /USB Interface/)   (loc B3); SM0805      
+| 47pF         C40          (Sheet /Power Supply/)   (loc B2); SM0805      
+| 49.9         R41          (Sheet /Wiznet Networking/)   (loc C5); SM0805      
+| 49.9         R42          (Sheet /Wiznet Networking/)   (loc D5); SM0805      
+| 49.9         R44          (Sheet /Wiznet Networking/)   (loc C5); SM0805      
+| 49.9         R45          (Sheet /Wiznet Networking/)   (loc D5); SM0805      
+| 5pF          C41          (Sheet /Power Supply/)   (loc C2); SM0805      
+| 5pF          C42          (Sheet /Power Supply/)   (loc B2); SM0805      
+| 690?         R12          (Sheet /)   (loc C9); SM0805      
+| 690?         R13          (Sheet /)   (loc C9); SM0805      
+| 690?         R14          (Sheet /)   (loc C9); SM0805      
+| 690?         R15          (Sheet /)   (loc C9); SM0805      
 | 8-16MHz      X1           (Sheet /)   (loc E1);             
-| ?            R20          (Sheet /)   (loc G4);             
+| ?            R20          (Sheet /)   (loc G4); SM0805      
 | ARDUINOSHIELD X3           (Sheet /)   (loc H7);             
 | BEAD         L1           (Sheet /)   (loc D1);             
-| C            C36          (Sheet /USB Interface/)   (loc A3);             
-| C            C50          (Sheet /FTDI USB UART/)   (loc B2);             
-| C            C51          (Sheet /FTDI USB UART/)   (loc B2);             
-| CONN_10X2    P2           (Sheet /)   (loc G1);             
-| CONN_10X2    P3           (Sheet /)   (loc G1);             
-| CONN_10X2    P4           (Sheet /)   (loc H1);             
-| CONN_10X2    P5           (Sheet /)   (loc G2);             
-| CONN_10X2    P6           (Sheet /)   (loc G2);             
-| CONN_10X2    P7           (Sheet /)   (loc H2);             
-| CONN_10X2    P8           (Sheet /)   (loc G3);             
-| CONN_10X2    P11          (Sheet /)   (loc H5);             
-| CONN_3       JP1          (Sheet /)   (loc C1);             
-| CONN_3       JP2          (Sheet /)   (loc C3);             
-| CONN_3       JP3          (Sheet /)   (loc D2);             
-| CONN_4       P10          (Sheet /)   (loc G8);             
-| CONN_7       P9           (Sheet /)   (loc G8);             
+| C            C36          (Sheet /USB Interface/)   (loc A3); SM0805      
+| C            C50          (Sheet /FTDI USB UART/)   (loc B2); SM0805      
+| C            C51          (Sheet /FTDI USB UART/)   (loc B2); SM0805      
+| CONN_10X2    P2           (Sheet /)   (loc G1); PIN_ARRAY_10X2
+| CONN_10X2    P3           (Sheet /)   (loc G1); PIN_ARRAY_10X2
+| CONN_10X2    P4           (Sheet /)   (loc H1); PIN_ARRAY_10X2
+| CONN_10X2    P5           (Sheet /)   (loc G2); PIN_ARRAY_10X2
+| CONN_10X2    P6           (Sheet /)   (loc G2); PIN_ARRAY_10X2
+| CONN_10X2    P7           (Sheet /)   (loc H2); PIN_ARRAY_10X2
+| CONN_10X2    P8           (Sheet /)   (loc G3); PIN_ARRAY_10X2
+| CONN_10X2    P11          (Sheet /)   (loc H5); PIN_ARRAY_10X2
+| CONN_3       JP1          (Sheet /)   (loc C1); PIN_ARRAY_3X1
+| CONN_3       JP2          (Sheet /)   (loc C3); PIN_ARRAY_3X1
+| CONN_3       JP3          (Sheet /)   (loc D2); PIN_ARRAY_3X1
+| CONN_4       P10          (Sheet /)   (loc G8); PIN_ARRAY_4x1
+| CONN_7       P9           (Sheet /)   (loc G8); PIN_ARRAY_7X1
 | DIODESCH     D1           (Sheet /)   (loc A2);             
 | DIODESCH     D2           (Sheet /)   (loc A2);             
 | DIODESCH     D3           (Sheet /)   (loc A2);             
 | DIODESCH     D15          (Sheet /Power Supply/)   (loc B3);             
 | DIODESCH     D16          (Sheet /Power Supply/)   (loc C3);             
 | DIPS_03      SW4          (Sheet /Wiznet Networking/)   (loc D7);             
-| EMA406GPS    U4           (Sheet /)   (loc G7);             
+| EMA406GPS    U4           (Sheet /)   (loc G7); EM406       
 | Ferrite-Bead L7           (Sheet /FTDI USB UART/)   (loc B2);             
 | FT232RL      U13          (Sheet /FTDI USB UART/)   (loc B3);             
 | KOBICONN     P1           (Sheet /)   (loc A1);             
-| LED          D4           (Sheet /)   (loc C9);             
-| LED          D5           (Sheet /)   (loc C9);             
-| LED          D6           (Sheet /)   (loc C9);             
-| LED          D7           (Sheet /)   (loc C9);             
-| LED          D8           (Sheet /Wiznet Networking/)   (loc B5);             
-| LED          D9           (Sheet /Wiznet Networking/)   (loc B5);             
-| LED          D10          (Sheet /Wiznet Networking/)   (loc B5);             
-| LED          D11          (Sheet /Wiznet Networking/)   (loc B5);             
-| LED          D12          (Sheet /Wiznet Networking/)   (loc B5);             
-| LED          D17          (Sheet /FTDI USB UART/)   (loc B4);             
-| LED          D18          (Sheet /FTDI USB UART/)   (loc B4);             
-| LTC1771      U11          (Sheet /Power Supply/)   (loc B2);             
-| LTC3827      U10          (Sheet /Power Supply/)   (loc B2);             
+| LED          D4           (Sheet /)   (loc C9); LED-0805    
+| LED          D5           (Sheet /)   (loc C9); LED-0805    
+| LED          D6           (Sheet /)   (loc C9); LED-0805    
+| LED          D7           (Sheet /)   (loc C9); LED-0805    
+| LED          D8           (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| LED          D9           (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| LED          D10          (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| LED          D11          (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| LED          D12          (Sheet /Wiznet Networking/)   (loc B5); LED-0805    
+| LED          D17          (Sheet /FTDI USB UART/)   (loc B4); LED-0805    
+| LED          D18          (Sheet /FTDI USB UART/)   (loc B4); LED-0805    
+| LTC1771      U11          (Sheet /Power Supply/)   (loc B2); MSOP8       
+| LTC3827      U10          (Sheet /Power Supply/)   (loc B2); TSOT-23     
 | MOSFET_N     Q3           (Sheet /Power Supply/)   (loc C3);             
 | NMOS         Q4           (Sheet /Power Supply/)   (loc A3);             
 | NPN          Q1           (Sheet /USB Interface/)   (loc B2);             
 | NPN          Q2           (Sheet /USB Interface/)   (loc B3);             
-| RD1-125BAG1A U7           (Sheet /Wiznet Networking/)   (loc C6);             
+| RD1-125BAG1A U7           (Sheet /Wiznet Networking/)   (loc C6); MagJack     
 | SD_CARD      U14          (Sheet /)   (loc E10);             
-| STM32F103    U2           (Sheet /)   (loc B5);             
+| STM32F103    U2           (Sheet /)   (loc B5); LQFP144     
 | SW_PUSH      SW1          (Sheet /)   (loc C1);             
 | SWITCH       SW5          (Sheet /)   (loc B1);             
 | SWITCH       SW6          (Sheet /)   (loc B1);             
-| TACT-SKQU    U3           (Sheet /)   (loc D10);             
-| USB-TYPEB    U8           (Sheet /USB Interface/)   (loc B2);             
-| USB-TYPEB    U12          (Sheet /FTDI USB UART/)   (loc B2);             
-| USBLC6-2P6   U9           (Sheet /USB Interface/)   (loc B3);             
+| TACT-SKQU    U3           (Sheet /)   (loc D10); alps_tact_button
+| USB-TYPEB    U8           (Sheet /USB Interface/)   (loc B2); mini-usb-b  
+| USB-TYPEB    U12          (Sheet /FTDI USB UART/)   (loc B2); mini-usb-b  
+| USBLC6-2P6   U9           (Sheet /USB Interface/)   (loc B3); SOT23_6L    
 | VBAT         U1           (Sheet /)   (loc D1);             
-| W5300        U6           (Sheet /Wiznet Networking/)   (loc B2);             
+| W5300        U6           (Sheet /Wiznet Networking/)   (loc B2); -LQFP100    
 #End Cmp
 
 #End List
