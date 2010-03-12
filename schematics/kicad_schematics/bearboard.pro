@@ -1,5 +1,5 @@
-update=Wed 10 Mar 2010 10:22:46 AM EST
-last_client=eeschema
+update=Thu 11 Mar 2010 10:29:46 AM EST
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -83,3 +83,26 @@ LibName42=converted/con-usb-3
 LibName43=converted/powerconnectorskt
 LibName44=converted/Power-in
 LibName45=converted/pswitch40
+[pcbnew]
+[pcbnew/libraries]
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=valves
+LibName9=led
+LibName10=dip_sockets
+LibName11=2998_bat_holder
+LibName12=alps_tact_button
+LibName13=EM406
+LibName14=ref-packages
+LibName15=usb
+LibDir=../kicad_modules
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
