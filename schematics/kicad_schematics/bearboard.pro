@@ -1,4 +1,4 @@
-update=Thu 11 Mar 2010 10:29:46 AM EST
+update=Fri 12 Mar 2010 11:08:29 AM EST
 last_client=cvpcb
 [general]
 version=1
@@ -84,6 +84,27 @@ LibName43=converted/powerconnectorskt
 LibName44=converted/Power-in
 LibName45=converted/pswitch40
 [pcbnew]
+version=1
+PadDrlX=400
+PadDimH=600
+PadDimV=600
+BoardThickness=630
+RouteTo=15
+RouteBo=0
+Segm45=1
+Racc45=1
+SgPcb45=1
+TxtPcbV=800
+TxtPcbH=600
+TxtModV=600
+TxtModH=600
+TxtModW=120
+VEgarde=100
+DrawLar=150
+EdgeLar=150
+TxtLar=120
+MSegLar=150
+WpenSer=10
 [pcbnew/libraries]
 LibName1=sockets
 LibName2=connect
@@ -98,8 +119,14 @@ LibName10=dip_sockets
 LibName11=2998_bat_holder
 LibName12=alps_tact_button
 LibName13=EM406
-LibName14=ref-packages
-LibName15=usb
+LibName14=LQFP144
+LibName15=MagJack
+LibName16=MSOP8
+LibName17=ref-packages
+LibName18=SOT23_6L
+LibName19=TSOT-23
+LibName20=usb
+LibName21=misc_connectors
 LibDir=../kicad_modules
 [cvpcb]
 version=1

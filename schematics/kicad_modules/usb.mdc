@@ -1,0 +1,9 @@
+PCBNEW-LibDoc----V1  Fri 12 Mar 2010 11:00:24 AM EST
+#
+$MODULE 1pin-nosilk
+Li 1pin-nosilk
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+$EndMODULE
+#
+$EndLIBDOC
