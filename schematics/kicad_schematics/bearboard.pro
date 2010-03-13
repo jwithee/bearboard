@@ -1,4 +1,4 @@
-update=Sat 13 Mar 2010 01:40:23 PM EST
+update=Sat 13 Mar 2010 03:16:57 PM EST
 last_client=cvpcb
 [general]
 version=1
@@ -85,9 +85,9 @@ LibName44=converted/Power-in
 LibName45=converted/pswitch40
 [pcbnew]
 version=1
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=591
+PadDimH=591
+PadDimV=591
 BoardThickness=630
 RouteTo=15
 RouteBo=0
@@ -128,9 +128,11 @@ LibName19=TSOT-23
 LibName20=usb
 LibName21=misc_connectors
 LibName22=8Mz Crystal
-LibName23=32.768kHz Crystal
-LibName24=arduino
-LibName25=SD Card Holder
+LibName23=SD Card Holder
+LibName24=25Mhz Crystal
+LibName25=SC-59
+LibName26=32_768_Crystal
+LibName27=arduino
 LibDir=../kicad_modules
 [cvpcb]
 version=1
