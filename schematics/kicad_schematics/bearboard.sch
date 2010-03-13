@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 12 Mar 2010 11:31:07 AM EST
+EESchema Schematic File Version 2  date Sat 13 Mar 2010 12:50:25 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr C 22000 17000
 Sheet 1 5
 Title "BearBoard STM32F103"
-Date "11 mar 2010"
+Date "13 mar 2010"
 Rev "0"
 Comp "University of Maine"
 Comment1 "Author: Jason Withee"
@@ -58,8 +58,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 9650 13600 3    60   ~ 0
-TDO/SWO
+Wire Wire Line
+	18600 11200 17800 11200
+Wire Wire Line
+	19100 11200 19900 11200
 Wire Wire Line
 	9650 13500 9650 13600
 Wire Notes Line
@@ -848,8 +850,6 @@ Wire Wire Line
 Wire Wire Line
 	7750 7450 6800 7450
 Wire Wire Line
-	17800 11200 19900 11200
-Wire Wire Line
 	17800 10900 19900 10900
 Wire Wire Line
 	17800 10600 19900 10600
@@ -890,8 +890,6 @@ Wire Wire Line
 	17800 9700 19900 9700
 Wire Wire Line
 	17800 10750 19900 10750
-Wire Wire Line
-	17800 11050 19900 11050
 Wire Wire Line
 	6800 7550 7750 7550
 Wire Wire Line
@@ -1377,6 +1375,32 @@ Wire Wire Line
 Wire Wire Line
 	1400 7350 1450 7350
 Connection ~ 1400 7350
+Wire Wire Line
+	19900 11050 19100 11050
+Wire Wire Line
+	18600 11050 17800 11050
+$Comp
+L R R?
+U 1 1 4B9BD03D
+P 18850 11200
+F 0 "R?" V 18930 11200 50  0000 C CNN
+F 1 "0" V 18850 11200 50  0000 C CNN
+F 2 "SM0805" H 18850 11200 60  0001 C CNN
+	1    18850 11200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4B9BD039
+P 18850 11050
+F 0 "R?" V 18930 11050 50  0000 C CNN
+F 1 "0" V 18850 11050 50  0000 C CNN
+F 2 "SM0805" H 18850 11050 60  0001 C CNN
+	1    18850 11050
+	0    1    1    0   
+$EndComp
+Text Label 9650 13600 3    60   ~ 0
+TDO/SWO
 NoConn ~ 12250 15150
 Text Label 4350 8000 2    60   ~ 0
 ARD_SH_AREF

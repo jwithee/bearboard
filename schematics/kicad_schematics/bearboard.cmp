@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Fri 12 Mar 2010 11:23:16 AM EST
+Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Sat 13 Mar 2010 01:06:00 PM EST
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -1250,7 +1250,7 @@ BeginCmp
 TimeStamp = /4B91C194/4B91C23D;
 Reference = U13;
 ValeurCmp = FT232RL;
-IdModule  = ;
+IdModule  = SSOP28;
 EndCmp
 
 BeginCmp

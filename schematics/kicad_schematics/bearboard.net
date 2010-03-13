@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Fri 12 Mar 2010 11:23:16 AM EST
+# EESchema Netlist Version 1.1 created  Sat 13 Mar 2010 01:06:00 PM EST
 (
  ( /4B90325B SM0805 C1 100nF
   ( 1 /Wiznet_1 )
@@ -1158,7 +1158,7 @@
   ( 3 N-000237 )
   ( 4 /Wiznet_1 )
  )
- ( /4B91C194/4B91C23D $noname$ U13 FT232RL
+ ( /4B91C194/4B91C23D SSOP28 U13 FT232RL
   ( 1 /PA9 )
   ( 2 ? )
   ( 3 ? )
