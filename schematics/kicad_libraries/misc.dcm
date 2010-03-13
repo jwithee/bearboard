@@ -1,4 +1,9 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 10 Mar 2010 08:16:16 PM EST
+EESchema-DOCLIB  Version 2.0  Date: Sat 13 Mar 2010 02:25:08 PM EST
+#
+$CMP 1SS181
+D 1SS181
+K DEV DIODE
+$ENDCMP
 #
 $CMP SWITCH
 D Switch
