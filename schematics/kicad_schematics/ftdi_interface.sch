@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 13 Mar 2010 03:45:55 PM EST
+EESchema Schematic File Version 2  date Sat 13 Mar 2010 04:13:45 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -282,6 +282,7 @@ U 1 1 4B91C4C6
 P 3850 3150
 F 0 "L7" V 3800 3150 40  0000 C CNN
 F 1 "Ferrite-Bead" V 3950 3150 40  0000 C CNN
+F 2 "SM0805" H 3850 3150 60  0001 C CNN
 	1    3850 3150
 	0    1    1    0   
 $EndComp

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Sat 13 Mar 2010 02:26:36 PM EST
+Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Sat 13 Mar 2010 04:07:59 PM EST
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -361,21 +361,21 @@ BeginCmp
 TimeStamp = /4B91D774;
 Reference = D1;
 ValeurCmp = DIODESCH;
-IdModule  = ;
+IdModule  = SC-59;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B900144;
 Reference = D2;
 ValeurCmp = DIODESCH;
-IdModule  = ;
+IdModule  = SC-59;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B90013C;
 Reference = D3;
 ValeurCmp = DIODESCH;
-IdModule  = ;
+IdModule  = SC-59;
 EndCmp
 
 BeginCmp
@@ -442,31 +442,17 @@ IdModule  = LED-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B6DAA26/4B6DBB6C;
-Reference = D13;
-ValeurCmp = 1SS181(SC-59);
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /4B6DAA26/4B6DBB72;
-Reference = D14;
-ValeurCmp = 1SS181(SC-59);
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /4B8FE21B/4B8931FF;
 Reference = D15;
 ValeurCmp = DIODESCH;
-IdModule  = ;
+IdModule  = SC-59;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8FE21B/4B8A73A8;
 Reference = D16;
 ValeurCmp = DIODESCH;
-IdModule  = ;
+IdModule  = SC-59;
 EndCmp
 
 BeginCmp
@@ -481,6 +467,13 @@ TimeStamp = /4B91C194/4B91C60D;
 Reference = D18;
 ValeurCmp = LED;
 IdModule  = LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6DAA26/4B9BE6A8;
+Reference = D19;
+ValeurCmp = 1SS181;
+IdModule  = SC-59;
 EndCmp
 
 BeginCmp
@@ -508,56 +501,56 @@ BeginCmp
 TimeStamp = /4B9067FC;
 Reference = L1;
 ValeurCmp = BEAD;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB8AA;
 Reference = L2;
 ValeurCmp = 1uH;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB94F;
 Reference = L3;
 ValeurCmp = 1uH;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB826;
 Reference = L4;
 ValeurCmp = 1uH;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8FE21B/4B8A7363;
 Reference = L5;
 ValeurCmp = 1uH;
-IdModule  = ;
+IdModule  = SD6030-Inductor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8FE21B/4B8932D4;
 Reference = L6;
 ValeurCmp = 15uH;
-IdModule  = ;
+IdModule  = DR125-Inductors;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B91C194/4B91C4C6;
 Reference = L7;
 ValeurCmp = Ferrite-Bead;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97BC2C;
 Reference = P1;
 ValeurCmp = KOBICONN;
-IdModule  = ;
+IdModule  = PowerConnector;
 EndCmp
 
 BeginCmp
@@ -648,14 +641,14 @@ BeginCmp
 TimeStamp = /4B8FE21B/4B8A7345;
 Reference = Q3;
 ValeurCmp = MOSFET_N;
-IdModule  = ;
+IdModule  = SSOT6_Mosfet-1256Connected;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8FE21B/4B893175;
 Reference = Q4;
 ValeurCmp = NMOS;
-IdModule  = ;
+IdModule  = -SO-08;
 EndCmp
 
 BeginCmp
@@ -1142,6 +1135,20 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4B9BD039;
+Reference = R70;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9BD03D;
+Reference = R71;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4B90324D;
 Reference = SW1;
 ValeurCmp = SW_PUSH;
@@ -1173,7 +1180,7 @@ BeginCmp
 TimeStamp = /4B906569;
 Reference = U1;
 ValeurCmp = VBAT;
-IdModule  = ;
+IdModule  = 2998_bat_holder;
 EndCmp
 
 BeginCmp
@@ -1271,21 +1278,21 @@ BeginCmp
 TimeStamp = /4B7EA0BC;
 Reference = X2;
 ValeurCmp = 32.768KHz;
-IdModule  = ;
+IdModule  = 32_768kHz_Crystal;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B915F2D;
 Reference = X3;
 ValeurCmp = ARDUINOSHIELD;
-IdModule  = ;
+IdModule  = arduino_sheild;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DC240;
 Reference = X4;
 ValeurCmp = 25MHz;
-IdModule  = ;
+IdModule  = 25Mhz Crystal;
 EndCmp
 
 EndListe
