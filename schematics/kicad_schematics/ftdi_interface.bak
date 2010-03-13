@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 13 Mar 2010 02:26:28 PM EST
+EESchema Schematic File Version 2  date Sat 13 Mar 2010 02:28:46 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -301,6 +301,7 @@ U 1 1 4B91C23D
 P 5550 3800
 F 0 "U13" H 5950 2850 60  0000 C CNN
 F 1 "FT232RL" H 5550 4700 60  0000 C CNN
+F 2 "SSOP28" H 5550 3800 60  0001 C CNN
 	1    5550 3800
 	1    0    0    -1  
 $EndComp
