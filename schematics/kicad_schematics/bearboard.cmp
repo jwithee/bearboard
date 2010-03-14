@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Sun 14 Mar 2010 03:29:37 PM EDT
+Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Sun 14 Mar 2010 03:44:16 PM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -158,7 +158,7 @@ BeginCmp
 TimeStamp = /4B6DAA26/4B6DB885;
 Reference = C23;
 ValeurCmp = 3.3uF_Tant;
-IdModule  = SM1210L;
+IdModule  = 3v3_Tantulum_Capacitor;
 EndCmp
 
 BeginCmp
@@ -221,7 +221,7 @@ BeginCmp
 TimeStamp = /4B6DAA26/4B6DB94C;
 Reference = C32;
 ValeurCmp = 10uF/16V;
-IdModule  = SM1210L;
+IdModule  = 10uf_Tantulum_Capacitor;
 EndCmp
 
 BeginCmp
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /4B6DAA26/4B6DB8BC;
 Reference = C34;
 ValeurCmp = 10uF/16V;
-IdModule  = SM1210L;
+IdModule  = 10uf_Tantulum_Capacitor;
 EndCmp
 
 BeginCmp
@@ -305,21 +305,21 @@ BeginCmp
 TimeStamp = /4B8FE21B/4B8A7462;
 Reference = C44;
 ValeurCmp = 10uF;
-IdModule  = SM0805;
+IdModule  = 10uf_Tantulum_Capacitor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8FE21B/4B8A73BE;
 Reference = C45;
 ValeurCmp = 100uF;
-IdModule  = SM1210L;
+IdModule  = 100uf_Capacitor_Electrolytic;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8FE21B/4B8A73CB;
 Reference = C46;
 ValeurCmp = 100uF;
-IdModule  = SM1210L;
+IdModule  = 100uf_Capacitor_Electrolytic;
 EndCmp
 
 BeginCmp
@@ -333,7 +333,7 @@ BeginCmp
 TimeStamp = /4B8FE21B/4B89335E;
 Reference = C48;
 ValeurCmp = 150uF;
-IdModule  = CP10;
+IdModule  = 150uf_Capacitor_Electrolytic;
 EndCmp
 
 BeginCmp
@@ -732,7 +732,7 @@ BeginCmp
 TimeStamp = /4B8FE21B/4B893175;
 Reference = Q4;
 ValeurCmp = NMOS;
-IdModule  = -SO-08;
+IdModule  = IRF8714PbF;
 EndCmp
 
 BeginCmp
