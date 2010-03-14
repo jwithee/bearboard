@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Sun 14 Mar 2010 02:47:12 PM EDT
+Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Sun 14 Mar 2010 03:29:37 PM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -708,16 +708,16 @@ IdModule  = PIN_ARRAY_10X2;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B7E8E4F/4B7E94BC;
+TimeStamp = /4B7E8E4F/4B9D3085;
 Reference = Q1;
-ValeurCmp = NPN;
+ValeurCmp = NPN-SC-59;
 IdModule  = -SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B7E8E4F/4B7E94E8;
+TimeStamp = /4B7E8E4F/4B9D3096;
 Reference = Q2;
-ValeurCmp = NPN;
+ValeurCmp = NPN-SC-59;
 IdModule  = -SOT23;
 EndCmp
 
@@ -1296,10 +1296,10 @@ IdModule  = MagJack;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B7E8E4F/4B7E9254;
+TimeStamp = /4B7E8E4F/4B9D385E;
 Reference = U8;
-ValeurCmp = USB-TYPEB;
-IdModule  = mini-usb-b;
+ValeurCmp = USB-MINI-B-SHELL;
+IdModule  = mini-usb-b-shell;
 EndCmp
 
 BeginCmp
@@ -1324,9 +1324,9 @@ IdModule  = MSOP8;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B91C194/4B91C490;
+TimeStamp = /4B91C194/4B9D38B8;
 Reference = U12;
-ValeurCmp = USB-TYPEB;
+ValeurCmp = USB-MINI-B;
 IdModule  = mini-usb-b;
 EndCmp
 
@@ -1338,7 +1338,7 @@ IdModule  = SSOP28;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B981B1A;
+TimeStamp = /4B9D33B5;
 Reference = U14;
 ValeurCmp = SD_CARD;
 IdModule  = SD-Card-Holder-145;

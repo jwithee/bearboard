@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 14 Mar 2010 02:53:54 PM EDT
+EESchema Schematic File Version 2  date Sun 14 Mar 2010 03:28:34 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -58,12 +58,19 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 3050 3600
+$Comp
+L USB-MINI-B U12
+U 1 1 4B9D38B8
+P 2650 3450
+F 0 "U12" H 2600 3900 60  0000 C CNN
+F 1 "USB-MINI-B" H 2800 3000 60  0000 C CNN
+	1    2650 3450
+	-1   0    0    -1  
+$EndComp
 Connection ~ 4250 3150
 Wire Wire Line
 	4250 3550 4250 3150
-Connection ~ 3050 3900
-Wire Wire Line
-	3050 4100 3050 3750
 Wire Wire Line
 	3500 2750 4350 2750
 Wire Wire Line
@@ -88,18 +95,26 @@ Wire Wire Line
 Wire Wire Line
 	7700 3200 7700 3300
 Wire Wire Line
-	3050 3600 3200 3600
+	3050 3750 3200 3750
 Wire Wire Line
-	3200 3600 3200 3900
+	3200 3750 3200 3900
 Wire Wire Line
 	3200 3900 3350 3900
 Wire Wire Line
-	5550 5000 5550 5350
+	5550 5000 5550 5150
+Wire Wire Line
+	5550 5150 5550 5350
 Connection ~ 5550 5150
 Wire Wire Line
 	5850 5000 5850 5150
 Wire Wire Line
-	5850 5150 5250 5150
+	5850 5150 5700 5150
+Wire Wire Line
+	5700 5150 5550 5150
+Wire Wire Line
+	5550 5150 5400 5150
+Wire Wire Line
+	5400 5150 5250 5150
 Wire Wire Line
 	5250 5150 5250 5000
 Wire Wire Line
@@ -107,9 +122,15 @@ Wire Wire Line
 Wire Wire Line
 	4600 3300 3050 3300
 Wire Wire Line
-	3550 3150 3050 3150
+	3550 3150 3350 3150
 Wire Wire Line
-	4150 3150 4600 3150
+	3350 3150 3050 3150
+Wire Wire Line
+	4150 3150 4250 3150
+Wire Wire Line
+	4250 3150 4350 3150
+Wire Wire Line
+	4350 3150 4600 3150
 Wire Wire Line
 	3050 3450 4500 3450
 Wire Wire Line
@@ -138,7 +159,9 @@ Wire Wire Line
 Wire Wire Line
 	8000 4000 6450 4000
 Wire Wire Line
-	3750 4300 4600 4300
+	3750 4300 4450 4300
+Wire Wire Line
+	4450 4300 4600 4300
 Connection ~ 4450 4300
 Wire Wire Line
 	6450 3100 6800 3100
@@ -167,15 +190,6 @@ F 0 "C52" H 4300 3850 50  0000 L CNN
 F 1 "1uF" H 4300 3650 50  0000 L CNN
 F 2 "SM0805" H 4250 3750 60  0001 C CNN
 	1    4250 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR034
-U 1 1 4B9840B6
-P 3050 4100
-F 0 "#PWR034" H 3050 4100 30  0001 C CNN
-F 1 "GND" H 3050 4030 30  0001 C CNN
-	1    3050 4100
 	1    0    0    -1  
 $EndComp
 Text GLabel 3500 2750 0    60   Output ~ 0
@@ -309,16 +323,6 @@ F 1 "Ferrite-Bead" V 3950 3150 40  0000 C CNN
 F 2 "SM0805" H 3850 3150 60  0001 C CNN
 	1    3850 3150
 	0    1    1    0   
-$EndComp
-$Comp
-L USB-TYPEB U12
-U 1 1 4B91C490
-P 2650 3450
-F 0 "U12" H 2600 3900 60  0000 C CNN
-F 1 "USB-TYPEB" H 2850 2850 60  0000 C CNN
-F 2 "mini-usb-b" H 2650 3450 60  0001 C CNN
-	1    2650 3450
-	-1   0    0    -1  
 $EndComp
 $Comp
 L FT232RL U13
