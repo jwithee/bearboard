@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Sun 14 Mar 2010 12:30:52 PM EDT
+Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Sun 14 Mar 2010 01:29:01 PM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -358,24 +358,87 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B981B1A;
-Reference = CARD;
-ValeurCmp = HOLDER_145;
-IdModule  = SD;
+TimeStamp = /4B91C194/4B9D0E99;
+Reference = C52;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B6DAA26/4B6DC240;
-Reference = Crystal;
-ValeurCmp = X4;
-IdModule  = 25Mhz;
+TimeStamp = /4B9D16FB;
+Reference = C53;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B7E9BC1;
-Reference = Crystal;
-ValeurCmp = X1;
-IdModule  = 8Mz;
+TimeStamp = /4B9D177C;
+Reference = C54;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D1735;
+Reference = C55;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D177B;
+Reference = C56;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D176C;
+Reference = C57;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D1778;
+Reference = C58;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D176B;
+Reference = C59;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D1779;
+Reference = C60;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D173C;
+Reference = C61;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D177A;
+Reference = C62;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B9D173B;
+Reference = C63;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -549,7 +612,7 @@ EndCmp
 BeginCmp
 TimeStamp = /4B8FE21B/4B8A7363;
 Reference = L5;
-ValeurCmp = 1uH;
+ValeurCmp = 2.7uH;
 IdModule  = SD6030-Inductor;
 EndCmp
 
@@ -1170,31 +1233,24 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B90324D;
-Reference = SW1;
-ValeurCmp = SW_PUSH;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /4B6DAA26/4B6DBD94;
 Reference = SW4;
 ValeurCmp = DIPS_03;
-IdModule  = ;
+IdModule  = SPST-DIP-219-3MSTR;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B980598;
+TimeStamp = /4B9D0884;
 Reference = SW5;
-ValeurCmp = SWITCH;
-IdModule  = ;
+ValeurCmp = SW_TACT;
+IdModule  = tactileButtonTL3315;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B980613;
+TimeStamp = /4B9D0C1B;
 Reference = SW6;
-ValeurCmp = SWITCH;
-IdModule  = ;
+ValeurCmp = DIP_SPDT_2;
+IdModule  = SPDT-DIP-204-122;
 EndCmp
 
 BeginCmp
@@ -1282,6 +1338,20 @@ IdModule  = SSOP28;
 EndCmp
 
 BeginCmp
+TimeStamp = /4B981B1A;
+Reference = U14;
+ValeurCmp = SD_CARD;
+IdModule  = SD-Card-Holder-145;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B7E9BC1;
+Reference = X1;
+ValeurCmp = 8MHz;
+IdModule  = 8Mz-Crystal;
+EndCmp
+
+BeginCmp
 TimeStamp = /4B7EA0BC;
 Reference = X2;
 ValeurCmp = 32.768KHz;
@@ -1293,6 +1363,13 @@ TimeStamp = /4B915F2D;
 Reference = X3;
 ValeurCmp = ARDUINOSHIELD;
 IdModule  = arduino_sheild;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6DAA26/4B6DC240;
+Reference = X4;
+ValeurCmp = 25MHz;
+IdModule  = 25Mhz-Crystal;
 EndCmp
 
 EndListe
