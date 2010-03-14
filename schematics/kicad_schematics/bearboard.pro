@@ -1,4 +1,4 @@
-update=Sun 14 Mar 2010 12:17:50 PM EDT
+update=Sun 14 Mar 2010 12:26:27 PM EDT
 last_client=pcbnew
 [general]
 version=1
@@ -145,3 +145,4 @@ LibName30=SC-59
 LibName31=32_768_Crystal
 LibName32=arduino
 LibName33=SPDT-DIP-204-122
+LibName34=SPST-DIP-219-3MSTR
