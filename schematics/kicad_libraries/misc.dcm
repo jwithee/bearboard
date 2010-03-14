@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sun 14 Mar 2010 12:14:37 PM EDT
+EESchema-DOCLIB  Version 2.0  Date: Sun 14 Mar 2010 02:52:36 PM EDT
 #
 $CMP 1SS181
 D 1SS181
@@ -8,6 +8,11 @@ $ENDCMP
 $CMP DIP_SPDT_2
 D Switch
 K switch
+$ENDCMP
+#
+$CMP NPN-SC-59
+D NPN for SC-59 Package
+F transistors/bipolar/*.*
 $ENDCMP
 #
 $CMP SW_TACT
