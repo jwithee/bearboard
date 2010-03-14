@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 14 Mar 2010 01:29:31 PM EDT
+EESchema Schematic File Version 2  date Sun 14 Mar 2010 02:53:54 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -58,6 +58,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L NPN-SC-59 Q2
+U 1 1 4B9D3096
+P 5100 4750
+F 0 "Q2" H 5100 4600 50  0000 R CNN
+F 1 "NPN-SC-59" H 5100 4900 50  0000 R CNN
+	1    5100 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NPN-SC-59 Q1
+U 1 1 4B9D3085
+P 4750 4050
+F 0 "Q1" H 4750 3900 50  0000 R CNN
+F 1 "NPN-SC-59" H 4750 4200 50  0000 R CNN
+	1    4750 4050
+	0    -1   -1   0   
+$EndComp
 Connection ~ 3750 4250
 Wire Wire Line
 	3900 4250 3500 4250
@@ -220,17 +238,6 @@ F 1 "U5V" H 4100 4449 40  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NPN Q2
-U 1 1 4B7E94E8
-P 5100 4750
-F 0 "Q2" H 5250 4750 50  0000 C CNN
-F 1 "NPN" H 5002 4900 50  0000 C CNN
-F 2 "-SOT23" H 5100 4750 60  0001 C CNN
-F 4 "BC847_BC547" H 5100 4750 60  0001 C CNN "Part"
-	1    5100 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
 L GND #PWR058
 U 1 1 4B7E94D3
 P 6150 2950
@@ -248,17 +255,6 @@ F 1 "C" H 6200 2550 50  0000 L CNN
 F 2 "SM0805" H 6150 2650 60  0001 C CNN
 	1    6150 2650
 	1    0    0    -1  
-$EndComp
-$Comp
-L NPN Q1
-U 1 1 4B7E94BC
-P 4750 4050
-F 0 "Q1" H 4900 4050 50  0000 C CNN
-F 1 "NPN" H 4652 4200 50  0000 C CNN
-F 2 "-SOT23" H 4750 4050 60  0001 C CNN
-F 4 "BC847_BC547" H 4750 4050 60  0001 C CNN "Part"
-	1    4750 4050
-	0    -1   -1   0   
 $EndComp
 $Comp
 L R R60

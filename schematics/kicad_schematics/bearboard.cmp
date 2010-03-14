@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Sun 14 Mar 2010 01:29:01 PM EDT
+Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Sun 14 Mar 2010 02:47:12 PM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -445,21 +445,21 @@ BeginCmp
 TimeStamp = /4B91D774;
 Reference = D1;
 ValeurCmp = DIODESCH;
-IdModule  = SC-59;
+IdModule  = DO-124AB-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B900144;
 Reference = D2;
 ValeurCmp = DIODESCH;
-IdModule  = SC-59;
+IdModule  = DO-124AB-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B90013C;
 Reference = D3;
 ValeurCmp = DIODESCH;
-IdModule  = SC-59;
+IdModule  = DO-124AB-DIODE;
 EndCmp
 
 BeginCmp
@@ -529,14 +529,14 @@ BeginCmp
 TimeStamp = /4B8FE21B/4B8931FF;
 Reference = D15;
 ValeurCmp = DIODESCH;
-IdModule  = SC-59;
+IdModule  = DO-124AB-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8FE21B/4B8A73A8;
 Reference = D16;
 ValeurCmp = DIODESCH;
-IdModule  = SC-59;
+IdModule  = DO-124AB-DIODE;
 EndCmp
 
 BeginCmp

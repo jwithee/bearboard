@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 14 Mar 2010 01:23:10 PM EDT
+EESchema Schematic File Version 2  date Sun 14 Mar 2010 02:53:19 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -688,6 +688,7 @@ U 1 1 4B6DC240
 P 9150 9200
 F 0 "X4" V 9300 9300 60  0000 C CNN
 F 1 "25MHz" V 8950 9350 60  0000 C CNN
+F 2 "25Mhz-Crystal" H 9150 9200 60  0001 C CNN
 	1    9150 9200
 	0    -1   -1   0   
 $EndComp
