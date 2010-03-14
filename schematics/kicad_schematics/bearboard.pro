@@ -1,7 +1,5 @@
-update=Sat 13 Mar 2010 04:06:14 PM EST
-last_client=cvpcb
-[general]
-version=1
+update=Sun 14 Mar 2010 12:34:21 PM EDT
+last_client=kicad
 [eeschema]
 version=1
 LibDir=../kicad_libraries;../kicad_libraries/arduino
@@ -83,6 +81,11 @@ LibName42=converted/con-usb-3
 LibName43=converted/powerconnectorskt
 LibName44=converted/Power-in
 LibName45=converted/pswitch40
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=591
@@ -106,41 +109,41 @@ TxtLar=120
 MSegLar=150
 WpenSer=10
 [pcbnew/libraries]
-LibName1=2998_bat_holder
+LibDir=../kicad_modules
+LibName1=25Mhz Crystal
 LibName2=DR125-Inductors
 LibName3=PowerConnector
-LibName4=SD6030-Inductor
-LibName5=SO8-IRF8714PbF
-LibName6=SSOT6_Mosfet-1256Connected
-LibName7=sockets
-LibName8=connect
-LibName9=discret
-LibName10=pin_array
-LibName11=divers
-LibName12=libcms
-LibName13=display
-LibName14=valves
-LibName15=led
-LibName16=dip_sockets
-LibName17=alps_tact_button
-LibName18=EM406
-LibName19=LQFP144
-LibName20=MagJack
-LibName21=MSOP8
-LibName22=ref-packages
-LibName23=SOT23_6L
-LibName24=TSOT-23
-LibName25=usb
-LibName26=misc_connectors
-LibName27=8Mz Crystal
-LibName28=SD Card Holder
-LibName29=25Mhz Crystal
-LibName30=SC-59
-LibName31=32_768_Crystal
-LibName32=arduino
-LibDir=../kicad_modules
-[cvpcb]
+LibName4=SC-59
+LibName5=SD6030-Inductor
+LibName6=SO8-IRF8714PbF
+LibName7=SSOT6_Mosfet-1256Connected
+LibName8=32_768_Crystal
+LibName9=sockets
+LibName10=connect
+LibName11=discret
+LibName12=pin_array
+LibName13=divers
+LibName14=libcms
+LibName15=display
+LibName16=valves
+LibName17=led
+LibName18=dip_sockets
+LibName19=2998_bat_holder
+LibName20=alps_tact_button
+LibName21=EM406
+LibName22=LQFP144
+LibName23=MagJack
+LibName24=MSOP8
+LibName25=ref-packages
+LibName26=SOT23_6L
+LibName27=TSOT-23
+LibName28=8Mz Crystal
+LibName29=arduino
+LibName30=misc_connectors
+LibName31=SD Card Holder
+LibName32=SPDT-DIP-204-122
+LibName33=SPST-DIP-219-3MSTR
+LibName34=tactileButtonTL3315
+LibName35=usb
+[general]
 version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

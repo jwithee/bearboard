@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Sat 13 Mar 2010 04:07:59 PM EST
+Cmp-Mod V01 Created by CvPCB (20100311 SVN-R2445)-RC5 date = Sun 14 Mar 2010 12:30:52 PM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -358,6 +358,27 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4B981B1A;
+Reference = CARD;
+ValeurCmp = HOLDER_145;
+IdModule  = SD;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B6DAA26/4B6DC240;
+Reference = Crystal;
+ValeurCmp = X4;
+IdModule  = 25Mhz;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B7E9BC1;
+Reference = Crystal;
+ValeurCmp = X1;
+IdModule  = 8Mz;
+EndCmp
+
+BeginCmp
 TimeStamp = /4B91D774;
 Reference = D1;
 ValeurCmp = DIODESCH;
@@ -627,14 +648,14 @@ BeginCmp
 TimeStamp = /4B7E8E4F/4B7E94BC;
 Reference = Q1;
 ValeurCmp = NPN;
-IdModule  = ;
+IdModule  = -SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B7E8E4F/4B7E94E8;
 Reference = Q2;
 ValeurCmp = NPN;
-IdModule  = ;
+IdModule  = -SOT23;
 EndCmp
 
 BeginCmp
@@ -1261,20 +1282,6 @@ IdModule  = SSOP28;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B981B1A;
-Reference = U14;
-ValeurCmp = SD_CARD;
-IdModule  = SD CARD HOLDER_145;
-EndCmp
-
-BeginCmp
-TimeStamp = /4B7E9BC1;
-Reference = X1;
-ValeurCmp = 8-16MHz;
-IdModule  = 8Mz Crystal;
-EndCmp
-
-BeginCmp
 TimeStamp = /4B7EA0BC;
 Reference = X2;
 ValeurCmp = 32.768KHz;
@@ -1286,13 +1293,6 @@ TimeStamp = /4B915F2D;
 Reference = X3;
 ValeurCmp = ARDUINOSHIELD;
 IdModule  = arduino_sheild;
-EndCmp
-
-BeginCmp
-TimeStamp = /4B6DAA26/4B6DC240;
-Reference = X4;
-ValeurCmp = 25MHz;
-IdModule  = 25Mhz Crystal;
 EndCmp
 
 EndListe

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 13 Mar 2010 03:45:55 PM EST
+EESchema Schematic File Version 2  date Sun 14 Mar 2010 12:30:04 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr B 17000 11000
 Sheet 4 5
 Title ""
-Date "13 mar 2010"
+Date "14 mar 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -853,6 +853,7 @@ U 1 1 4B6DBD94
 P 14200 7350
 F 0 "SW4" V 14000 7350 60  0000 C CNN
 F 1 "DIPS_03" V 14400 7350 60  0000 C CNN
+F 4 "219-02-3MSTR" H 14200 7350 60  0001 C CNN "PART"
 	1    14200 7350
 	0    1    1    0   
 $EndComp
@@ -1062,6 +1063,7 @@ U 1 1 4B6DB94F
 P 13900 5100
 F 0 "L3" V 13850 5100 40  0000 C CNN
 F 1 "1uH" V 14000 5100 40  0000 C CNN
+F 2 "SM0805" H 13900 5100 60  0001 C CNN
 	1    13900 5100
 	0    -1   -1   0   
 $EndComp
@@ -1141,6 +1143,7 @@ U 1 1 4B6DB8AA
 P 13900 3650
 F 0 "L2" V 13850 3650 40  0000 C CNN
 F 1 "1uH" V 14000 3650 40  0000 C CNN
+F 2 "SM0805" H 13900 3650 60  0001 C CNN
 	1    13900 3650
 	0    -1   -1   0   
 $EndComp
@@ -1207,6 +1210,7 @@ U 1 1 4B6DB826
 P 15550 1650
 F 0 "L4" V 15500 1650 40  0000 C CNN
 F 1 "1uH" V 15650 1650 40  0000 C CNN
+F 2 "SM0805" H 15550 1650 60  0001 C CNN
 	1    15550 1650
 	0    -1   -1   0   
 $EndComp

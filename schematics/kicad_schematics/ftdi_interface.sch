@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 13 Mar 2010 04:13:45 PM EST
+EESchema Schematic File Version 2  date Sun 14 Mar 2010 12:34:26 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 5
 Title ""
-Date "13 mar 2010"
+Date "14 mar 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -58,15 +58,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR033
-U 1 1 4B9840B6
-P 3050 4100
-F 0 "#PWR033" H 3050 4100 30  0001 C CNN
-F 1 "GND" H 3050 4030 30  0001 C CNN
-	1    3050 4100
-	1    0    0    -1  
-$EndComp
+Connection ~ 4250 3150
+Wire Wire Line
+	4250 3550 4250 3150
 Connection ~ 3050 3900
 Wire Wire Line
 	3050 4100 3050 3750
@@ -154,6 +148,36 @@ Wire Wire Line
 	6450 4100 6900 4100
 Wire Wire Line
 	6450 4300 6900 4300
+Wire Wire Line
+	4250 3950 4250 4000
+$Comp
+L GND #PWR031
+U 1 1 4B9D0E98
+P 4250 4000
+F 0 "#PWR031" H 4250 4000 30  0001 C CNN
+F 1 "GND" H 4250 3930 30  0001 C CNN
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C52
+U 1 1 4B9D0E99
+P 4250 3750
+F 0 "C52" H 4300 3850 50  0000 L CNN
+F 1 "1uF" H 4300 3650 50  0000 L CNN
+F 2 "SM0805" H 4250 3750 60  0001 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR032
+U 1 1 4B9840B6
+P 3050 4100
+F 0 "#PWR032" H 3050 4100 30  0001 C CNN
+F 1 "GND" H 3050 4030 30  0001 C CNN
+	1    3050 4100
+	1    0    0    -1  
+$EndComp
 Text GLabel 3500 2750 0    60   Output ~ 0
 USBFTDI5V
 Text HLabel 6900 4300 2    60   BiDi ~ 0
@@ -230,10 +254,10 @@ F 2 "LED-0805" H 7700 3500 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR034
+L GND #PWR033
 U 1 1 4B91C5D0
 P 4450 4850
-F 0 "#PWR034" H 4450 4850 30  0001 C CNN
+F 0 "#PWR033" H 4450 4850 30  0001 C CNN
 F 1 "GND" H 4450 4780 30  0001 C CNN
 	1    4450 4850
 	1    0    0    -1  
@@ -249,10 +273,10 @@ F 2 "SM0805" H 4450 4500 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L GND #PWR034
 U 1 1 4B91C584
 P 3350 4100
-F 0 "#PWR035" H 3350 4100 30  0001 C CNN
+F 0 "#PWR034" H 3350 4100 30  0001 C CNN
 F 1 "GND" H 3350 4030 30  0001 C CNN
 	1    3350 4100
 	1    0    0    -1  
@@ -268,10 +292,10 @@ F 2 "SM0805" H 3350 3700 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L GND #PWR035
 U 1 1 4B91C510
 P 5550 5350
-F 0 "#PWR036" H 5550 5350 30  0001 C CNN
+F 0 "#PWR035" H 5550 5350 30  0001 C CNN
 F 1 "GND" H 5550 5280 30  0001 C CNN
 	1    5550 5350
 	1    0    0    -1  

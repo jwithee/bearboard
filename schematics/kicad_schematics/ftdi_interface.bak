@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 13 Mar 2010 03:45:55 PM EST
+EESchema Schematic File Version 2  date Sun 14 Mar 2010 12:30:04 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 5
 Title ""
-Date "13 mar 2010"
+Date "14 mar 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -58,15 +58,9 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR033
-U 1 1 4B9840B6
-P 3050 4100
-F 0 "#PWR033" H 3050 4100 30  0001 C CNN
-F 1 "GND" H 3050 4030 30  0001 C CNN
-	1    3050 4100
-	1    0    0    -1  
-$EndComp
+Connection ~ 4250 3150
+Wire Wire Line
+	4250 3550 4250 3150
 Connection ~ 3050 3900
 Wire Wire Line
 	3050 4100 3050 3750
@@ -154,6 +148,36 @@ Wire Wire Line
 	6450 4100 6900 4100
 Wire Wire Line
 	6450 4300 6900 4300
+Wire Wire Line
+	4250 3950 4250 4000
+$Comp
+L GND #PWR?
+U 1 1 4B9D0E98
+P 4250 4000
+F 0 "#PWR?" H 4250 4000 30  0001 C CNN
+F 1 "GND" H 4250 3930 30  0001 C CNN
+	1    4250 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B9D0E99
+P 4250 3750
+F 0 "C?" H 4300 3850 50  0000 L CNN
+F 1 "1uF" H 4300 3650 50  0000 L CNN
+F 2 "SM0805" H 4250 3750 60  0001 C CNN
+	1    4250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR033
+U 1 1 4B9840B6
+P 3050 4100
+F 0 "#PWR033" H 3050 4100 30  0001 C CNN
+F 1 "GND" H 3050 4030 30  0001 C CNN
+	1    3050 4100
+	1    0    0    -1  
+$EndComp
 Text GLabel 3500 2750 0    60   Output ~ 0
 USBFTDI5V
 Text HLabel 6900 4300 2    60   BiDi ~ 0
@@ -282,6 +306,7 @@ U 1 1 4B91C4C6
 P 3850 3150
 F 0 "L7" V 3800 3150 40  0000 C CNN
 F 1 "Ferrite-Bead" V 3950 3150 40  0000 C CNN
+F 2 "SM0805" H 3850 3150 60  0001 C CNN
 	1    3850 3150
 	0    1    1    0   
 $EndComp
