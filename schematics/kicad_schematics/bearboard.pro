@@ -1,5 +1,5 @@
-update=Sat 13 Mar 2010 04:06:14 PM EST
-last_client=cvpcb
+update=Sun 14 Mar 2010 12:17:50 PM EDT
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -83,11 +83,16 @@ LibName42=converted/con-usb-3
 LibName43=converted/powerconnectorskt
 LibName44=converted/Power-in
 LibName45=converted/pswitch40
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=591
-PadDimH=591
-PadDimV=591
+PadDrlX=320
+PadDimH=600
+PadDimV=600
 BoardThickness=630
 RouteTo=15
 RouteBo=0
@@ -106,6 +111,7 @@ TxtLar=120
 MSegLar=150
 WpenSer=10
 [pcbnew/libraries]
+LibDir=../kicad_modules
 LibName1=2998_bat_holder
 LibName2=DR125-Inductors
 LibName3=PowerConnector
@@ -138,9 +144,4 @@ LibName29=25Mhz Crystal
 LibName30=SC-59
 LibName31=32_768_Crystal
 LibName32=arduino
-LibDir=../kicad_modules
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName33=SPDT-DIP-204-122
