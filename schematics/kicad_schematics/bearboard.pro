@@ -1,4 +1,4 @@
-update=Sun 14 Mar 2010 03:45:04 PM EDT
+update=Mon 15 Mar 2010 10:03:31 PM EDT
 last_client=pcbnew
 [eeschema]
 version=1
@@ -90,9 +90,9 @@ NetIExt=net
 EquName1=devcms
 [pcbnew]
 version=1
-PadDrlX=0
-PadDimH=236
-PadDimV=866
+PadDrlX=630
+PadDimH=787
+PadDimV=787
 BoardThickness=630
 RouteTo=15
 RouteBo=0

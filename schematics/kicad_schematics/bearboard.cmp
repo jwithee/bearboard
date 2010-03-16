@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Sun 14 Mar 2010 03:44:16 PM EDT
+Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Mon 15 Mar 2010 09:49:04 PM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -1233,6 +1233,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /4B6DAA26/4B9E7074;
+Reference = R72;
+ValeurCmp = 0;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /4B6DAA26/4B6DBD94;
 Reference = SW4;
 ValeurCmp = DIPS_03;
@@ -1275,7 +1282,7 @@ IdModule  = alps_tact_button;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B91D30F;
+TimeStamp = /4B9D3AA3;
 Reference = U4;
 ValeurCmp = EMA406GPS;
 IdModule  = EM406;
@@ -1292,7 +1299,7 @@ BeginCmp
 TimeStamp = /4B6DAA26/4B6DBF48;
 Reference = U7;
 ValeurCmp = RD1-125BAG1A;
-IdModule  = MagJack;
+IdModule  = MagJack-RD1-125BAG1A;
 EndCmp
 
 BeginCmp
