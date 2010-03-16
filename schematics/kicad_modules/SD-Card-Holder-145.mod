@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Tue 16 Mar 2010 09:53:00 AM EDT
+PCBNEW-LibModule-V1  Tue 16 Mar 2010 09:52:44 AM EDT
 $INDEX
 SD-Card-Holder-145
 $EndINDEX
