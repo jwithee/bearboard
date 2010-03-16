@@ -1,3 +1,9 @@
-PCBNEW-LibDoc----V1  Tue 16 Mar 2010 09:28:04 AM EDT
+PCBNEW-LibDoc----V1  Tue 16 Mar 2010 05:06:05 PM EDT
+#
+$MODULE LED-0805-CUS
+Li LED-0805-CUS
+Cd LED 0805 smd package
+Kw LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
+$EndMODULE
 #
 $EndLIBDOC

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Tue 16 Mar 2010 10:00:51 AM EDT
+Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Tue 16 Mar 2010 11:47:10 AM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -466,63 +466,63 @@ BeginCmp
 TimeStamp = /4B97C777;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97C76F;
 Reference = D5;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97C780;
 Reference = D6;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97C781;
 Reference = D7;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DBB0F;
 Reference = D8;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DBADC;
 Reference = D9;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DBB2A;
 Reference = D10;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DBB2D;
 Reference = D11;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DBB30;
 Reference = D12;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
@@ -543,14 +543,14 @@ BeginCmp
 TimeStamp = /4B91C194/4B91C5FE;
 Reference = D17;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B91C194/4B91C60D;
 Reference = D18;
 ValeurCmp = LED;
-IdModule  = LED-0805;
+IdModule  = LED-0805-CUS;
 EndCmp
 
 BeginCmp
