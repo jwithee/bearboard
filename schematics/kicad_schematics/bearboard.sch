@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 14 Mar 2010 03:55:01 PM EDT
+EESchema Schematic File Version 2  date Mon 15 Mar 2010 01:44:05 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr C 22000 17000
 Sheet 1 5
 Title "BearBoard STM32F103"
-Date "14 mar 2010"
+Date "15 mar 2010"
 Rev "0"
 Comp "University of Maine"
 Comment1 "Author: Jason Withee"
