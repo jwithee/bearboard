@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Mar 2010 05:07:11 PM EDT
+EESchema Schematic File Version 2  date Tue 16 Mar 2010 10:34:52 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 5
 Title ""
-Date "16 mar 2010"
+Date "17 mar 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -58,64 +58,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR073
-U 1 1 4B9FDA7B
-P 4200 3200
-F 0 "#PWR073" H 4200 3200 30  0001 C CNN
-F 1 "GND" H 4200 3130 30  0001 C CNN
-	1    4200 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR074
-U 1 1 4B9FDA6F
-P 6150 2950
-F 0 "#PWR074" H 6150 2950 30  0001 C CNN
-F 1 "GND" H 6150 2880 30  0001 C CNN
-	1    6150 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3V3 #PWR075
-U 1 1 4B9FDA6B
-P 5950 4350
-F 0 "#PWR075" H 5950 4480 20  0001 C CNN
-F 1 "3V3" H 5950 4450 30  0000 C CNN
-	1    5950 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR076
-U 1 1 4B9FDA67
-P 5500 4800
-F 0 "#PWR076" H 5500 4800 30  0001 C CNN
-F 1 "GND" H 5500 4730 30  0001 C CNN
-	1    5500 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L 3V3 #PWR077
-U 1 1 4B9FDA63
-P 4100 3950
-F 0 "#PWR077" H 4100 4080 20  0001 C CNN
-F 1 "3V3" H 4100 4050 30  0000 C CNN
-	1    4100 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR078
-U 1 1 4B9FDA5F
-P 3650 4350
-F 0 "#PWR078" H 3650 4350 30  0001 C CNN
-F 1 "GND" H 3650 4280 30  0001 C CNN
-	1    3650 4350
-	1    0    0    -1  
-$EndComp
-Text Label 4100 4300 0    60   ~ 0
-U5V
-Text Label 6150 2300 2    60   ~ 0
-U5V
+Wire Wire Line
+	4650 4400 4900 4400
 Connection ~ 5850 2450
 Wire Wire Line
 	6150 2300 5850 2300
@@ -187,8 +131,6 @@ Connection ~ 5850 3350
 Wire Wire Line
 	4100 3950 4550 3950
 Wire Wire Line
-	4650 4400 4900 4400
-Wire Wire Line
 	5400 4400 5500 4400
 Wire Wire Line
 	5500 4400 5500 4800
@@ -207,6 +149,65 @@ Wire Wire Line
 	3500 3500 3900 3500
 Wire Wire Line
 	3900 3500 3900 4250
+Connection ~ 4750 4400
+$Comp
+L GND #PWR073
+U 1 1 4B9FDA7B
+P 4200 3200
+F 0 "#PWR073" H 4200 3200 30  0001 C CNN
+F 1 "GND" H 4200 3130 30  0001 C CNN
+	1    4200 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR074
+U 1 1 4B9FDA6F
+P 6150 2950
+F 0 "#PWR074" H 6150 2950 30  0001 C CNN
+F 1 "GND" H 6150 2880 30  0001 C CNN
+	1    6150 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR075
+U 1 1 4B9FDA6B
+P 5950 4350
+F 0 "#PWR075" H 5950 4480 20  0001 C CNN
+F 1 "3V3" H 5950 4450 30  0000 C CNN
+	1    5950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR076
+U 1 1 4B9FDA67
+P 5500 4800
+F 0 "#PWR076" H 5500 4800 30  0001 C CNN
+F 1 "GND" H 5500 4730 30  0001 C CNN
+	1    5500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR077
+U 1 1 4B9FDA63
+P 4100 3950
+F 0 "#PWR077" H 4100 4080 20  0001 C CNN
+F 1 "3V3" H 4100 4050 30  0000 C CNN
+	1    4100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR078
+U 1 1 4B9FDA5F
+P 3650 4350
+F 0 "#PWR078" H 3650 4350 30  0001 C CNN
+F 1 "GND" H 3650 4280 30  0001 C CNN
+	1    3650 4350
+	1    0    0    -1  
+$EndComp
+Text Label 4100 4300 0    60   ~ 0
+U5V
+Text Label 6150 2300 2    60   ~ 0
+U5V
 Text Label 3900 2900 2    60   ~ 0
 U5V
 NoConn ~ 3500 3350

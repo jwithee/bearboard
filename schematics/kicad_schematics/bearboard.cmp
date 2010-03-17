@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Tue 16 Mar 2010 11:47:10 AM EDT
+Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Tue 16 Mar 2010 10:35:52 PM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -116,42 +116,42 @@ BeginCmp
 TimeStamp = /4B6DAA26/4B6DB711;
 Reference = C17;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB7CD;
 Reference = C18;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB884;
 Reference = C19;
 ValeurCmp = 10uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB953;
 Reference = C20;
 ValeurCmp = 10uf/16V;
-IdModule  = SM0805-CUSTOM;
+IdModule  = 10uf_Tantulum_Capacitor;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB73B;
 Reference = C21;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB7CC;
 Reference = C22;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -165,56 +165,56 @@ BeginCmp
 TimeStamp = /4B6DAA26/4B6DB952;
 Reference = C24;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB751;
 Reference = C25;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB7CB;
 Reference = C26;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB754;
 Reference = C27;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB7CA;
 Reference = C28;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB756;
 Reference = C29;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB7C9;
 Reference = C30;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B6DAA26/4B6DB8BD;
 Reference = C31;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -228,7 +228,7 @@ BeginCmp
 TimeStamp = /4B6DAA26/4B6DB7C8;
 Reference = C33;
 ValeurCmp = 0.1uF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -311,15 +311,15 @@ EndCmp
 BeginCmp
 TimeStamp = /4B8FE21B/4B8A73BE;
 Reference = C45;
-ValeurCmp = 100uF;
-IdModule  = 100uf_Capacitor_Electrolytic;
+ValeurCmp = 150uF;
+IdModule  = 150uf_Capacitor_Electrolytic;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8FE21B/4B8A73CB;
 Reference = C46;
-ValeurCmp = 100uF;
-IdModule  = 100uf_Capacitor_Electrolytic;
+ValeurCmp = 150uF;
+IdModule  = 150uf_Capacitor_Electrolytic;
 EndCmp
 
 BeginCmp
@@ -351,13 +351,6 @@ IdModule  = SM0805-CUSTOM;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B91C194/4B91C5C7;
-Reference = C51;
-ValeurCmp = C;
-IdModule  = SM0805-CUSTOM;
-EndCmp
-
-BeginCmp
 TimeStamp = /4B91C194/4B9D0E99;
 Reference = C52;
 ValeurCmp = 1uF;
@@ -368,77 +361,77 @@ BeginCmp
 TimeStamp = /4B9D16FB;
 Reference = C53;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D177C;
 Reference = C54;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D1735;
 Reference = C55;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D177B;
 Reference = C56;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D176C;
 Reference = C57;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D1778;
 Reference = C58;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D176B;
 Reference = C59;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D1779;
 Reference = C60;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D173C;
 Reference = C61;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D177A;
 Reference = C62;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9D173B;
 Reference = C63;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -603,13 +596,6 @@ IdModule  = SM0805-CUSTOM;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B6DAA26/4B6DB826;
-Reference = L4;
-ValeurCmp = 1uH;
-IdModule  = SM0805-CUSTOM;
-EndCmp
-
-BeginCmp
 TimeStamp = /4B8FE21B/4B8A7363;
 Reference = L5;
 ValeurCmp = 2.7uH;
@@ -621,13 +607,6 @@ TimeStamp = /4B8FE21B/4B8932D4;
 Reference = L6;
 ValeurCmp = 15uH;
 IdModule  = DR125-Inductors;
-EndCmp
-
-BeginCmp
-TimeStamp = /4B91C194/4B91C4C6;
-Reference = L7;
-ValeurCmp = Ferrite-Bead;
-IdModule  = SM0805-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -711,14 +690,14 @@ BeginCmp
 TimeStamp = /4B7E8E4F/4B9D3085;
 Reference = Q1;
 ValeurCmp = NPN-SC-59;
-IdModule  = -SOT23;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B7E8E4F/4B9D3096;
 Reference = Q2;
 ValeurCmp = NPN-SC-59;
-IdModule  = -SOT23;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
