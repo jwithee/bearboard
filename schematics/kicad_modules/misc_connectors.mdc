@@ -1,4 +1,4 @@
-PCBNEW-LibDoc----V1  Tue 16 Mar 2010 10:50:47 AM EDT
+PCBNEW-LibDoc----V1  Wed 17 Mar 2010 02:32:38 PM EDT
 #
 $MODULE PIN_ARRAY_4x1
 Li PIN_ARRAY_4x1
@@ -14,6 +14,12 @@ $EndMODULE
 #
 $MODULE PIN_ARRAY_10X2
 Li PIN_ARRAY_10X2
+Cd Double rangee de contacts 2 x 12 pins
+Kw CONN
+$EndMODULE
+#
+$MODULE PIN_ARRAY_7X1-BLUETOOTH
+Li PIN_ARRAY_7X1-BLUETOOTH
 Cd Double rangee de contacts 2 x 12 pins
 Kw CONN
 $EndMODULE

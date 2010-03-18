@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Tue 16 Mar 2010 10:35:52 PM EDT
+Cmp-Mod V01 Created by CvPCB (20100314 SVN-R2461)-final date = Wed 17 Mar 2010 03:23:23 PM EDT
 
 BeginCmp
 TimeStamp = /4B90325B;
@@ -60,35 +60,35 @@ BeginCmp
 TimeStamp = /4B97D08B;
 Reference = C9;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97D083;
 Reference = C10;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97D084;
 Reference = C11;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97D067;
 Reference = C12;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97D057;
 Reference = C13;
 ValeurCmp = 100nF;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -669,7 +669,7 @@ BeginCmp
 TimeStamp = /4B91888B;
 Reference = P9;
 ValeurCmp = CONN_7;
-IdModule  = PIN_ARRAY_7X1;
+IdModule  = PIN_ARRAY_7X1-BLUETOOTH;
 EndCmp
 
 BeginCmp
@@ -760,35 +760,35 @@ BeginCmp
 TimeStamp = /4B97D040;
 Reference = R7;
 ValeurCmp = 10K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97D037;
 Reference = R8;
 ValeurCmp = 10K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97D038;
 Reference = R9;
 ValeurCmp = 10K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97D029;
 Reference = R10;
 ValeurCmp = 10K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97D017;
 Reference = R11;
 ValeurCmp = 10K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -844,7 +844,7 @@ BeginCmp
 TimeStamp = /4B903131;
 Reference = R19;
 ValeurCmp = 10K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -879,63 +879,63 @@ BeginCmp
 TimeStamp = /4B7E25CE;
 Reference = R24;
 ValeurCmp = 47K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B7E25BE;
 Reference = R25;
 ValeurCmp = 47K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97F5FF;
 Reference = R26;
 ValeurCmp = 0;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B91C9B6;
 Reference = R27;
 ValeurCmp = 0;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97F576;
 Reference = R28;
 ValeurCmp = 0;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97F58F;
 Reference = R29;
 ValeurCmp = 0;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97F591;
 Reference = R30;
 ValeurCmp = 0;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B97F596;
 Reference = R31;
 ValeurCmp = 0;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B7E25BB;
 Reference = R32;
 ValeurCmp = 47K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -949,7 +949,7 @@ BeginCmp
 TimeStamp = /4B7E25B6;
 Reference = R34;
 ValeurCmp = 47K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -963,7 +963,7 @@ BeginCmp
 TimeStamp = /4B7E2576;
 Reference = R36;
 ValeurCmp = 47K;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
@@ -1201,14 +1201,14 @@ BeginCmp
 TimeStamp = /4B9BD039;
 Reference = R70;
 ValeurCmp = 0;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B9BD03D;
 Reference = R71;
 ValeurCmp = 0;
-IdModule  = SM0805-CUSTOM;
+IdModule  = SM0603-CUSTOM;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Mar 2010 09:15:41 PM EDT
+EESchema Schematic File Version 2  date Wed 17 Mar 2010 01:37:34 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -387,8 +387,8 @@ L CP1 C46
 U 1 1 4B8A73CB
 P 6600 6100
 F 0 "C46" H 6650 6200 50  0000 L CNN
-F 1 "100uF" H 6650 6000 50  0000 L CNN
-F 2 "100uf_Capacitor_Electrolytic" H 6600 6100 60  0001 C CNN
+F 1 "150uF" H 6650 6000 50  0000 L CNN
+F 2 "150uf_Capacitor_Electrolytic" H 6600 6100 60  0001 C CNN
 	1    6600 6100
 	1    0    0    -1  
 $EndComp
@@ -397,8 +397,8 @@ L CP1 C45
 U 1 1 4B8A73BE
 P 6250 6100
 F 0 "C45" H 6300 6200 50  0000 L CNN
-F 1 "100uF" H 6300 6000 50  0000 L CNN
-F 2 "100uf_Capacitor_Electrolytic" H 6250 6100 60  0001 C CNN
+F 1 "150uF" H 6300 6000 50  0000 L CNN
+F 2 "150uf_Capacitor_Electrolytic" H 6250 6100 60  0001 C CNN
 	1    6250 6100
 	1    0    0    -1  
 $EndComp

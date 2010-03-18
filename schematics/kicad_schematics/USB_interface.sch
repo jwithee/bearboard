@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 16 Mar 2010 10:34:52 PM EDT
+EESchema Schematic File Version 2  date Wed 17 Mar 2010 01:46:08 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -227,7 +227,7 @@ U 1 1 4B9D3096
 P 5100 4750
 F 0 "Q2" H 5100 4600 50  0000 R CNN
 F 1 "NPN-SC-59" H 5100 4900 50  0000 R CNN
-F 2 "-SOT23" H 5100 4750 60  0001 C CNN
+F 2 "SOT23" H 5100 4750 60  0001 C CNN
 	1    5100 4750
 	0    -1   -1   0   
 $EndComp
@@ -237,7 +237,7 @@ U 1 1 4B9D3085
 P 4750 4050
 F 0 "Q1" H 4750 3900 50  0000 R CNN
 F 1 "NPN-SC-59" H 4750 4200 50  0000 R CNN
-F 2 "-SOT23" H 4750 4050 60  0001 C CNN
+F 2 "SOT23" H 4750 4050 60  0001 C CNN
 	1    4750 4050
 	0    -1   -1   0   
 $EndComp
