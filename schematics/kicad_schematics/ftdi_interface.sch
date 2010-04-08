@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 17 Mar 2010 01:46:08 PM EDT
+EESchema Schematic File Version 2  date Tue 06 Apr 2010 02:45:08 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 2 5
 Title ""
-Date "17 mar 2010"
+Date "6 apr 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -275,7 +275,7 @@ L C C50
 U 1 1 4B91C563
 P 3350 3700
 F 0 "C50" H 3400 3800 50  0000 L CNN
-F 1 "C" H 3400 3600 50  0000 L CNN
+F 1 "10nF" H 3400 3600 50  0000 L CNN
 F 2 "SM0805-CUSTOM" H 3350 3700 60  0001 C CNN
 	1    3350 3700
 	1    0    0    -1  

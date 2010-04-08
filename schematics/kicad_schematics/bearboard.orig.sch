@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 06 Apr 2010 02:45:08 PM EDT
+EESchema Schematic File Version 2  date Wed 17 Mar 2010 01:46:08 PM EDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,7 +50,7 @@ EELAYER END
 $Descr C 22000 17000
 Sheet 1 5
 Title "BearBoard STM32F103"
-Date "6 apr 2010"
+Date "17 mar 2010"
 Rev "0"
 Comp "University of Maine"
 Comment1 "Author: Jason Withee"
@@ -58,35 +58,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 3600 13300
-NoConn ~ 3600 13200
-NoConn ~ 4400 13200
-Text Label 4800 13300 2    60   ~ 0
-PD11
-Wire Wire Line
-	4400 13300 4800 13300
-NoConn ~ 3600 12800
-NoConn ~ 4400 12800
-NoConn ~ 3600 13500
-NoConn ~ 4400 13500
-NoConn ~ 3600 14350
-NoConn ~ 3600 14450
-NoConn ~ 3600 14550
-NoConn ~ 3600 14650
-NoConn ~ 4400 14650
-NoConn ~ 4400 14550
-NoConn ~ 4400 14450
-NoConn ~ 4400 14350
-NoConn ~ 4400 14250
-NoConn ~ 3600 15800
-NoConn ~ 3600 15700
-NoConn ~ 4400 15700
-NoConn ~ 3600 15100
-NoConn ~ 3600 15200
-NoConn ~ 3600 15300
-NoConn ~ 4400 15300
-NoConn ~ 4400 15200
-NoConn ~ 4400 15100
 Text Label 1100 750  0    60   ~ 0
 GND
 Wire Wire Line
@@ -249,6 +220,8 @@ Wire Wire Line
 Wire Wire Line
 	1800 6350 1350 6350
 Wire Notes Line
+	11100 12450 14300 12450
+Wire Notes Line
 	17500 5750 17500 8350
 Wire Notes Line
 	17500 5750 21300 5750
@@ -326,6 +299,24 @@ Wire Notes Line
 	15150 13750 15150 16150
 Wire Notes Line
 	15150 16150 11100 16150
+Wire Wire Line
+	11950 13500 11950 13550
+Wire Wire Line
+	11250 12900 11950 12900
+Wire Wire Line
+	13400 13100 12450 13100
+Wire Wire Line
+	13400 12900 12450 12900
+Wire Wire Line
+	13400 12800 12450 12800
+Wire Wire Line
+	15950 14250 16600 14250
+Wire Wire Line
+	15950 13950 16600 13950
+Wire Wire Line
+	15950 14050 16600 14050
+Wire Wire Line
+	15950 14150 16600 14150
 Wire Wire Line
 	5500 3250 7750 3250
 Wire Wire Line
@@ -627,13 +618,31 @@ Wire Wire Line
 Wire Wire Line
 	3200 14150 3600 14150
 Wire Wire Line
+	3200 14550 3600 14550
+Wire Wire Line
+	3200 14650 3600 14650
+Wire Wire Line
+	3200 14450 3600 14450
+Wire Wire Line
+	3200 14350 3600 14350
+Wire Wire Line
 	3200 14850 3600 14850
 Wire Wire Line
 	3200 14750 3600 14750
 Wire Wire Line
 	4400 14850 4800 14850
 Wire Wire Line
+	4400 14350 4800 14350
+Wire Wire Line
+	4400 14450 4800 14450
+Wire Wire Line
+	4400 14650 4800 14650
+Wire Wire Line
+	4400 14550 4800 14550
+Wire Wire Line
 	4400 14150 4800 14150
+Wire Wire Line
+	4400 14250 4800 14250
 Wire Wire Line
 	4400 14050 4800 14050
 Wire Wire Line
@@ -643,6 +652,8 @@ Wire Wire Line
 Wire Wire Line
 	4400 13600 4800 13600
 Wire Wire Line
+	4400 12800 4800 12800
+Wire Wire Line
 	4400 12900 4800 12900
 Wire Wire Line
 	4400 13100 4800 13100
@@ -651,11 +662,23 @@ Wire Wire Line
 Wire Wire Line
 	4400 13400 4800 13400
 Wire Wire Line
+	4400 13500 4800 13500
+Wire Wire Line
+	4400 13300 4800 13300
+Wire Wire Line
+	4400 13200 4800 13200
+Wire Wire Line
 	4400 13700 4800 13700
 Wire Wire Line
 	3200 13600 3600 13600
 Wire Wire Line
 	3200 13700 3600 13700
+Wire Wire Line
+	3200 13200 3600 13200
+Wire Wire Line
+	3200 13300 3600 13300
+Wire Wire Line
+	3200 13500 3600 13500
 Wire Wire Line
 	3200 13400 3600 13400
 Wire Wire Line
@@ -665,9 +688,19 @@ Wire Wire Line
 Wire Wire Line
 	3200 12900 3600 12900
 Wire Wire Line
+	3200 12800 3600 12800
+Wire Wire Line
 	4400 15900 4800 15900
 Wire Wire Line
+	4400 15100 4800 15100
+Wire Wire Line
+	4400 15200 4800 15200
+Wire Wire Line
 	4400 15400 4800 15400
+Wire Wire Line
+	4400 15300 4800 15300
+Wire Wire Line
+	4400 15700 4800 15700
 Wire Wire Line
 	4400 15800 4800 15800
 Wire Wire Line
@@ -685,7 +718,17 @@ Wire Wire Line
 Wire Wire Line
 	3200 15600 3600 15600
 Wire Wire Line
+	3200 15800 3600 15800
+Wire Wire Line
+	3200 15700 3600 15700
+Wire Wire Line
+	3200 15300 3600 15300
+Wire Wire Line
 	3200 15400 3600 15400
+Wire Wire Line
+	3200 15200 3600 15200
+Wire Wire Line
+	3200 15100 3600 15100
 Wire Wire Line
 	900  15100 1300 15100
 Wire Wire Line
@@ -1165,6 +1208,16 @@ Wire Wire Line
 	5500 8450 7750 8450
 Wire Wire Line
 	5500 3350 7750 3350
+Wire Wire Line
+	13400 13200 13250 13200
+Connection ~ 13250 12800
+Wire Wire Line
+	13400 13000 12450 13000
+Wire Wire Line
+	11950 12900 11950 13000
+Wire Wire Line
+	13250 13300 13250 12800
+Connection ~ 13250 13200
 Wire Notes Line
 	17050 11850 17050 8550
 Wire Notes Line
@@ -1201,6 +1254,14 @@ Wire Wire Line
 	14550 13150 16450 13150
 Wire Wire Line
 	14550 13350 16450 13350
+Wire Notes Line
+	15300 14350 15300 13700
+Wire Notes Line
+	15300 14350 17150 14350
+Wire Notes Line
+	17150 14350 17150 13700
+Wire Notes Line
+	17150 13700 15300 13700
 Wire Wire Line
 	7750 5950 6350 5950
 Wire Wire Line
@@ -1401,6 +1462,12 @@ Wire Bus Line
 	20600 14500 18250 14500
 Wire Bus Line
 	18250 14500 18250 12300
+Wire Notes Line
+	11100 12450 11100 13650
+Wire Notes Line
+	11100 13650 14300 13650
+Wire Notes Line
+	14300 13650 14300 12450
 Wire Wire Line
 	3150 1800 3500 1800
 Connection ~ 3500 1800
@@ -1527,6 +1594,24 @@ F 1 "3V3" H 19400 12750 30  0000 C CNN
 $EndComp
 Text Label 3150 1800 0    60   ~ 0
 GND
+$Comp
+L GND #PWR013
+U 1 1 4B9FD884
+P 11950 13550
+F 0 "#PWR013" H 11950 13550 30  0001 C CNN
+F 1 "GND" H 11950 13480 30  0001 C CNN
+	1    11950 13550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR014
+U 1 1 4B9FD87C
+P 13250 13300
+F 0 "#PWR014" H 13250 13300 30  0001 C CNN
+F 1 "GND" H 13250 13230 30  0001 C CNN
+	1    13250 13300
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR015
 U 1 1 4B9FD868
@@ -1705,6 +1790,16 @@ P 1500 1500
 F 0 "#PWR034" H 1500 1500 30  0001 C CNN
 F 1 "GND" H 1500 1430 30  0001 C CNN
 	1    1500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L EMA406GPS U4
+U 1 1 4B9D3AA3
+P 13700 13000
+F 0 "U4" H 13750 13450 60  0000 C CNN
+F 1 "EMA406GPS" H 13950 12650 60  0000 C CNN
+F 2 "EM406" H 13700 13000 60  0001 C CNN
+	1    13700 13000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2057,6 +2152,8 @@ F 2 "PIN_ARRAY_3X1" H 2150 6350 60  0001 C CNN
 	1    2150 6350
 	1    0    0    -1  
 $EndComp
+Text Notes 11150 12650 0    100  ~ 0
+GPS CONNECTOR
 Text Notes 19700 6050 0    100  ~ 0
 JOYSTICK_BUTTONS
 Text Label 17550 7350 0    60   ~ 0
@@ -2273,6 +2370,8 @@ Text Label 15000 15550 2    60   ~ 0
 USART3_RTS
 Text Label 15000 15650 2    60   ~ 0
 USART3_CTS
+Text Notes 15350 13800 0    60   ~ 0
+Optional UART2 Connector
 Text Label 14550 13250 0    60   ~ 0
 USART2_CTS
 Text Label 14550 13150 0    60   ~ 0
@@ -2321,6 +2420,53 @@ Text Notes 11200 13950 0    100  ~ 0
 ARDUINO SHEILD INTERFACE
 Text Notes 17250 8750 0    60   ~ 0
 SD CARD INTERFACE
+Text Label 11250 12900 0    60   ~ 0
+USART2_RX
+Text Label 12450 13100 0    60   ~ 0
+5V0
+Text Label 12450 13000 0    60   ~ 0
+USART2_TX
+Text Label 12450 12800 0    60   ~ 0
+GND
+$Comp
+L R R16
+U 1 1 4B91D3EA
+P 11950 13250
+F 0 "R16" V 12030 13250 50  0000 C CNN
+F 1 "4.7k" V 11950 13250 50  0000 C CNN
+F 2 "SM0805-CUSTOM" H 11950 13250 60  0001 C CNN
+	1    11950 13250
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R17
+U 1 1 4B91D3E4
+P 12200 12900
+F 0 "R17" V 12280 12900 50  0000 C CNN
+F 1 "2.6k" V 12200 12900 50  0000 C CNN
+F 2 "SM0805-CUSTOM" H 12200 12900 60  0001 C CNN
+	1    12200 12900
+	0    1    1    0   
+$EndComp
+NoConn ~ 13400 12700
+Text Label 15950 14250 0    60   ~ 0
+USART2_CTS
+Text Label 15950 14150 0    60   ~ 0
+USART2_RTS
+Text Label 15950 13950 0    60   ~ 0
+USART2_TX
+Text Label 15950 14050 0    60   ~ 0
+USART2_RX
+$Comp
+L CONN_4 P10
+U 1 1 4B91CC71
+P 16950 14100
+F 0 "P10" V 16900 14100 50  0000 C CNN
+F 1 "CONN_4" V 17000 14100 50  0000 C CNN
+F 2 "PIN_ARRAY_4x1" H 16950 14100 60  0001 C CNN
+	1    16950 14100
+	1    0    0    -1  
+$EndComp
 Text Label 5500 8450 0    60   ~ 0
 USART2_CTS
 Text Label 5500 3450 0    60   ~ 0
@@ -3132,12 +3278,30 @@ Text Label 3200 14150 0    60   ~ 0
 PE4
 Text Label 3200 14250 0    60   ~ 0
 PE6
+Text Label 3200 14350 0    60   ~ 0
+PE8
+Text Label 3200 14450 0    60   ~ 0
+PE10
+Text Label 3200 14550 0    60   ~ 0
+PE12
+Text Label 3200 14650 0    60   ~ 0
+PE14
 Text Label 4800 13950 2    60   ~ 0
 PE1
 Text Label 4800 14050 2    60   ~ 0
 PE3
 Text Label 4800 14150 2    60   ~ 0
 PE5
+Text Label 4800 14250 2    60   ~ 0
+PE7
+Text Label 4800 14350 2    60   ~ 0
+PE9
+Text Label 4800 14550 2    60   ~ 0
+PE13
+Text Label 4800 14450 2    60   ~ 0
+PE11
+Text Label 4800 14650 2    60   ~ 0
+PE15
 Text Label 4800 14850 2    60   ~ 0
 GND
 Text Label 3200 14850 0    60   ~ 0
@@ -3146,22 +3310,38 @@ Text Label 3200 13700 0    60   ~ 0
 3V3
 Text Label 4800 13700 2    60   ~ 0
 GND
+Text Label 4800 13500 2    60   ~ 0
+PD15
+Text Label 4800 13300 2    60   ~ 0
+PD11
 Text Label 4800 13400 2    60   ~ 0
 PD13
+Text Label 4800 13200 2    60   ~ 0
+PD9
 Text Label 4800 13100 2    60   ~ 0
 PD7
 Text Label 4800 13000 2    60   ~ 0
 PD5
 Text Label 4800 12900 2    60   ~ 0
 PD3
+Text Label 4800 12800 2    60   ~ 0
+PD1
+Text Label 3200 13500 0    60   ~ 0
+PD14
 Text Label 3200 13400 0    60   ~ 0
 PD12
+Text Label 3200 13300 0    60   ~ 0
+PD10
+Text Label 3200 13200 0    60   ~ 0
+PD8
 Text Label 3200 13100 0    60   ~ 0
 PD6
 Text Label 3200 13000 0    60   ~ 0
 PD4
 Text Label 3200 12900 0    60   ~ 0
 PD2
+Text Label 3200 12800 0    60   ~ 0
+PD0
 $Comp
 L CONN_10X2 P5
 U 1 1 4B843489
@@ -3180,16 +3360,34 @@ Text Label 4800 15800 2    60   ~ 0
 PF15
 Text Label 4800 15600 2    60   ~ 0
 PF11
+Text Label 4800 15700 2    60   ~ 0
+PF13
 Text Label 4800 15500 2    60   ~ 0
 PF9
 Text Label 4800 15400 2    60   ~ 0
 PF7
+Text Label 4800 15300 2    60   ~ 0
+PF5
+Text Label 4800 15200 2    60   ~ 0
+PF3
+Text Label 4800 15100 2    60   ~ 0
+PF1
+Text Label 3200 15800 0    60   ~ 0
+PF14
+Text Label 3200 15700 0    60   ~ 0
+PF12
 Text Label 3200 15600 0    60   ~ 0
 PF10
 Text Label 3200 15500 0    60   ~ 0
 PF8
 Text Label 3200 15400 0    60   ~ 0
 PF6
+Text Label 3200 15300 0    60   ~ 0
+PF4
+Text Label 3200 15200 0    60   ~ 0
+PF2
+Text Label 3200 15100 0    60   ~ 0
+PF0
 $Comp
 L CONN_10X2 P7
 U 1 1 4B843488
